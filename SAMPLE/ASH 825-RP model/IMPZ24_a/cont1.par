@@ -1,0 +1,9 @@
+8          Supply Fan Static Pressure Control
+0.29      'proportional band (kPa)'
+16.       'integral time (s)'
+0.0       'derivative time (s)'
+0.02      'deadband (KPa)'
+0.125     'high limit override propotional band (kPa)'
+0.6225    'high limit override setpoint (kPa)'
+1.0       'control mode (0.0=open loop, 1.0=closed loop)'
+0.7       'manual output for supply fan (0-1)'

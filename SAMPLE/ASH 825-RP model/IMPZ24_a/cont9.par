@@ -1,0 +1,8 @@
+7        Reset Supply Air Temperature Setpoint
+22.22    'zone setpoint (C)'
+1.11     'proportional band (K/K)'
+0.0      'integral time'
+18.33     'upper limit of the output (C)'
+12.78     'lower limit of the output (C)'
+15.56     'output at zero error (P), initial output (PI) (C)'
+0.0      'deadband (K)'

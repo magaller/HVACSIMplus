@@ -1,0 +1,4 @@
+3
+1.0     'supply fan status'
+1.0     'return fan status'
+0.2 'static pressure setpoint (kPa)

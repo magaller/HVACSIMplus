@@ -1,0 +1,75 @@
+C=======================================================================
+C         HVACSIM.PAR  for ASHRAE 825-RP               July 16, 1997
+C=======================================================================
+C
+*  hvacsim.par
+C
+C------- The following parameters are used to define the array sizes
+C        in hvacgen, slimcon and modsim.
+C
+C           MAXSBK = maximum superblocks in the simulation
+C           MAXBLK = maximum blocks in the simulation
+C           MAXUNT = maximum units in the simulation
+C           MAXSTV = maximum state variables in the simulation
+C           MAXDEQ = maximum differential equations in the simulation
+C           MAXPAR = maximum unit parameters in the simulation
+C           MAXSAV = maximum saved variables in the simulation
+C           MAXBND = maximum boundary variables in the simulation
+C           MDMBND = dimension of a boundary variable calculation array
+C           MBLKIS = maximum blocks in a superblock
+C           MUNTIB = maximum units in a block
+C           MDEQIS = maximum differential equations in a superblock
+C           MDEQIU = maximum differential equations in a unit
+C           MSEQIS = maximum simultaneous equations in a superblock
+C           MSEQIB = maximum simultaneous equations in a block
+C           MBNDIS = maximum boundary conditions in a single superblock
+C           MINOIB = maximum inputs or outputs in a block
+C           MINOIU = maximum inputs or outputs in a unit
+C           MRPTIS = maximum reported variables in a superblock
+C           MPARIU = maximum parameters in a unit
+C           MDMREP = dimension of a reported variable calculation array
+C           MAXTYP = maximum number of TYPES
+C           NLSCRE = number of lines on screen - used for scrolling
+C
+C           MAXLBL = maximum number of labels
+C           MINOIS = maximum inputs or outputs in a superblock
+C           MUNITB = maximum units in a block
+C           MSUMARY = MAX(MSEQIS,MSEQIB,MINOIU,MRPTIS,MAXLBL)
+
+      PARAMETER (MAXSBK=10,MAXBLK=50,MAXUNT=200,MAXSTV=600,MAXDEQ=90)
+      PARAMETER (MAXPAR=1200,MAXSAV=6000,MAXBND=50,MDMBND=MAXBND*8)
+      PARAMETER (MBLKIS=10,MUNTIB=40)
+      PARAMETER (MDEQIS=50,MDEQIU=10,MSEQIS=20,MSEQIB=75)
+      PARAMETER (MBNDIS=50,MINOIB=200,MINOIU=40,MRPTIS=30,MAXLBL=8)
+      PARAMETER (MPARIU=30,MDMREP=MRPTIS*MAXSBK)
+      PARAMETER (MAXTYP=600)
+      PARAMETER (NLSCRE=19)
+      PARAMETER (MINOIS=MBLKIS*MINOIB)
+      PARAMETER (MSUMARY=75)
+C
+C     For Building Shell Model
+C
+C           MAXZN  = maximum number of zones in the simulation
+C           MAXNS  = maximum number of surfaces in a zone
+C           MAXSTR = maximum number of constructs
+C           MAXNRF = maximum number of terms in a conduction transfer function
+C           MAXORD = maximum order of a conduction transfer function
+
+      PARAMETER (MAXZN=6,MAXNS=10)
+      PARAMETER (MAXSTR=10,MAXNRF=20,MAXORD=5)
+*
+*     The maximum time (seconds) for writing data on the file, hvacsim.sum,
+*     is set by WRTMAX.  By changing this value, the size of output can be
+*     adjusted.  Refer to Subroutine REPORT in MODINO.FOR.
+*
+      PARAMETER (WRTMAX=3600.0)
+C
+C     Location of default version of typar.dat, used if local version 
+C     not present in current directory
+C
+      CHARACTER TYPARFF*50
+      PARAMETER 
+     &    (TYPARFF='h:/ash825_3/data/typar.dat')
+
+
+

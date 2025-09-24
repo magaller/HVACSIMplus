@@ -1,0 +1,3 @@
+modsim < impa.inp
+
+

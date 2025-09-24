@@ -1,0 +1,10 @@
+9       E51 Modulated Mixed Air Damper Control
+4.44    'mixed air temperature set-point'
+-3.89   'proportional band of mixed air temp controller (K)'
+0.0     'integral time of mixed air temp controller (s)'
+0.0     'derivative time of mixed air temp controller (s)'
+0.0     'deadband of mixed air temp controller (K)'
+1.0     'control mode (0 = open loop, 1 = closed loop) '
+1.0     'open loop outside air damper position (0-1)'
+0.0     'open loop return air damper position (0-1)'
+1.0     'open loop exhaust air damper position (0-1)'

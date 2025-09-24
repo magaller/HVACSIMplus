@@ -1,0 +1,7 @@
+6              Return Fan Volume Matching Control
+-8.66     'proportional band (m3/s)'
+50            'integral time (s)'
+0.0           'derivative time (s)'
+0.0944        'deadband'(m3/s)
+1.0           'control mode (0 = open loop, 1 = closed loop)'
+0.95          'manual output for return fan (0-1)'  

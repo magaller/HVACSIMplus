@@ -1,0 +1,11 @@
+10         VAV room temperature control with reheat
+18.33      'heating setpoint for zone'
+22.22      'cooling setpoint for zone'
+5.        'proportional band (K)'
+900.0        'integral time'
+0.0        'derivative time'
+0.0        'breakpoint btwn damper and reheat coil signals (-1-+1)'
+0.4        'minimum turndown ratio'
+0.0        'control mode (0=open loop, 1=closed loop)'
+0.4        'manual normalised volumetric flow demand'
+0.0        'manual reheat coil demand (0-1)'

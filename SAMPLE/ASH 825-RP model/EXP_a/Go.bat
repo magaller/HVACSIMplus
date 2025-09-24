@@ -1,0 +1,3 @@
+modsim < expa.inp
+
+

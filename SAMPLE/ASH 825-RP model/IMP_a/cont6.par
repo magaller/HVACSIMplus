@@ -1,0 +1,8 @@
+7        Supply Air Temperature Control
+-7.78   'proportional band (K)'
+125      'integral time (s)'
+0.0      'derivative time (s)'
+1.0      'breakpoint between damper and cooling coil demand (0-2)'
+0.22     'deadband (K)'
+1.0      'control mode (0=open loop, 1=closed loop)'
+0.0      'manual cooling coil demand (0-1)'

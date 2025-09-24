@@ -1,0 +1,3001 @@
+
+ E-51 Explicit 6-zone model without graphical display         12/13/99   
+
+ SUPERBLOCK 1
+      BLOCK 1
+          UNIT  1     TYPE504 - Read inputs from a file                      
+
+ SUPERBLOCK 2
+      BLOCK 2
+          UNIT  2     TYPE481 - E-51 supply fan static pressure control      
+          UNIT  3     TYPE482 - E-51 flow difference control of return fan   
+          UNIT  4     TYPE483 - E-51 return fan reset control                
+          UNIT  5     TYPE484 - E-51 minimum outside air damper control      
+          UNIT  6     TYPE485 - E-51 modulated mixed air damper control      
+          UNIT  7     TYPE486 - E-51 supply air temperature control          
+          UNIT  8     TYPE487 - E-51 economizer control                      
+          UNIT  9     TYPE488 - E-51 low temperature control                 
+          UNIT 10     TYPE489 - E-51 supply air temperature reset            
+          UNIT 11     TYPE490 - VAV room temperature control with reheat     
+          UNIT 12     TYPE490 - VAV room temperature control with reheat     
+          UNIT 13     TYPE490 - VAV room temperature control with reheat     
+          UNIT 14     TYPE490 - VAV room temperature control with reheat     
+          UNIT 15     TYPE490 - VAV room temperature control with reheat     
+          UNIT 16     TYPE490 - VAV room temperature control with reheat     
+
+ SUPERBLOCK 3
+      BLOCK 3
+          UNIT 17     TYPE333 - Variable speed drive                         
+          UNIT 18     TYPE333 - Variable speed drive                         
+          UNIT 19     TYPE321 - Motor-driven actuator                        
+          UNIT 20     TYPE321 - Motor-driven actuator                        
+          UNIT 21     TYPE321 - Motor-driven actuator                        
+          UNIT 22     TYPE321 - Motor-driven actuator                        
+          UNIT 23     TYPE321 - Motor-driven actuator                        
+          UNIT 24     TYPE321 - Motor-driven actuator                        
+          UNIT 25     TYPE321 - Motor-driven actuator                        
+          UNIT 26     TYPE321 - Motor-driven actuator                        
+          UNIT 27     TYPE321 - Motor-driven actuator                        
+          UNIT 28     TYPE321 - Motor-driven actuator                        
+          UNIT 29     TYPE321 - Motor-driven actuator                        
+
+ SUPERBLOCK 4
+      BLOCK 4
+          UNIT 30     TYPE327 - Mixing box with minimum outside air damper   
+          UNIT 31     TYPE341 - Fluid resistance                             
+          UNIT 32     TYPE350 - Fan or pump                                  
+          UNIT 33     TYPE341 - Fluid resistance                             
+          UNIT 34     TYPE346 - Asymmetric flow split                        
+          UNIT 35     TYPE346 - Asymmetric flow split                        
+          UNIT 36     TYPE346 - Asymmetric flow split                        
+          UNIT 37     TYPE346 - Asymmetric flow split                        
+          UNIT 38     TYPE346 - Asymmetric flow split                        
+          UNIT 39     TYPE526 - Motorized pressure-independent VAV box       
+          UNIT 40     TYPE526 - Motorized pressure-independent VAV box       
+          UNIT 41     TYPE526 - Motorized pressure-independent VAV box       
+          UNIT 42     TYPE526 - Motorized pressure-independent VAV box       
+          UNIT 43     TYPE526 - Motorized pressure-independent VAV box       
+          UNIT 44     TYPE525 - Motorized pressure-independent VAV box       
+          UNIT 45     TYPE349 - Room air mass balance                        
+          UNIT 46     TYPE349 - Room air mass balance                        
+          UNIT 47     TYPE349 - Room air mass balance                        
+          UNIT 48     TYPE349 - Room air mass balance                        
+          UNIT 49     TYPE349 - Room air mass balance                        
+          UNIT 50     TYPE349 - Room air mass balance                        
+          UNIT 51     TYPE348 - Flow merge                                   
+          UNIT 52     TYPE348 - Flow merge                                   
+          UNIT 53     TYPE348 - Flow merge                                   
+          UNIT 54     TYPE348 - Flow merge                                   
+          UNIT 55     TYPE348 - Flow merge                                   
+          UNIT 56     TYPE350 - Fan or pump                                  
+          UNIT 57     TYPE341 - Fluid resistance                             
+
+ SUPERBLOCK 5
+      BLOCK 5
+          UNIT 58     TYPE367 - Mixing of two moist air streams              
+          UNIT 59     TYPE524 - Coil + three port valve, calculates flow     
+          UNIT 60     TYPE366 - Ideal heating of fluid stream                
+          UNIT 61     TYPE524 - Coil + three port valve, calculates flow     
+          UNIT 62     TYPE524 - Coil + three port valve, calculates flow     
+          UNIT 63     TYPE524 - Coil + three port valve, calculates flow     
+          UNIT 64     TYPE524 - Coil + three port valve, calculates flow     
+          UNIT 65     TYPE524 - Coil + three port valve, calculates flow     
+          UNIT 66     TYPE524 - Coil + three port valve, calculates flow     
+          UNIT 67     TYPE403 - Room with plenum and ducted return and interz
+          UNIT 68     TYPE403 - Room with plenum and ducted return and interz
+          UNIT 69     TYPE403 - Room with plenum and ducted return and interz
+          UNIT 70     TYPE403 - Room with plenum and ducted return and interz
+          UNIT 71     TYPE403 - Room with plenum and ducted return and interz
+          UNIT 72     TYPE403 - Room with plenum and ducted return and interz
+          UNIT 73     TYPE368 - Mixing of six moist air streams              
+          UNIT 74     TYPE366 - Ideal heating of fluid stream                
+
+ SUPERBLOCK 6
+      BLOCK 6
+          UNIT 75     TYPE 26 - CONTROL SIGNAL INVERTER                      
+
+ SUPERBLOCK 7
+      BLOCK 7
+          UNIT 76     TYPE 26 - CONTROL SIGNAL INVERTER                      
+
+ SUPERBLOCK 8
+      BLOCK 8
+          UNIT 77     TYPE301 - Temperature sensor                           
+          UNIT 78     TYPE301 - Temperature sensor                           
+          UNIT 79     TYPE301 - Temperature sensor                           
+          UNIT 80     TYPE301 - Temperature sensor                           
+          UNIT 81     TYPE301 - Temperature sensor                           
+          UNIT 82     TYPE301 - Temperature sensor                           
+          UNIT 83     TYPE301 - Temperature sensor                           
+          UNIT 84     TYPE301 - Temperature sensor                           
+          UNIT 85     TYPE301 - Temperature sensor                           
+          UNIT 86     TYPE301 - Temperature sensor                           
+          UNIT 87     TYPE303 - Flow rate sensor                             
+          UNIT 88     TYPE303 - Flow rate sensor                             
+          UNIT 89     TYPE305 - Static pressure sensor                       
+          UNIT 90     TYPE302 - Humidity sensor                              
+          UNIT 91     TYPE302 - Humidity sensor                              
+
+ SUPERBLOCK 9
+      BLOCK 9
+          UNIT 92     TYPE 26 - CONTROL SIGNAL INVERTER                      
+
+ SUPERBLOCK10
+      BLOCK10
+          UNIT 93     TYPE 26 - CONTROL SIGNAL INVERTER                      
+
+ UNIT   1      TYPE 504
+ Read inputs from a file                                                 
+
+ 1     INPUTS:
+        CONTROL         76 - dummy - must not be CONTROL 0                     
+
+ 2     OUTPUTS:
+        CONTROL          1 - simulation input 1                                
+        CONTROL          2 - simulation input 2                                
+        CONTROL          3 - simulation input 3                                
+        CONTROL          4 - simulation input 4                                
+        CONTROL          5 - simulation input 5                                
+        CONTROL          6 - simulation input 6                                
+        CONTROL          7 - simulation input 7                                
+        CONTROL          8 - simulation input 8                                
+        CONTROL          9 - simulation input 9                                
+        CONTROL         10 - simulation input 10                               
+        CONTROL         11 - simulation input 11                               
+        CONTROL         12 - simulation input 12                               
+        CONTROL         13 - simulation input 13                               
+        CONTROL         14 - simulation input 14                               
+        CONTROL         15 - simulation input 15                               
+        CONTROL         16 - simulation input 16                               
+
+ 3     PARAMETERS:
+           1.00000     file number (FILE=inputN.par, N > 0) (-)               
+           2.50000     sample time (interval between reads) (s)               
+           0.00000     real time scaling factor (0=no wait, 1=real time)      
+           0.00000     text output to screen (0=no, 1=yes) (-)                
+           3.00000     number of values to read (-)                           
+
+ UNIT   2      TYPE 481
+ E-51 supply fan static pressure control                                 
+
+ 1     INPUTS:
+        CONTROL         65 - static pressure sensor                            
+        CONTROL          3 - static pressure setpoint                          
+        CONTROL          1 - supply fan status (1 = on, 0 = off)               
+        CONTROL          2 - return fan status (1 = on, 0 = off)               
+
+ 2     OUTPUTS:
+        CONTROL         23 - supply fan speed                                  
+
+ 3     PARAMETERS:
+           1.16000     proportional band (kPa)                                
+           16.0000     integral time (s)                                      
+           0.00000     derivative time (s)                                    
+           0.00000     deadband (KPa)                                         
+          0.125000     high limit override proportional band (kPa)            
+          0.623000     high limit override setpoint (KPa)                     
+           1.00000     control mode (0=open loop, 1=closed loop) (-)          
+          0.700000     open loop supply fan speed (0-1) (-)                   
+           2.50000     sampling interval (s)                                  
+           1.00000     controller number (parameters in file contN.par) (-)   
+
+ UNIT   3      TYPE 482
+ E-51 flow difference control of return fan                              
+
+ 1     INPUTS:
+        CONTROL         63 - supply air volume flow rate sensor                
+        CONTROL         64 - return air volume flow rate sensor                
+        CONTROL          1 - supply fan status (1 = on, 0 = off)               
+        CONTROL          2 - return fan status (1 = on, 0 = off)               
+        CONTROL         17 - setpoint for flow rate difference                 
+
+ 2     OUTPUTS:
+        CONTROL         24 - return fan speed (0-1)                            
+
+ 3     PARAMETERS:
+          -8.66000     proportional band (m3/s) (-)                           
+           50.0000     integral time (s)                                      
+           0.00000     derivative time (s)                                    
+          0.944000E-01 deadband (m3/s)                                        
+           1.00000     control mode (0=open loop, 1=closed loop) (-)          
+          0.950000     open loop return fan speed (0-1) (-)                   
+           2.50000     sampling interval (s)                                  
+           2.00000     controller number (parameters in file contN.par) (-)   
+
+ UNIT   4      TYPE 483
+ E-51 return fan reset control                                           
+
+ 1     INPUTS:
+        CONTROL         18 - minimum outside air damper position (open=TRUE)   
+
+ 2     OUTPUTS:
+        CONTROL         17 - return fan controller setpoint                    
+
+ 3     PARAMETERS:
+          0.472000     return fan setpoint when min OA damper open (m3/s)     
+           2.50000     sampling interval (s)                                  
+           3.00000     controller number (parameters in file contN.par) (-)   
+
+ UNIT   5      TYPE 484
+ E-51 minimum outside air damper control                                 
+
+ 1     INPUTS:
+        CONTROL         61 - supply air temperature sensor                     
+        CONTROL         60 - outside air temperature sensor                    
+        CONTROL          1 - supply fan status (1 = on, 0 = off)               
+
+ 2     OUTPUTS:
+        CONTROL         18 - minimum outside air damper position               
+
+ 3     PARAMETERS:
+           4.44000     supply air temperature limit (C)                       
+          -6.66000     outdoor air temperature limit (C)                      
+           2.50000     sampling interval (s)                                  
+           4.00000     controller number (parameters in file contN.par) (-)   
+
+ UNIT   6      TYPE 485
+ E-51 modulated mixed air damper control                                 
+
+ 1     INPUTS:
+        CONTROL         68 - mixed air temperature sensor                      
+        CONTROL         22 - mixing box cooling demand (0-1)                   
+        CONTROL          1 - supply fan status (1 = on, 0 = off)               
+        CONTROL         20 - low temperature override (1 = low temperature)    
+        CONTROL         19 - economizer status (1 = OA enthalpy > RA enthalpy) 
+
+ 2     OUTPUTS:
+        CONTROL         25 - outside air damper demanded position (0-1)        
+        CONTROL         26 - return air damper demanded position (0-1)         
+        CONTROL         27 - exhaust air damper demanded position (0-1)        
+
+ 3     PARAMETERS:
+           4.44000     mixed air temperature setpoint (C)                     
+          -3.89000     proportional band (K)                                  
+           0.00000     integral time (s)                                      
+           0.00000     derivative time (s)                                    
+           0.00000     deadband (K)                                           
+           1.00000     control mode (0=open loop, 1=closed loop) (-)          
+           1.00000     open loop outside air damper position (-)              
+           0.00000     open loop return air damper position (-)               
+           1.00000     open loop exhaust air damper position (-)              
+           5.00000     sampling interval (s)                                  
+           5.00000     controller number (parameters in file contN.par) (-)   
+
+ UNIT   7      TYPE 486
+ E-51 supply air temperature control                                     
+
+ 1     INPUTS:
+        CONTROL         61 - supply air temperature sensor                     
+        CONTROL          1 - supply fan status (1 = on, 0 = off)               
+        CONTROL         20 - low temperature override signal (1=TRUE, 0=FALSE) 
+        CONTROL         21 - supply air temperature setpoint                   
+
+ 2     OUTPUTS:
+        CONTROL         22 - damper cooling demand (0-1)                       
+        CONTROL         28 - cooling coil valve demand (0-1)                   
+
+ 3     PARAMETERS:
+          -7.78000     proportional band (K)                                  
+           125.000     integral time (s)                                      
+           0.00000     derivative time (s)                                    
+           1.00000     breakpoint between damper and cooling coil demand (0-2)
+          0.220000     deadband (K)                                           
+           1.00000     control mode (0=open loop, 1=closed loop) (-)          
+           0.00000     manual cooling coil demand (0-1) (-)                   
+           5.00000     sampling interval (s)                                  
+           6.00000     controller number (parameters in file contN.par) (-)   
+
+ UNIT   8      TYPE 487
+ E-51 economizer control                                                 
+
+ 1     INPUTS:
+        CONTROL         60 - outdoor air temperature sensor                    
+        CONTROL         66 - outdoor air relative humidity sensor (0-1)        
+        CONTROL         62 - return air temperature sensor                     
+        CONTROL         67 - return air relative humidity sensor (0-1)         
+
+ 2     OUTPUTS:
+        CONTROL         19 - economizer status (1 = OA enthalpy > RA enthalpy) 
+
+ 3     PARAMETERS:
+           5.00000     sampling interval (s)                                  
+
+ UNIT   9      TYPE 488
+ E-51 low temperature control                                            
+
+ 1     INPUTS:
+        CONTROL         61 - supply air temperature sensor                     
+        CONTROL         60 - outdoor air temperature sensor                    
+        CONTROL          1 - supply fan status (1 = on, 0 = off)               
+
+ 2     OUTPUTS:
+        CONTROL         20 - low temperature override signal                   
+
+ 3     PARAMETERS:
+           4.44000     supply air temperature limit (C)                       
+          -6.66000     outdoor air temperature limit (C)                      
+           5.00000     sampling interval (s)                                  
+           8.00000     controller number (parameters in file contN.par) (-)   
+
+ UNIT  10      TYPE 489
+ E-51 supply air temperature reset                                       
+
+ 1     INPUTS:
+        CONTROL         70 - temperature sensor in zone 1                      
+        CONTROL         71 - temperature sensor in zone 2                      
+        CONTROL         72 - temperature sensor in zone 3                      
+        CONTROL         73 - temperature sensor in zone 4                      
+        CONTROL         74 - temperature sensor in zone 5                      
+        CONTROL         75 - temperature sensor in zone 6                      
+
+ 2     OUTPUTS:
+        CONTROL         21 - supply air temperature setpoint                   
+
+ 3     PARAMETERS:
+           22.2200     zone temperature setpoint (C)                          
+           1.11000     proportional band (K)                                  
+           0.00000     integral time (s)                                      
+           18.3000     upper limit of the output (C)                          
+           12.7000     lower limit of the output (C)                          
+           15.5000     output at zero error (P), initial output (PI) (C)      
+           0.00000     deadband (K)                                           
+           6.00000     number of inputs (-)                                   
+           5.00000     sampling interval (s)                                  
+           9.00000     controller number (parameters in file contN.par) (-)   
+
+ UNIT  11      TYPE 490
+ VAV room temperature control with reheat                                
+
+ 1     INPUTS:
+        CONTROL         70 - space temperature sensor                          
+        CONTROL         61 - supply air temperature sensor                     
+        CONTROL          1 - supply fan status (1 = on, 0 = off)               
+
+ 2     OUTPUTS:
+        CONTROL         48 - normalised volumetric flow demand (0-1)           
+        CONTROL         29 - reheat coil demand (0-1)                          
+        CONTROL         54 - room demand (heating and cooling) (-1 - +1)       
+
+ 3     PARAMETERS:
+           18.3300     heating setpoint for zone (C)                          
+           22.2200     cooling setpoint for zone (C)                          
+           5.00000     proportional band (K)                                  
+           900.000     integral time (s)                                      
+           0.00000     derivative time (s)                                    
+           0.00000     breakpoint btwn damper and reheat coil signals (-1-+1) 
+          0.400000     minimum turndown ratio (-)                             
+           1.00000     control mode (0=open loop, 1=closed loop) (-)          
+           1.00000     open loop normalised volumetric flow demand (-)        
+           0.00000     manual reheat coil demand (0-1) (-)                    
+           5.00000     sampling interval (s)                                  
+           13.0000     controller number (parameters in file contN.par) (-)   
+
+ UNIT  12      TYPE 490
+ VAV room temperature control with reheat                                
+
+ 1     INPUTS:
+        CONTROL         71 - space temperature sensor                          
+        CONTROL         61 - supply air temperature sensor                     
+        CONTROL          1 - supply fan status (1 = on, 0 = off)               
+
+ 2     OUTPUTS:
+        CONTROL         49 - normalised volumetric flow demand (0-1)           
+        CONTROL         30 - reheat coil demand (0-1)                          
+        CONTROL         55 - room demand (heating and cooling) (-1 - +1)       
+
+ 3     PARAMETERS:
+           18.3300     heating setpoint for zone (C)                          
+           22.2200     cooling setpoint for zone (C)                          
+           5.00000     proportional band (K)                                  
+           900.000     integral time (s)                                      
+           0.00000     derivative time (s)                                    
+           0.00000     breakpoint btwn damper and reheat coil signals (-1-+1) 
+          0.400000     minimum turndown ratio (-)                             
+           1.00000     control mode (0=open loop, 1=closed loop) (-)          
+           1.00000     open loop normalised volumetric flow demand (-)        
+           0.00000     manual reheat coil demand (0-1) (-)                    
+           5.00000     sampling interval (s)                                  
+           15.0000     controller number (parameters in file contN.par) (-)   
+
+ UNIT  13      TYPE 490
+ VAV room temperature control with reheat                                
+
+ 1     INPUTS:
+        CONTROL         72 - space temperature sensor                          
+        CONTROL         61 - supply air temperature sensor                     
+        CONTROL          1 - supply fan status (1 = on, 0 = off)               
+
+ 2     OUTPUTS:
+        CONTROL         50 - normalised volumetric flow demand (0-1)           
+        CONTROL         31 - reheat coil demand (0-1)                          
+        CONTROL         56 - room demand (heating and cooling) (-1 - +1)       
+
+ 3     PARAMETERS:
+           18.3300     heating setpoint for zone (C)                          
+           22.2200     cooling setpoint for zone (C)                          
+           5.00000     proportional band (K)                                  
+           900.000     integral time (s)                                      
+           0.00000     derivative time (s)                                    
+           0.00000     breakpoint btwn damper and reheat coil signals (-1-+1) 
+          0.400000     minimum turndown ratio (-)                             
+           1.00000     control mode (0=open loop, 1=closed loop) (-)          
+           1.00000     open loop normalised volumetric flow demand (-)        
+           0.00000     manual reheat coil demand (0-1) (-)                    
+           5.00000     sampling interval (s)                                  
+           11.0000     controller number (parameters in file contN.par) (-)   
+
+ UNIT  14      TYPE 490
+ VAV room temperature control with reheat                                
+
+ 1     INPUTS:
+        CONTROL         73 - space temperature sensor                          
+        CONTROL         61 - supply air temperature sensor                     
+        CONTROL          1 - supply fan status (1 = on, 0 = off)               
+
+ 2     OUTPUTS:
+        CONTROL         51 - normalised volumetric flow demand (0-1)           
+        CONTROL         32 - reheat coil demand (0-1)                          
+        CONTROL         57 - room demand (heating and cooling) (-1 - +1)       
+
+ 3     PARAMETERS:
+           18.3300     heating setpoint for zone (C)                          
+           22.2200     cooling setpoint for zone (C)                          
+           5.00000     proportional band (K)                                  
+           900.000     integral time (s)                                      
+           0.00000     derivative time (s)                                    
+           0.00000     breakpoint btwn damper and reheat coil signals (-1-+1) 
+          0.400000     minimum turndown ratio (-)                             
+           1.00000     control mode (0=open loop, 1=closed loop) (-)          
+           1.00000     open loop normalised volumetric flow demand (-)        
+           0.00000     manual reheat coil demand (0-1) (-)                    
+           5.00000     sampling interval (s)                                  
+           14.0000     controller number (parameters in file contN.par) (-)   
+
+ UNIT  15      TYPE 490
+ VAV room temperature control with reheat                                
+
+ 1     INPUTS:
+        CONTROL         74 - space temperature sensor                          
+        CONTROL         61 - supply air temperature sensor                     
+        CONTROL          1 - supply fan status (1 = on, 0 = off)               
+
+ 2     OUTPUTS:
+        CONTROL         52 - normalised volumetric flow demand (0-1)           
+        CONTROL         33 - reheat coil demand (0-1)                          
+        CONTROL         58 - room demand (heating and cooling) (-1 - +1)       
+
+ 3     PARAMETERS:
+           18.3300     heating setpoint for zone (C)                          
+           22.2200     cooling setpoint for zone (C)                          
+           5.00000     proportional band (K)                                  
+           900.000     integral time (s)                                      
+           0.00000     derivative time (s)                                    
+           0.00000     breakpoint btwn damper and reheat coil signals (-1-+1) 
+          0.400000     minimum turndown ratio (-)                             
+           1.00000     control mode (0=open loop, 1=closed loop) (-)          
+           1.00000     open loop normalised volumetric flow demand (-)        
+           0.00000     manual reheat coil demand (0-1) (-)                    
+           5.00000     sampling interval (s)                                  
+           16.0000     controller number (parameters in file contN.par) (-)   
+
+ UNIT  16      TYPE 490
+ VAV room temperature control with reheat                                
+
+ 1     INPUTS:
+        CONTROL         75 - space temperature sensor                          
+        CONTROL         61 - supply air temperature sensor                     
+        CONTROL          1 - supply fan status (1 = on, 0 = off)               
+
+ 2     OUTPUTS:
+        CONTROL         53 - normalised volumetric flow demand (0-1)           
+        CONTROL         34 - reheat coil demand (0-1)                          
+        CONTROL         59 - room demand (heating and cooling) (-1 - +1)       
+
+ 3     PARAMETERS:
+           18.3300     heating setpoint for zone (C)                          
+           22.2200     cooling setpoint for zone (C)                          
+           5.00000     proportional band (K)                                  
+           900.000     integral time (s)                                      
+           0.00000     derivative time (s)                                    
+           0.00000     breakpoint btwn damper and reheat coil signals (-1-+1) 
+          0.400000     minimum turndown ratio (-)                             
+           1.00000     control mode (0=open loop, 1=closed loop) (-)          
+           1.00000     open loop normalised volumetric flow demand (-)        
+           0.00000     manual reheat coil demand (0-1) (-)                    
+           5.00000     sampling interval (s)                                  
+           12.0000     controller number (parameters in file contN.par) (-)   
+
+ UNIT  17      TYPE 333
+ Variable speed drive                                                    
+
+ 1     INPUTS:
+        CONTROL         23 - demanded fractional speed                         
+
+ 2     OUTPUTS:
+        OTHER            1 - actual rotation speed                             
+
+ 3     PARAMETERS:
+           22.3330     maximum rotation speed (rev/s)                         
+           30.0000     travel time (lim-lim) (s)                              
+
+ UNIT  18      TYPE 333
+ Variable speed drive                                                    
+
+ 1     INPUTS:
+        CONTROL         24 - demanded fractional speed                         
+
+ 2     OUTPUTS:
+        OTHER            2 - actual rotation speed                             
+
+ 3     PARAMETERS:
+           8.00000     maximum rotation speed (rev/s)                         
+           30.0000     travel time (lim-lim) (s)                              
+
+ UNIT  19      TYPE 321
+ Motor-driven actuator                                                   
+
+ 1     INPUTS:
+        CONTROL         18 - demanded position                                 
+
+ 2     OUTPUTS:
+        CONTROL         37 - position of final control element                 
+        CONTROL          0 - motor position                                    
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by finalcontrol element  
+
+ 3     PARAMETERS:
+           1.00000     direction: 1=forward, -1=reverse, 0=stuck              
+           0.00000     starting position (0-1)                                
+           125.000     travel time (lim-lim) (s)                              
+           0.00000     minimum change in demanded position for movement (-)   
+           0.00000     hysteresis (-)                                         
+           0.00000     crank travel angle (0 for linear) (deg)                
+           1.00000     Upper limit of control element range on actuator scale 
+           0.00000     Lower limit of control element range on actuator scale 
+
+ UNIT  20      TYPE 321
+ Motor-driven actuator                                                   
+
+ 1     INPUTS:
+        CONTROL         25 - demanded position                                 
+
+ 2     OUTPUTS:
+        CONTROL         38 - position of final control element                 
+        CONTROL          0 - motor position                                    
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by finalcontrol element  
+
+ 3     PARAMETERS:
+           1.00000     direction: 1=forward, -1=reverse, 0=stuck              
+           0.00000     starting position (0-1)                                
+           125.000     travel time (lim-lim) (s)                              
+           0.00000     minimum change in demanded position for movement (-)   
+           0.00000     hysteresis (-)                                         
+           0.00000     crank travel angle (0 for linear) (deg)                
+           1.00000     Upper limit of control element range on actuator scale 
+           0.00000     Lower limit of control element range on actuator scale 
+
+ UNIT  21      TYPE 321
+ Motor-driven actuator                                                   
+
+ 1     INPUTS:
+        CONTROL         26 - demanded position                                 
+
+ 2     OUTPUTS:
+        CONTROL         39 - position of final control element                 
+        CONTROL          0 - motor position                                    
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by finalcontrol element  
+
+ 3     PARAMETERS:
+           1.00000     direction: 1=forward, -1=reverse, 0=stuck              
+           1.00000     starting position (0-1)                                
+           1.00000     travel time (lim-lim) (s)                              
+           0.00000     minimum change in demanded position for movement (-)   
+           0.00000     hysteresis (-)                                         
+           0.00000     crank travel angle (0 for linear) (deg)                
+           1.00000     Upper limit of control element range on actuator scale 
+           0.00000     Lower limit of control element range on actuator scale 
+
+ UNIT  22      TYPE 321
+ Motor-driven actuator                                                   
+
+ 1     INPUTS:
+        CONTROL         27 - demanded position                                 
+
+ 2     OUTPUTS:
+        CONTROL         40 - position of final control element                 
+        CONTROL          0 - motor position                                    
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by finalcontrol element  
+
+ 3     PARAMETERS:
+           1.00000     direction: 1=forward, -1=reverse, 0=stuck              
+           0.00000     starting position (0-1)                                
+           125.000     travel time (lim-lim) (s)                              
+           0.00000     minimum change in demanded position for movement (-)   
+           0.00000     hysteresis (-)                                         
+           0.00000     crank travel angle (0 for linear) (deg)                
+           1.00000     Upper limit of control element range on actuator scale 
+           0.00000     Lower limit of control element range on actuator scale 
+
+ UNIT  23      TYPE 321
+ Motor-driven actuator                                                   
+
+ 1     INPUTS:
+        CONTROL         28 - demanded position                                 
+
+ 2     OUTPUTS:
+        CONTROL         41 - position of final control element                 
+        CONTROL          0 - motor position                                    
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by finalcontrol element  
+
+ 3     PARAMETERS:
+           1.00000     direction: 1=forward, -1=reverse, 0=stuck              
+           0.00000     starting position (0-1)                                
+           125.000     travel time (lim-lim) (s)                              
+           0.00000     minimum change in demanded position for movement (-)   
+           0.00000     hysteresis (-)                                         
+           0.00000     crank travel angle (0 for linear) (deg)                
+           1.00000     Upper limit of control element range on actuator scale 
+           0.00000     Lower limit of control element range on actuator scale 
+
+ UNIT  24      TYPE 321
+ Motor-driven actuator                                                   
+
+ 1     INPUTS:
+        CONTROL         29 - demanded position                                 
+
+ 2     OUTPUTS:
+        CONTROL         42 - position of final control element                 
+        CONTROL          0 - motor position                                    
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by finalcontrol element  
+
+ 3     PARAMETERS:
+           1.00000     direction: 1=forward, -1=reverse, 0=stuck              
+           0.00000     starting position (0-1)                                
+           125.000     travel time (lim-lim) (s)                              
+           0.00000     minimum change in demanded position for movement (-)   
+           0.00000     hysteresis (-)                                         
+           0.00000     crank travel angle (0 for linear) (deg)                
+           1.00000     Upper limit of control element range on actuator scale 
+           0.00000     Lower limit of control element range on actuator scale 
+
+ UNIT  25      TYPE 321
+ Motor-driven actuator                                                   
+
+ 1     INPUTS:
+        CONTROL         30 - demanded position                                 
+
+ 2     OUTPUTS:
+        CONTROL         43 - position of final control element                 
+        CONTROL          0 - motor position                                    
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by finalcontrol element  
+
+ 3     PARAMETERS:
+           1.00000     direction: 1=forward, -1=reverse, 0=stuck              
+           0.00000     starting position (0-1)                                
+           125.000     travel time (lim-lim) (s)                              
+           0.00000     minimum change in demanded position for movement (-)   
+           0.00000     hysteresis (-)                                         
+           0.00000     crank travel angle (0 for linear) (deg)                
+           1.00000     Upper limit of control element range on actuator scale 
+           0.00000     Lower limit of control element range on actuator scale 
+
+ UNIT  26      TYPE 321
+ Motor-driven actuator                                                   
+
+ 1     INPUTS:
+        CONTROL         31 - demanded position                                 
+
+ 2     OUTPUTS:
+        CONTROL         44 - position of final control element                 
+        CONTROL          0 - motor position                                    
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by finalcontrol element  
+
+ 3     PARAMETERS:
+           1.00000     direction: 1=forward, -1=reverse, 0=stuck              
+           0.00000     starting position (0-1)                                
+           125.000     travel time (lim-lim) (s)                              
+           0.00000     minimum change in demanded position for movement (-)   
+           0.00000     hysteresis (-)                                         
+           0.00000     crank travel angle (0 for linear) (deg)                
+           1.00000     Upper limit of control element range on actuator scale 
+           0.00000     Lower limit of control element range on actuator scale 
+
+ UNIT  27      TYPE 321
+ Motor-driven actuator                                                   
+
+ 1     INPUTS:
+        CONTROL         32 - demanded position                                 
+
+ 2     OUTPUTS:
+        CONTROL         45 - position of final control element                 
+        CONTROL          0 - motor position                                    
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by finalcontrol element  
+
+ 3     PARAMETERS:
+           1.00000     direction: 1=forward, -1=reverse, 0=stuck              
+           0.00000     starting position (0-1)                                
+           125.000     travel time (lim-lim) (s)                              
+           0.00000     minimum change in demanded position for movement (-)   
+           0.00000     hysteresis (-)                                         
+           0.00000     crank travel angle (0 for linear) (deg)                
+           1.00000     Upper limit of control element range on actuator scale 
+           0.00000     Lower limit of control element range on actuator scale 
+
+ UNIT  28      TYPE 321
+ Motor-driven actuator                                                   
+
+ 1     INPUTS:
+        CONTROL         33 - demanded position                                 
+
+ 2     OUTPUTS:
+        CONTROL         46 - position of final control element                 
+        CONTROL          0 - motor position                                    
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by finalcontrol element  
+
+ 3     PARAMETERS:
+           1.00000     direction: 1=forward, -1=reverse, 0=stuck              
+           0.00000     starting position (0-1)                                
+           125.000     travel time (lim-lim) (s)                              
+           0.00000     minimum change in demanded position for movement (-)   
+           0.00000     hysteresis (-)                                         
+           0.00000     crank travel angle (0 for linear) (deg)                
+           1.00000     Upper limit of control element range on actuator scale 
+           0.00000     Lower limit of control element range on actuator scale 
+
+ UNIT  29      TYPE 321
+ Motor-driven actuator                                                   
+
+ 1     INPUTS:
+        CONTROL         34 - demanded position                                 
+
+ 2     OUTPUTS:
+        CONTROL         47 - position of final control element                 
+        CONTROL          0 - motor position                                    
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by finalcontrol element  
+
+ 3     PARAMETERS:
+           1.00000     direction: 1=forward, -1=reverse, 0=stuck              
+           0.00000     starting position (0-1)                                
+           125.000     travel time (lim-lim) (s)                              
+           0.00000     minimum change in demanded position for movement (-)   
+           0.00000     hysteresis (-)                                         
+           0.00000     crank travel angle (0 for linear) (deg)                
+           1.00000     Upper limit of control element range on actuator scale 
+           0.00000     Lower limit of control element range on actuator scale 
+
+ UNIT  30      TYPE 327
+ Mixing box with minimum outside air damper                              
+
+ 1     INPUTS:
+        TEMPERATURE      1 - Outside air dry bulb temperature                  
+        HUMIDITY         1 - Outside air humidity ratio                        
+        TEMPERATURE     54 - Extract air dry bulb temperature                  
+        HUMIDITY        16 - Extract air humidity ratio                        
+        PRESSURE         1 - Outside air intake pressure                       
+        PRESSURE        29 - Exhaust air outlet pressure                       
+        PRESSURE         2 - Mixed air outlet pressure                         
+        FLOW            29 - Extract air mass flow rate                        
+        CONTROL         38 - Outside air damper position (0=closed, 1=open)    
+        CONTROL         39 - Recirc air damper position (0=open if PAR(16)=0)  
+        CONTROL         40 - Extract air damper position (0=closed, 1=open)    
+        CONTROL         37 - Minimum outside air damper position (0=closed,1=op
+
+ 2     OUTPUTS:
+        TEMPERATURE      0 - Mixed air dry bulb temperature                    
+        HUMIDITY         0 - Mixed air humidity ratio                          
+        FLOW             2 - Mixed air mass flow rate                          
+        PRESSURE        28 - Extract air gauge pressure                        
+        FLOW             1 - Total outside dry air mass flow rate              
+        FLOW            30 - Recirc air mass flow rate                         
+        FLOW             0 - Exhaust air mass flow rate                        
+        FLOW             0 - Mass flow rate through minimum outside air damper 
+
+ 3     PARAMETERS:
+           0.00000     Outside air damper: opposed (0) or parallel (1) (-)    
+           0.00000     Recirc air damper: opposed (0) or parallel (1) (-)     
+           0.00000     Exhaust air damper: opposed (0) or parallel (1) (-)    
+           0.00000     Minimum outside air damper: opposed (0) or parallel (1)
+          0.138000E-03 Open resist. for outside air damper (0.001/k.m)        
+          0.239000E-03 Open resist. for recirc air damper (0.001/k.m)         
+          0.239000E-03 Open resist. for exhaust air damper (0.001/k.m)        
+          0.178000E-02 Open resist. for minimum outside air damper (0.001/k.m)
+           1.32000     Face area of outside air damper (m2)                   
+           1.05000     Face area of recirc air damper (m2)                    
+           1.05000     Face area of exhaust air damper (m2)                   
+          0.380000     Face area of minimum outside air damper (m2)           
+          0.100000E-01 Leakage for outside air damper (fraction of full flow) 
+          0.100000E-01 Leakage for recirc air damper (fraction of full flow) (
+          0.100000E-01 Leakage for exhaust air damper (fraction of full flow) 
+          0.100000E-01 Leakage for minimum outside air damper (fraction of ful
+          0.467000E-03 Fixed resistance in outside air branch (0.001/k.m)     
+          0.665000E-03 Fixed resistance in recirc air branch (0.001/k.m)      
+          0.164000E-03 Fixed resistance in exhaust air branch (0.001/k.m)     
+           1.00000     0=invert return air damper, 1=not inverted (-)         
+
+ UNIT  31      TYPE 341
+ Fluid resistance                                                        
+
+ 1     INPUTS:
+        FLOW             2 - Mass flow rate                                    
+        PRESSURE         3 - Outlet pressure                                   
+
+ 2     OUTPUTS:
+        PRESSURE         2 - Inlet pressure                                    
+
+ 3     PARAMETERS:
+          0.546000E-03 flow resistance  (0.001/kg.m)                          
+
+ UNIT  32      TYPE 350
+ Fan or pump                                                             
+
+ 1     INPUTS:
+        FLOW             2 - mass flow rate of fluid                           
+        PRESSURE         4 - outlet pressure                                   
+        OTHER            1 - fan or pump rotational speed                      
+
+ 2     OUTPUTS:
+        PRESSURE         3 - inlet pressure                                    
+        POWER            1 - fluid stream heat addition rate                   
+        POWER            0 - power consumption                                 
+
+ 3     PARAMETERS:
+           4.29040     1st pressure coefficient                               
+          -1.38700     2nd pressure coefficient                               
+           4.22930     3rd pressure coefficient                               
+          -3.92920     4th pressure coefficient                               
+          0.853400     5th pressure coefficient                               
+          0.116200     1st efficiency coefficient                             
+           1.54040     2nd efficiency coefficient                             
+          -1.48250     3rd efficiency coefficient                             
+          0.766400     4th efficiency coefficient                             
+         -0.197100     5th efficiency coefficient                             
+          0.685800     diameter (m)                                           
+           1.00000     mode: air=1, water=2                                   
+           1.00000     lowest valid normalized flow (-)                       
+           2.00000     highest valid normalized flow (-)                      
+
+ UNIT  33      TYPE 341
+ Fluid resistance                                                        
+
+ 1     INPUTS:
+        FLOW             2 - Mass flow rate                                    
+        PRESSURE         5 - Outlet pressure                                   
+
+ 2     OUTPUTS:
+        PRESSURE         4 - Inlet pressure                                    
+
+ 3     PARAMETERS:
+          0.164000E-03 flow resistance  (0.001/kg.m)                          
+
+ UNIT  34      TYPE 346
+ Asymmetric flow split                                                   
+
+ 1     INPUTS:
+        FLOW             2 - Inlet flow rate                                   
+        PRESSURE         6 - Pressure at main outlet                           
+        FLOW             3 - Mass flow rate through branch outlet              
+
+ 2     OUTPUTS:
+        PRESSURE         5 - Inlet pressure                                    
+        FLOW             4 - Mass flow rate through main outlet                
+        PRESSURE         7 - Pressure at branch outlet                         
+
+ 3     PARAMETERS:
+          0.176000E-03 Inlet resistance  (0.001/k.m)                          
+          0.844000E-03 Resistance of main outlet  (0.001/k.m)                 
+          0.662000E-04 Resistance of branch outlet (0.001/k.m)                
+
+ UNIT  35      TYPE 346
+ Asymmetric flow split                                                   
+
+ 1     INPUTS:
+        FLOW             4 - Inlet flow rate                                   
+        PRESSURE         8 - Pressure at main outlet                           
+        FLOW             5 - Mass flow rate through branch outlet              
+
+ 2     OUTPUTS:
+        PRESSURE         6 - Inlet pressure                                    
+        FLOW             6 - Mass flow rate through main outlet                
+        PRESSURE         9 - Pressure at branch outlet                         
+
+ 3     PARAMETERS:
+          0.371000E-04 Inlet resistance  (0.001/k.m)                          
+          0.259000E-02 Resistance of main outlet  (0.001/k.m)                 
+          0.131000E-02 Resistance of branch outlet (0.001/k.m)                
+
+ UNIT  36      TYPE 346
+ Asymmetric flow split                                                   
+
+ 1     INPUTS:
+        FLOW             6 - Inlet flow rate                                   
+        PRESSURE        10 - Pressure at main outlet                           
+        FLOW             7 - Mass flow rate through branch outlet              
+
+ 2     OUTPUTS:
+        PRESSURE         8 - Inlet pressure                                    
+        FLOW             8 - Mass flow rate through main outlet                
+        PRESSURE        11 - Pressure at branch outlet                         
+
+ 3     PARAMETERS:
+          0.211000E-03 Inlet resistance  (0.001/k.m)                          
+          0.128000E-01 Resistance of main outlet  (0.001/k.m)                 
+          0.223000E-02 Resistance of branch outlet (0.001/k.m)                
+
+ UNIT  37      TYPE 346
+ Asymmetric flow split                                                   
+
+ 1     INPUTS:
+        FLOW             8 - Inlet flow rate                                   
+        PRESSURE        12 - Pressure at main outlet                           
+        FLOW             9 - Mass flow rate through branch outlet              
+
+ 2     OUTPUTS:
+        PRESSURE        10 - Inlet pressure                                    
+        FLOW            10 - Mass flow rate through main outlet                
+        PRESSURE        13 - Pressure at branch outlet                         
+
+ 3     PARAMETERS:
+          0.730000E-03 Inlet resistance  (0.001/k.m)                          
+          0.128000E-01 Resistance of main outlet  (0.001/k.m)                 
+          0.938000E-02 Resistance of branch outlet (0.001/k.m)                
+
+ UNIT  38      TYPE 346
+ Asymmetric flow split                                                   
+
+ 1     INPUTS:
+        FLOW            10 - Inlet flow rate                                   
+        PRESSURE        14 - Pressure at main outlet                           
+        FLOW            11 - Mass flow rate through branch outlet              
+
+ 2     OUTPUTS:
+        PRESSURE        12 - Inlet pressure                                    
+        FLOW            12 - Mass flow rate through main outlet                
+        PRESSURE        15 - Pressure at branch outlet                         
+
+ 3     PARAMETERS:
+          0.731000E-02 Inlet resistance  (0.001/k.m)                          
+          0.895000E-01 Resistance of main outlet  (0.001/k.m)                 
+          0.942000E-01 Resistance of branch outlet (0.001/k.m)                
+
+ UNIT  39      TYPE 526
+ Motorized pressure-independent VAV box                                  
+
+ 1     INPUTS:
+        PRESSURE         7 - inlet pressure                                    
+        PRESSURE        16 - outlet pressure                                   
+        CONTROL         48 - demanded flowrate (normalized to nominal)         
+        FLOW             3 - air mass flow rate                                
+
+ 2     OUTPUTS:
+        FLOW             3 - air mass flow rate                                
+        CONTROL         77 - damper position (0=closed, 1=open)                
+        CONTROL          0 - fractional motor velocity                         
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by valve/damper          
+
+ 3     PARAMETERS:
+           4.33000     nominal volumetric flow rate (m3/s)                    
+          0.490000     face area of damper(s) (m2)                            
+          0.999000E-01 additional pressure drop at nominal flow (kPa)         
+           100.000     actuator travel time (0-90 deg) (s)                    
+           0.00000     minimum fractional motor speed (-)                     
+           0.00000     hysteresis (-)                                         
+           9.99000     controller gain (frac speed/frac error)                
+
+ UNIT  40      TYPE 526
+ Motorized pressure-independent VAV box                                  
+
+ 1     INPUTS:
+        PRESSURE         9 - inlet pressure                                    
+        PRESSURE        17 - outlet pressure                                   
+        CONTROL         49 - demanded flowrate (normalized to nominal)         
+        FLOW             5 - air mass flow rate                                
+
+ 2     OUTPUTS:
+        FLOW             5 - air mass flow rate                                
+        CONTROL         78 - damper position (0=closed, 1=open)                
+        CONTROL          0 - fractional motor velocity                         
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by valve/damper          
+
+ 3     PARAMETERS:
+           2.36900     nominal volumetric flow rate (m3/s)                    
+          0.245000     face area of damper(s) (m2)                            
+          0.999000E-01 additional pressure drop at nominal flow (kPa)         
+           100.000     actuator travel time (0-90 deg) (s)                    
+           0.00000     minimum fractional motor speed (-)                     
+           0.00000     hysteresis (-)                                         
+           9.99000     controller gain (frac speed/frac error)                
+
+ UNIT  41      TYPE 526
+ Motorized pressure-independent VAV box                                  
+
+ 1     INPUTS:
+        PRESSURE        11 - inlet pressure                                    
+        PRESSURE        18 - outlet pressure                                   
+        CONTROL         50 - demanded flowrate (normalized to nominal)         
+        FLOW             7 - air mass flow rate                                
+
+ 2     OUTPUTS:
+        FLOW             7 - air mass flow rate                                
+        CONTROL         79 - damper position (0=closed, 1=open)                
+        CONTROL          0 - fractional motor velocity                         
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by valve/damper          
+
+ 3     PARAMETERS:
+          0.837000     nominal volumetric flow rate (m3/s)                    
+          0.128000     face area of damper(s) (m2)                            
+          0.999000E-01 additional pressure drop at nominal flow (kPa)         
+           100.000     actuator travel time (0-90 deg) (s)                    
+           0.00000     minimum fractional motor speed (-)                     
+           0.00000     hysteresis (-)                                         
+           9.90000     controller gain (frac speed/frac error)                
+
+ UNIT  42      TYPE 526
+ Motorized pressure-independent VAV box                                  
+
+ 1     INPUTS:
+        PRESSURE        13 - inlet pressure                                    
+        PRESSURE        19 - outlet pressure                                   
+        CONTROL         51 - demanded flowrate (normalized to nominal)         
+        FLOW             9 - air mass flow rate                                
+
+ 2     OUTPUTS:
+        FLOW             9 - air mass flow rate                                
+        CONTROL         80 - damper position (0=closed, 1=open)                
+        CONTROL          0 - fractional motor velocity                         
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by valve/damper          
+
+ 3     PARAMETERS:
+          0.801000     nominal volumetric flow rate (m3/s)                    
+          0.128000     face area of damper(s) (m2)                            
+          0.999000E-01 additional pressure drop at nominal flow (kPa)         
+           100.000     actuator travel time (0-90 deg) (s)                    
+           0.00000     minimum fractional motor speed (-)                     
+           0.00000     hysteresis (-)                                         
+           9.99000     controller gain (frac speed/frac error)                
+
+ UNIT  43      TYPE 526
+ Motorized pressure-independent VAV box                                  
+
+ 1     INPUTS:
+        PRESSURE        15 - inlet pressure                                    
+        PRESSURE        20 - outlet pressure                                   
+        CONTROL         52 - demanded flowrate (normalized to nominal)         
+        FLOW            11 - air mass flow rate                                
+
+ 2     OUTPUTS:
+        FLOW            11 - air mass flow rate                                
+        CONTROL         81 - damper position (0=closed, 1=open)                
+        CONTROL          0 - fractional motor velocity                         
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by valve/damper          
+
+ 3     PARAMETERS:
+          0.302000     nominal volumetric flow rate (m3/s)                    
+          0.494000E-01 face area of damper(s) (m2)                            
+          0.990000E-01 additional pressure drop at nominal flow (kPa)         
+           100.000     actuator travel time (0-90 deg) (s)                    
+           0.00000     minimum fractional motor speed (-)                     
+           0.00000     hysteresis (-)                                         
+           9.99000     controller gain (frac speed/frac error)                
+
+ UNIT  44      TYPE 525
+ Motorized pressure-independent VAV box                                  
+
+ 1     INPUTS:
+        FLOW            12 - air mass flow rate                                
+        PRESSURE        21 - outlet pressure                                   
+        CONTROL         53 - demanded flowrate (normalized to nominal)         
+
+ 2     OUTPUTS:
+        PRESSURE        14 - inlet pressure                                    
+        CONTROL         82 - damper position (0=closed, 1=open)                
+        CONTROL          0 - fractional motor velocity                         
+        CONTROL          0 - number of stops/starts/reversals                  
+        CONTROL          0 - total distance travelled by valve/damper          
+
+ 3     PARAMETERS:
+          0.132000     nominal volumetric flow rate (m3/s)                    
+          0.240000E-01 face area of damper(s) (m2)                            
+          0.990000E-01 additional pressure drop at nominal flow (kPa)         
+           100.000     actuator travel time (0-90 deg) (s)                    
+           0.00000     minimum fractional motor speed (-)                     
+           0.00000     hysteresis (-)                                         
+           9.99000     controller gain (frac speed/frac error)                
+
+ UNIT  45      TYPE 349
+ Room air mass balance                                                   
+
+ 1     INPUTS:
+        FLOW             3 - supply air mass flow rate (positive in)           
+        PRESSURE        21 - pressure of 1st adjacent zone                     
+        FLOW            13 - mass flow rate to 2nd adjacent zone (positive out)
+        PRESSURE        16 - room pressure                                     
+        PRESSURE        30 - ambient pressure                                  
+
+ 2     OUTPUTS:
+        FLOW            19 - return air mass flow rate (positive out)          
+        FLOW            18 - mass flow rate from 1st adjacent zone (positive in
+        FLOW            31 - leakage mass flow rate to ambient (positive out)  
+
+ 3     PARAMETERS:
+          0.100000     resistance to 1st adjacent zone [0.001/(kg m)]         
+           1.00000     leakage resistance [0.001/(kg m)]                      
+           0.00000     local extract fan mass flow rate [kg/s]                
+
+ UNIT  46      TYPE 349
+ Room air mass balance                                                   
+
+ 1     INPUTS:
+        FLOW             5 - supply air mass flow rate (positive in)           
+        PRESSURE        16 - pressure of 1st adjacent zone                     
+        FLOW            14 - mass flow rate to 2nd adjacent zone (positive out)
+        PRESSURE        17 - room pressure                                     
+        PRESSURE        30 - ambient pressure                                  
+
+ 2     OUTPUTS:
+        FLOW            20 - return air mass flow rate (positive out)          
+        FLOW            13 - mass flow rate from 1st adjacent zone (positive in
+        FLOW            32 - leakage mass flow rate to ambient (positive out)  
+
+ 3     PARAMETERS:
+          0.100000     resistance to 1st adjacent zone [0.001/(kg m)]         
+           1.00000     leakage resistance [0.001/(kg m)]                      
+           0.00000     local extract fan mass flow rate [kg/s]                
+
+ UNIT  47      TYPE 349
+ Room air mass balance                                                   
+
+ 1     INPUTS:
+        FLOW             7 - supply air mass flow rate (positive in)           
+        PRESSURE        17 - pressure of 1st adjacent zone                     
+        FLOW            15 - mass flow rate to 2nd adjacent zone (positive out)
+        PRESSURE        18 - room pressure                                     
+        PRESSURE        30 - ambient pressure                                  
+
+ 2     OUTPUTS:
+        FLOW            21 - return air mass flow rate (positive out)          
+        FLOW            14 - mass flow rate from 1st adjacent zone (positive in
+        FLOW            33 - leakage mass flow rate to ambient (positive out)  
+
+ 3     PARAMETERS:
+          0.100000     resistance to 1st adjacent zone [0.001/(kg m)]         
+           1.00000     leakage resistance [0.001/(kg m)]                      
+           0.00000     local extract fan mass flow rate [kg/s]                
+
+ UNIT  48      TYPE 349
+ Room air mass balance                                                   
+
+ 1     INPUTS:
+        FLOW             9 - supply air mass flow rate (positive in)           
+        PRESSURE        18 - pressure of 1st adjacent zone                     
+        FLOW            16 - mass flow rate to 2nd adjacent zone (positive out)
+        PRESSURE        19 - room pressure                                     
+        PRESSURE        30 - ambient pressure                                  
+
+ 2     OUTPUTS:
+        FLOW            22 - return air mass flow rate (positive out)          
+        FLOW            15 - mass flow rate from 1st adjacent zone (positive in
+        FLOW            34 - leakage mass flow rate to ambient (positive out)  
+
+ 3     PARAMETERS:
+          0.100000     resistance to 1st adjacent zone [0.001/(kg m)]         
+           1.00000     leakage resistance [0.001/(kg m)]                      
+           0.00000     local extract fan mass flow rate [kg/s]                
+
+ UNIT  49      TYPE 349
+ Room air mass balance                                                   
+
+ 1     INPUTS:
+        FLOW            11 - supply air mass flow rate (positive in)           
+        PRESSURE        19 - pressure of 1st adjacent zone                     
+        FLOW            17 - mass flow rate to 2nd adjacent zone (positive out)
+        PRESSURE        20 - room pressure                                     
+        PRESSURE        30 - ambient pressure                                  
+
+ 2     OUTPUTS:
+        FLOW            23 - return air mass flow rate (positive out)          
+        FLOW            16 - mass flow rate from 1st adjacent zone (positive in
+        FLOW            35 - leakage mass flow rate to ambient (positive out)  
+
+ 3     PARAMETERS:
+          0.100000     resistance to 1st adjacent zone [0.001/(kg m)]         
+           1.00000     leakage resistance [0.001/(kg m)]                      
+           0.00000     local extract fan mass flow rate [kg/s]                
+
+ UNIT  50      TYPE 349
+ Room air mass balance                                                   
+
+ 1     INPUTS:
+        FLOW            12 - supply air mass flow rate (positive in)           
+        PRESSURE        20 - pressure of 1st adjacent zone                     
+        FLOW            18 - mass flow rate to 2nd adjacent zone (positive out)
+        PRESSURE        21 - room pressure                                     
+        PRESSURE        30 - ambient pressure                                  
+
+ 2     OUTPUTS:
+        FLOW            24 - return air mass flow rate (positive out)          
+        FLOW            17 - mass flow rate from 1st adjacent zone (positive in
+        FLOW            36 - leakage mass flow rate to ambient (positive out)  
+
+ 3     PARAMETERS:
+          0.100000     resistance to 1st adjacent zone [0.001/(kg m)]         
+           1.00000     leakage resistance [0.001/(kg m)]                      
+           0.00000     local extract fan mass flow rate [kg/s]                
+
+ UNIT  51      TYPE 348
+ Flow merge                                                              
+
+ 1     INPUTS:
+        FLOW            22 - Inlet flow rate 1                                 
+        FLOW            24 - Inlet flow rate 2                                 
+        PRESSURE        22 - Pressure at outlet                                
+
+ 2     OUTPUTS:
+        FLOW            25 - Mass flow rate at outlet                          
+        PRESSURE        19 - Inlet pressure 1                                  
+        PRESSURE        21 - Inlet pressure 2                                  
+
+ 3     PARAMETERS:
+          0.847600E-01 Inlet resistance 1 (0.001/k.m)                         
+           1.89750     Inlet resistance 2 (0.001/k.m)                         
+          0.150000E-02 Resistance of outlet (0.001/k.m)                       
+
+ UNIT  52      TYPE 348
+ Flow merge                                                              
+
+ 1     INPUTS:
+        FLOW            23 - Inlet flow rate 1                                 
+        FLOW            25 - Inlet flow rate 2                                 
+        PRESSURE        23 - Pressure at outlet                                
+
+ 2     OUTPUTS:
+        FLOW            26 - Mass flow rate at outlet                          
+        PRESSURE        20 - Inlet pressure 1                                  
+        PRESSURE        22 - Inlet pressure 2                                  
+
+ 3     PARAMETERS:
+          0.353960     Inlet resistance 1 (0.001/k.m)                         
+          0.494000E-03 Inlet resistance 2 (0.001/k.m)                         
+          0.922000E-03 Resistance of outlet (0.001/k.m)                       
+
+ UNIT  53      TYPE 348
+ Flow merge                                                              
+
+ 1     INPUTS:
+        FLOW            21 - Inlet flow rate 1                                 
+        FLOW            26 - Inlet flow rate 2                                 
+        PRESSURE        24 - Pressure at outlet                                
+
+ 2     OUTPUTS:
+        FLOW            27 - Mass flow rate at outlet                          
+        PRESSURE        18 - Inlet pressure 1                                  
+        PRESSURE        23 - Inlet pressure 2                                  
+
+ 3     PARAMETERS:
+          0.566000E-01 Inlet resistance 1 (0.001/k.m)                         
+          0.541000E-02 Inlet resistance 2 (0.001/k.m)                         
+          0.749000E-04 Resistance of outlet (0.001/k.m)                       
+
+ UNIT  54      TYPE 348
+ Flow merge                                                              
+
+ 1     INPUTS:
+        FLOW            20 - Inlet flow rate 1                                 
+        FLOW            27 - Inlet flow rate 2                                 
+        PRESSURE        25 - Pressure at outlet                                
+
+ 2     OUTPUTS:
+        FLOW            28 - Mass flow rate at outlet                          
+        PRESSURE        17 - Inlet pressure 1                                  
+        PRESSURE        24 - Inlet pressure 2                                  
+
+ 3     PARAMETERS:
+          0.653000E-02 Inlet resistance 1 (0.001/k.m)                         
+          0.271000E-03 Inlet resistance 2 (0.001/k.m)                         
+          0.402000E-04 Resistance of outlet (0.001/k.m)                       
+
+ UNIT  55      TYPE 348
+ Flow merge                                                              
+
+ 1     INPUTS:
+        FLOW            19 - Inlet flow rate 1                                 
+        FLOW            28 - Inlet flow rate 2                                 
+        PRESSURE        26 - Pressure at outlet                                
+
+ 2     OUTPUTS:
+        FLOW            29 - Mass flow rate at outlet                          
+        PRESSURE        16 - Inlet pressure 1                                  
+        PRESSURE        25 - Inlet pressure 2                                  
+
+ 3     PARAMETERS:
+          0.263200E-02 Inlet resistance 1 (0.001/k.m)                         
+          0.999990E-03 Inlet resistance 2 (0.001/k.m)                         
+          0.649000E-03 Resistance of outlet (0.001/k.m)                       
+
+ UNIT  56      TYPE 350
+ Fan or pump                                                             
+
+ 1     INPUTS:
+        FLOW            29 - mass flow rate of fluid                           
+        PRESSURE        27 - outlet pressure                                   
+        OTHER            2 - fan or pump rotational speed                      
+
+ 2     OUTPUTS:
+        PRESSURE        26 - inlet pressure                                    
+        POWER            2 - fluid stream heat addition rate                   
+        POWER            0 - power consumption                                 
+
+ 3     PARAMETERS:
+           4.19370     1st pressure coefficient                               
+          -1.63370     2nd pressure coefficient                               
+           12.2110     3rd pressure coefficient                               
+          -23.9619     4th pressure coefficient                               
+           9.81620     5th pressure coefficient                               
+          0.619000E-01 1st efficiency coefficient                             
+           3.14170     2nd efficiency coefficient                             
+          -5.75510     3rd efficiency coefficient                             
+           6.16760     4th efficiency coefficient                             
+          -3.37480     5th efficiency coefficient                             
+           1.13000     diameter (m)                                           
+           1.00000     mode: air=1, water=2                                   
+          0.700000     lowest valid normalized flow (-)                       
+           1.00000     highest valid normalized flow (-)                      
+
+ UNIT  57      TYPE 341
+ Fluid resistance                                                        
+
+ 1     INPUTS:
+        FLOW            29 - Mass flow rate                                    
+        PRESSURE        28 - Outlet pressure                                   
+
+ 2     OUTPUTS:
+        PRESSURE        27 - Inlet pressure                                    
+
+ 3     PARAMETERS:
+          0.118000E-03 flow resistance  (0.001/kg.m)                          
+
+ UNIT  58      TYPE 367
+ Mixing of two moist air streams                                         
+
+ 1     INPUTS:
+        TEMPERATURE      1 - Stream 1 dry bulb temperature                     
+        HUMIDITY         1 - Stream 1 humidity ratio                           
+        FLOW             1 - Stream 1 mass flow rate                           
+        TEMPERATURE     54 - Stream 2 dry bulb temperature                     
+        HUMIDITY        16 - Stream 2 humidity ratio                           
+        FLOW            30 - Stream 2 mass flow rate                           
+
+ 2     OUTPUTS:
+        TEMPERATURE      2 - Mixed air dry bulb temperature                    
+        HUMIDITY         2 - Mixed air humidity ratio                          
+        FLOW             0 - Mixed air mass flow rate                          
+
+ 3     PARAMETERS:
+           0.00000     (dummy)                                                
+
+ UNIT  59      TYPE 524
+ Coil + three port valve, calculates flow                                
+
+ 1     INPUTS:
+        TEMPERATURE      2 - Inlet air dry bulb temperature                    
+        HUMIDITY         2 - Inlet air humidity ratio                          
+        PRESSURE         1 - Outlet air pressure                               
+        FLOW             2 - Dry air mass flow rate                            
+        TEMPERATURE     55 - Inlet water temperature                           
+        PRESSURE        32 - Inlet water pressure                              
+        PRESSURE        33 - Outlet water pressure                             
+        CONTROL         41 - Valve stem position                               
+        TEMPERATURE     57 - Effective coil surface temperature (same as 1st o/
+
+ 2     OUTPUTS:
+        TEMPERATURE     57 - Effective coil surface temperature                
+        TEMPERATURE      3 - Outlet dry bulb air temperature                   
+        HUMIDITY         3 - Outlet air humidity ratio                         
+        PRESSURE         0 - Inlet air pressure                                
+        TEMPERATURE     56 - Outlet water temperature                          
+        FLOW             0 - Primary circuit water mass flow rate              
+        FLOW            40 - Water mass flow rate through coil                 
+        TEMPERATURE      0 - Mixed return water temperature                    
+        POWER            3 - Total heat transfer to the air                    
+        CONTROL          0 - Sensible heat ratio                               
+        CONTROL          0 - Coil effectiveness                                
+        CONTROL          0 - Coil by-pass factor                               
+        ENERGY           0 - Outlet air specific enthalpy                      
+        CONTROL          0 - Outlet air relative humidity                      
+        TEMPERATURE      0 - Outlet air wet-bulb temperature                   
+
+ 3     PARAMETERS:
+           1.00000     Method : 0 = steady state, 1 = dynamic                 
+           0.00000     Fault  : 0 for no faults, 1 = parallel flow (cooling co
+           0.00000     Psycho : 0 = no psychrometric output calcs, 1 = calcs  
+           4.00000     Number of rows of tubes                                
+           36.0000     Number of tubes per row                                
+           36.0000     Number of parallel water circuits                      
+          0.241000     Length of finned section in direction of flow (m)      
+           1.37000     Height of finned section (m)                           
+           2.77000     Width of finned section (m)                            
+          0.159000E-01 Tube outside diameter (m)                              
+          0.787400E-03 Tube wall thickness (m)                                
+           2.00000     Tube material (Al=1,Cu=2,Fe=3,CaCO3=4)                 
+          0.212000E-02 Fin spacing (pitch) (m)                                
+          0.216000E-03 Fin thickness (m)                                      
+           1.00000     Fin material (Al=1,Cu=2,Fe=3)                          
+          0.107000E-02 Flow resistance on air side (0.001 kg.m)               
+           1.20100     Coil water flow resistance (0.001 kg.m)                
+          0.100000E+07 By-pass water flow resistance (0.001 kg.m)             
+           1.00000     Valve type: 0=lin/lin, 1=eq%(flow)/lin(byp), 2=lin/eq% 
+           32.6800     Valve capacity (Kv) (m3/hr @ 1 bar)                    
+           3.54000     Valve curvature parameter (0=linear) (-)               
+           35.0000     Valve rangability (-)                                  
+          0.100000E-03 Valve leakage (fractional flow) (-)                    
+
+ UNIT  60      TYPE 366
+ Ideal heating of fluid stream                                           
+
+ 1     INPUTS:
+        FLOW             2 - mass flow rate                                    
+        TEMPERATURE      3 - inlet temperature                                 
+        POWER            1 - rate of heat addition                             
+
+ 2     OUTPUTS:
+        TEMPERATURE      4 - outlet temperature                                
+
+ 3     PARAMETERS:
+           1.00000     fluid: 1 = air, any other value + water (-)            
+           30.0000     time constant (s)                                      
+
+ UNIT  61      TYPE 524
+ Coil + three port valve, calculates flow                                
+
+ 1     INPUTS:
+        TEMPERATURE      4 - Inlet air dry bulb temperature                    
+        HUMIDITY         3 - Inlet air humidity ratio                          
+        PRESSURE         1 - Outlet air pressure                               
+        FLOW             3 - Dry air mass flow rate                            
+        TEMPERATURE     58 - Inlet water temperature                           
+        PRESSURE        34 - Inlet water pressure                              
+        PRESSURE        35 - Outlet water pressure                             
+        CONTROL         42 - Valve stem position                               
+        TEMPERATURE     70 - Effective coil surface temperature (same as 1st o/
+
+ 2     OUTPUTS:
+        TEMPERATURE     70 - Effective coil surface temperature                
+        TEMPERATURE      5 - Outlet dry bulb air temperature                   
+        HUMIDITY         4 - Outlet air humidity ratio                         
+        PRESSURE         0 - Inlet air pressure                                
+        TEMPERATURE     64 - Outlet water temperature                          
+        FLOW             0 - Primary circuit water mass flow rate              
+        FLOW            41 - Water mass flow rate through coil                 
+        TEMPERATURE      0 - Mixed return water temperature                    
+        POWER            4 - Total heat transfer to the air                    
+        CONTROL          0 - Sensible heat ratio                               
+        CONTROL          0 - Coil effectiveness                                
+        CONTROL          0 - Coil by-pass factor                               
+        ENERGY           0 - Outlet air specific enthalpy                      
+        CONTROL          0 - Outlet air relative humidity                      
+        TEMPERATURE      0 - Outlet air wet-bulb temperature                   
+
+ 3     PARAMETERS:
+           1.00000     Method : 0 = steady state, 1 = dynamic                 
+           0.00000     Fault  : 0 for no faults, 1 = parallel flow (cooling co
+           0.00000     Psycho : 0 = no psychrometric output calcs, 1 = calcs  
+           1.00000     Number of rows of tubes                                
+           28.0000     Number of tubes per row                                
+           2.00000     Number of parallel water circuits                      
+          0.275000E-01 Length of finned section in direction of flow (m)      
+          0.914000     Height of finned section (m)                           
+          0.710000     Width of finned section (m)                            
+          0.127000E-01 Tube outside diameter (m)                              
+          0.406000E-03 Tube wall thickness (m)                                
+           2.00000     Tube material (Al=1,Cu=2,Fe=3,CaCO3=4)                 
+          0.254000E-02 Fin spacing (pitch) (m)                                
+          0.152000E-03 Fin thickness (m)                                      
+           1.00000     Fin material (Al=1,Cu=2,Fe=3)                          
+          0.230000E-02 Flow resistance on air side (0.001 kg.m)               
+           1.26000     Coil water flow resistance (0.001 kg.m)                
+          0.100000E+07 By-pass water flow resistance (0.001 kg.m)             
+           1.00000     Valve type: 0=lin/lin, 1=eq%(flow)/lin(byp), 2=lin/eq% 
+           2.51000     Valve capacity (Kv) (m3/hr @ 1 bar)                    
+           3.22000     Valve curvature parameter (0=linear) (-)               
+           50.0000     Valve rangability (-)                                  
+          0.200000E-03 Valve leakage (fractional flow) (-)                    
+
+ UNIT  62      TYPE 524
+ Coil + three port valve, calculates flow                                
+
+ 1     INPUTS:
+        TEMPERATURE      4 - Inlet air dry bulb temperature                    
+        HUMIDITY         3 - Inlet air humidity ratio                          
+        PRESSURE         1 - Outlet air pressure                               
+        FLOW             5 - Dry air mass flow rate                            
+        TEMPERATURE     59 - Inlet water temperature                           
+        PRESSURE        36 - Inlet water pressure                              
+        PRESSURE        37 - Outlet water pressure                             
+        CONTROL         43 - Valve stem position                               
+        TEMPERATURE     71 - Effective coil surface temperature (same as 1st o/
+
+ 2     OUTPUTS:
+        TEMPERATURE     71 - Effective coil surface temperature                
+        TEMPERATURE      6 - Outlet dry bulb air temperature                   
+        HUMIDITY         5 - Outlet air humidity ratio                         
+        PRESSURE         0 - Inlet air pressure                                
+        TEMPERATURE     65 - Outlet water temperature                          
+        FLOW             0 - Primary circuit water mass flow rate              
+        FLOW            42 - Water mass flow rate through coil                 
+        TEMPERATURE      0 - Mixed return water temperature                    
+        POWER            5 - Total heat transfer to the air                    
+        CONTROL          0 - Sensible heat ratio                               
+        CONTROL          0 - Coil effectiveness                                
+        CONTROL          0 - Coil by-pass factor                               
+        ENERGY           0 - Outlet air specific enthalpy                      
+        CONTROL          0 - Outlet air relative humidity                      
+        TEMPERATURE      0 - Outlet air wet-bulb temperature                   
+
+ 3     PARAMETERS:
+           1.00000     Method : 0 = steady state, 1 = dynamic                 
+           0.00000     Fault  : 0 for no faults, 1 = parallel flow (cooling co
+           0.00000     Psycho : 0 = no psychrometric output calcs, 1 = calcs  
+           1.00000     Number of rows of tubes                                
+           14.0000     Number of tubes per row                                
+           1.00000     Number of parallel water circuits                      
+          0.275000E-01 Length of finned section in direction of flow (m)      
+          0.457000     Height of finned section (m)                           
+          0.711000     Width of finned section (m)                            
+          0.127000E-01 Tube outside diameter (m)                              
+          0.406000E-03 Tube wall thickness (m)                                
+           2.00000     Tube material (Al=1,Cu=2,Fe=3,CaCO3=4)                 
+          0.254000E-02 Fin spacing (pitch) (m)                                
+          0.152000E-03 Fin thickness (m)                                      
+           1.00000     Fin material (Al=1,Cu=2,Fe=3)                          
+          0.910000E-02 Flow resistance on air side (0.001 kg.m)               
+           5.04000     Coil water flow resistance (0.001 kg.m)                
+          0.100000E+07 By-pass water flow resistance (0.001 kg.m)             
+           1.00000     Valve type: 0=lin/lin, 1=eq%(flow)/lin(byp), 2=lin/eq% 
+           1.61000     Valve capacity (Kv) (m3/hr @ 1 bar)                    
+           3.22000     Valve curvature parameter (0=linear) (-)               
+           50.0000     Valve rangability (-)                                  
+          0.200000E-03 Valve leakage (fractional flow) (-)                    
+
+ UNIT  63      TYPE 524
+ Coil + three port valve, calculates flow                                
+
+ 1     INPUTS:
+        TEMPERATURE      4 - Inlet air dry bulb temperature                    
+        HUMIDITY         3 - Inlet air humidity ratio                          
+        PRESSURE         1 - Outlet air pressure                               
+        FLOW             7 - Dry air mass flow rate                            
+        TEMPERATURE     60 - Inlet water temperature                           
+        PRESSURE        38 - Inlet water pressure                              
+        PRESSURE        39 - Outlet water pressure                             
+        CONTROL         44 - Valve stem position                               
+        TEMPERATURE     72 - Effective coil surface temperature (same as 1st o/
+
+ 2     OUTPUTS:
+        TEMPERATURE     72 - Effective coil surface temperature                
+        TEMPERATURE      7 - Outlet dry bulb air temperature                   
+        HUMIDITY         6 - Outlet air humidity ratio                         
+        PRESSURE         0 - Inlet air pressure                                
+        TEMPERATURE     66 - Outlet water temperature                          
+        FLOW             0 - Primary circuit water mass flow rate              
+        FLOW            43 - Water mass flow rate through coil                 
+        TEMPERATURE      0 - Mixed return water temperature                    
+        POWER            6 - Total heat transfer to the air                    
+        CONTROL          0 - Sensible heat ratio                               
+        CONTROL          0 - Coil effectiveness                                
+        CONTROL          0 - Coil by-pass factor                               
+        ENERGY           0 - Outlet air specific enthalpy                      
+        CONTROL          0 - Outlet air relative humidity                      
+        TEMPERATURE      0 - Outlet air wet-bulb temperature                   
+
+ 3     PARAMETERS:
+           1.00000     Method : 0 = steady state, 1 = dynamic                 
+           0.00000     Fault  : 0 for no faults, 1 = parallel flow (cooling co
+           0.00000     Psycho : 0 = no psychrometric output calcs, 1 = calcs  
+           1.00000     Number of rows of tubes                                
+           14.0000     Number of tubes per row                                
+           1.00000     Number of parallel water circuits                      
+          0.275000E-01 Length of finned section in direction of flow (m)      
+          0.457000     Height of finned section (m)                           
+          0.610000     Width of finned section (m)                            
+          0.127000E-01 Tube outside diameter (m)                              
+          0.406000E-03 Tube wall thickness (m)                                
+           2.00000     Tube material (Al=1,Cu=2,Fe=3,CaCO3=4)                 
+          0.254000E-02 Fin spacing (pitch) (m)                                
+          0.152000E-03 Fin thickness (m)                                      
+           1.00000     Fin material (Al=1,Cu=2,Fe=3)                          
+          0.260000E-01 Flow resistance on air side (0.001 kg.m)               
+           4.53000     Coil water flow resistance (0.001 kg.m)                
+          0.100000E+07 By-pass water flow resistance (0.001 kg.m)             
+           1.00000     Valve type: 0=lin/lin, 1=eq%(flow)/lin(byp), 2=lin/eq% 
+          0.640000     Valve capacity (Kv) (m3/hr @ 1 bar)                    
+           3.22000     Valve curvature parameter (0=linear) (-)               
+           50.0000     Valve rangability (-)                                  
+          0.200000E-03 Valve leakage (fractional flow) (-)                    
+
+ UNIT  64      TYPE 524
+ Coil + three port valve, calculates flow                                
+
+ 1     INPUTS:
+        TEMPERATURE      4 - Inlet air dry bulb temperature                    
+        HUMIDITY         3 - Inlet air humidity ratio                          
+        PRESSURE         1 - Outlet air pressure                               
+        FLOW             9 - Dry air mass flow rate                            
+        TEMPERATURE     61 - Inlet water temperature                           
+        PRESSURE        40 - Inlet water pressure                              
+        PRESSURE        41 - Outlet water pressure                             
+        CONTROL         45 - Valve stem position                               
+        TEMPERATURE     73 - Effective coil surface temperature (same as 1st o/
+
+ 2     OUTPUTS:
+        TEMPERATURE     73 - Effective coil surface temperature                
+        TEMPERATURE      8 - Outlet dry bulb air temperature                   
+        HUMIDITY         7 - Outlet air humidity ratio                         
+        PRESSURE         0 - Inlet air pressure                                
+        TEMPERATURE     67 - Outlet water temperature                          
+        FLOW             0 - Primary circuit water mass flow rate              
+        FLOW            44 - Water mass flow rate through coil                 
+        TEMPERATURE      0 - Mixed return water temperature                    
+        POWER            7 - Total heat transfer to the air                    
+        CONTROL          0 - Sensible heat ratio                               
+        CONTROL          0 - Coil effectiveness                                
+        CONTROL          0 - Coil by-pass factor                               
+        ENERGY           0 - Outlet air specific enthalpy                      
+        CONTROL          0 - Outlet air relative humidity                      
+        TEMPERATURE      0 - Outlet air wet-bulb temperature                   
+
+ 3     PARAMETERS:
+           1.00000     Method : 0 = steady state, 1 = dynamic                 
+           0.00000     Fault  : 0 for no faults, 1 = parallel flow (cooling co
+           0.00000     Psycho : 0 = no psychrometric output calcs, 1 = calcs  
+           1.00000     Number of rows of tubes                                
+           14.0000     Number of tubes per row                                
+           1.00000     Number of parallel water circuits                      
+          0.275000E-01 Length of finned section in direction of flow (m)      
+          0.457000     Height of finned section (m)                           
+          0.610000     Width of finned section (m)                            
+          0.127000E-01 Tube outside diameter (m)                              
+          0.406000E-03 Tube wall thickness (m)                                
+           2.00000     Tube material (Al=1,Cu=2,Fe=3,CaCO3=4)                 
+          0.254000E-02 Fin spacing (pitch) (m)                                
+          0.152000E-03 Fin thickness (m)                                      
+           1.00000     Fin material (Al=1,Cu=2,Fe=3)                          
+          0.260000E-01 Flow resistance on air side (0.001 kg.m)               
+           4.53000     Coil water flow resistance (0.001 kg.m)                
+          0.100000E+07 By-pass water flow resistance (0.001 kg.m)             
+           1.00000     Valve type: 0=lin/lin, 1=eq%(flow)/lin(byp), 2=lin/eq% 
+          0.640000     Valve capacity (Kv) (m3/hr @ 1 bar)                    
+           3.22000     Valve curvature parameter (0=linear) (-)               
+           50.0000     Valve rangability (-)                                  
+          0.200000E-03 Valve leakage (fractional flow) (-)                    
+
+ UNIT  65      TYPE 524
+ Coil + three port valve, calculates flow                                
+
+ 1     INPUTS:
+        TEMPERATURE      4 - Inlet air dry bulb temperature                    
+        HUMIDITY         3 - Inlet air humidity ratio                          
+        PRESSURE         1 - Outlet air pressure                               
+        FLOW            11 - Dry air mass flow rate                            
+        TEMPERATURE     62 - Inlet water temperature                           
+        PRESSURE        42 - Inlet water pressure                              
+        PRESSURE        43 - Outlet water pressure                             
+        CONTROL         46 - Valve stem position                               
+        TEMPERATURE     74 - Effective coil surface temperature (same as 1st o/
+
+ 2     OUTPUTS:
+        TEMPERATURE     74 - Effective coil surface temperature                
+        TEMPERATURE      9 - Outlet dry bulb air temperature                   
+        HUMIDITY         8 - Outlet air humidity ratio                         
+        PRESSURE         0 - Inlet air pressure                                
+        TEMPERATURE     68 - Outlet water temperature                          
+        FLOW             0 - Primary circuit water mass flow rate              
+        FLOW            45 - Water mass flow rate through coil                 
+        TEMPERATURE      0 - Mixed return water temperature                    
+        POWER            8 - Total heat transfer to the air                    
+        CONTROL          0 - Sensible heat ratio                               
+        CONTROL          0 - Coil effectiveness                                
+        CONTROL          0 - Coil by-pass factor                               
+        ENERGY           0 - Outlet air specific enthalpy                      
+        CONTROL          0 - Outlet air relative humidity                      
+        TEMPERATURE      0 - Outlet air wet-bulb temperature                   
+
+ 3     PARAMETERS:
+           1.00000     Method : 0 = steady state, 1 = dynamic                 
+           0.00000     Fault  : 0 for no faults, 1 = parallel flow (cooling co
+           0.00000     Psycho : 0 = no psychrometric output calcs, 1 = calcs  
+           1.00000     Number of rows of tubes                                
+           10.0000     Number of tubes per row                                
+           2.00000     Number of parallel water circuits                      
+          0.275000E-01 Length of finned section in direction of flow (m)      
+          0.318000     Height of finned section (m)                           
+          0.356000     Width of finned section (m)                            
+          0.127000E-01 Tube outside diameter (m)                              
+          0.406000E-03 Tube wall thickness (m)                                
+           2.00000     Tube material (Al=1,Cu=2,Fe=3,CaCO3=4)                 
+          0.254000E-02 Fin spacing (pitch) (m)                                
+          0.152000E-03 Fin thickness (m)                                      
+           1.00000     Fin material (Al=1,Cu=2,Fe=3)                          
+          0.151000     Flow resistance on air side (0.001 kg.m)               
+           8.76000     Coil water flow resistance (0.001 kg.m)                
+          0.100000E+07 By-pass water flow resistance (0.001 kg.m)             
+           1.00000     Valve type: 0=lin/lin, 1=eq%(flow)/lin(byp), 2=lin/eq% 
+          0.400000     Valve capacity (Kv) (m3/hr @ 1 bar)                    
+           3.22000     Valve curvature parameter (0=linear) (-)               
+           50.0000     Valve rangability (-)                                  
+          0.200000E-03 Valve leakage (fractional flow) (-)                    
+
+ UNIT  66      TYPE 524
+ Coil + three port valve, calculates flow                                
+
+ 1     INPUTS:
+        TEMPERATURE      4 - Inlet air dry bulb temperature                    
+        HUMIDITY         3 - Inlet air humidity ratio                          
+        PRESSURE         1 - Outlet air pressure                               
+        FLOW            12 - Dry air mass flow rate                            
+        TEMPERATURE     63 - Inlet water temperature                           
+        PRESSURE        44 - Inlet water pressure                              
+        PRESSURE        45 - Outlet water pressure                             
+        CONTROL         47 - Valve stem position                               
+        TEMPERATURE     75 - Effective coil surface temperature (same as 1st o/
+
+ 2     OUTPUTS:
+        TEMPERATURE     75 - Effective coil surface temperature                
+        TEMPERATURE     10 - Outlet dry bulb air temperature                   
+        HUMIDITY         9 - Outlet air humidity ratio                         
+        PRESSURE         0 - Inlet air pressure                                
+        TEMPERATURE     69 - Outlet water temperature                          
+        FLOW             0 - Primary circuit water mass flow rate              
+        FLOW            46 - Water mass flow rate through coil                 
+        TEMPERATURE      0 - Mixed return water temperature                    
+        POWER            9 - Total heat transfer to the air                    
+        CONTROL          0 - Sensible heat ratio                               
+        CONTROL          0 - Coil effectiveness                                
+        CONTROL          0 - Coil by-pass factor                               
+        ENERGY           0 - Outlet air specific enthalpy                      
+        CONTROL          0 - Outlet air relative humidity                      
+        TEMPERATURE      0 - Outlet air wet-bulb temperature                   
+
+ 3     PARAMETERS:
+           1.00000     Method : 0 = steady state, 1 = dynamic                 
+           0.00000     Fault  : 0 for no faults, 1 = parallel flow (cooling co
+           0.00000     Psycho : 0 = no psychrometric output calcs, 1 = calcs  
+           1.00000     Number of rows of tubes                                
+           8.00000     Number of tubes per row                                
+           1.00000     Number of parallel water circuits                      
+          0.275000E-01 Length of finned section in direction of flow (m)      
+          0.254000     Height of finned section (m)                           
+          0.305000     Width of finned section (m)                            
+          0.127000E-01 Tube outside diameter (m)                              
+          0.404000E-03 Tube wall thickness (m)                                
+           2.00000     Tube material (Al=1,Cu=2,Fe=3,CaCO3=4)                 
+          0.254000E-02 Fin spacing (pitch) (m)                                
+          0.152000E-03 Fin thickness (m)                                      
+           1.00000     Fin material (Al=1,Cu=2,Fe=3)                          
+          0.346000     Flow resistance on air side (0.001 kg.m)               
+           50.0000     Coil water flow resistance (0.001 kg.m)                
+          0.100000E+07 By-pass water flow resistance (0.001 kg.m)             
+           1.00000     Valve type: 0=lin/lin, 1=eq%(flow)/lin(byp), 2=lin/eq% 
+          0.250000     Valve capacity (Kv) (m3/hr @ 1 bar)                    
+           3.22000     Valve curvature parameter (0=linear) (-)               
+           50.0000     Valve rangability (-)                                  
+          0.200000E-03 Valve leakage (fractional flow) (-)                    
+
+ UNIT  67      TYPE 403
+ Room with plenum and ducted return and interzone flows                  
+
+ 1     INPUTS:
+        TEMPERATURE      5 - supply air dry bulb temperature                   
+        HUMIDITY         4 - supply air humidity ratio                         
+        FLOW             3 - supply dry air mass flow rate                     
+        TEMPERATURE     16 - interzone 1 air dry bulb temperature              
+        HUMIDITY        15 - interzone 1 air humidity ratio                    
+        FLOW            18 - interzone 1 dry air mass flow rate                
+        TEMPERATURE     12 - interzone 2 air dry bulb temperature              
+        HUMIDITY        11 - interzone 2 air humidity ratio                    
+        FLOW            13 - interzone 2 dry air mass flow rate                
+        FLOW            19 - extract dry air mass flow rate                    
+        TEMPERATURE      1 - ambient dry bulb temperature                      
+        HUMIDITY         1 - ambient humidity ratio                            
+        FLOW            31 - leakage air mass flow rate (positive out)         
+        TEMPERATURE     41 - equivalent "sol-air" outdoor temperature for room 
+        TEMPERATURE     47 - equivalent "sol-air" outdoor temperature for plenu
+        CONTROL         83 - fractional occupancy                              
+        CONTROL         89 - fractional lighting heat gain                     
+        CONTROL         95 - fractional equipment heat gain                    
+        POWER           10 - heat gain from supply duct                        
+        POWER           11 - heat gain from extract duct                       
+        TEMPERATURE     11 - room temperature                                  
+        TEMPERATURE     17 - room structure temperature                        
+        TEMPERATURE     23 - plenum temperature                                
+        TEMPERATURE     29 - plenum structure temperature                      
+        HUMIDITY        10 - room humidity ratio                               
+
+ 2     OUTPUTS:
+        TEMPERATURE     11 - room temperature                                  
+        TEMPERATURE     17 - room structure temperature                        
+        TEMPERATURE     23 - plenum temperature                                
+        TEMPERATURE     29 - plenum structure temperature                      
+        HUMIDITY        10 - room humidity ratio                               
+        TEMPERATURE     35 - return temperature                                
+        POWER            0 - sensible heat gains of room                       
+        POWER            0 - sensible heat gains of plenum                     
+        FLOW             0 - water vapour gains of room                        
+
+ 3     PARAMETERS:
+           1.00000     room air capacity multiplier (-)                       
+           4.64000     direct resistance room air node <-> ambient (K/kW)     
+          0.994000E-01 resistance room air node <-> room mass node (K/kW)     
+           2.53000     resistance ambient <-> room mass node (K/kW)           
+          0.100000E+12 direct resistance plenum air node <-> ambient (K/kW)   
+          0.337000     resistance plenum air node <-> plenum mass node (K/kW) 
+           4.13000     resistance ambient <-> plenum mass node (K/kW)         
+           1.14000     resistance room air node <-> plenum air node (K/kW)    
+           279000.     capacitance of room mass node (kJ/K)                   
+           25800.0     capacitance of room air node (unmodified) (kJ/K)       
+           125000.     capacitance of plenum mass node (kJ/K)                 
+           6870.00     capacitance of plenum air node (kJ/K)                  
+           1820.00     volume of room (m3)                                    
+           396.000     volume of plenum (m3)                                  
+           0.00000     number of occupants (-)                                
+           0.00000     lighting heat gain (kW)                                
+           0.00000     fraction of lighting heat gain to extract air (-)      
+           0.00000     equipment heat gain (kW)                               
+           3.00000     zone number (parameter file=zoneN.par, n > 0) (-)      
+
+ UNIT  68      TYPE 403
+ Room with plenum and ducted return and interzone flows                  
+
+ 1     INPUTS:
+        TEMPERATURE      6 - supply air dry bulb temperature                   
+        HUMIDITY         5 - supply air humidity ratio                         
+        FLOW             5 - supply dry air mass flow rate                     
+        TEMPERATURE     11 - interzone 1 air dry bulb temperature              
+        HUMIDITY        10 - interzone 1 air humidity ratio                    
+        FLOW            13 - interzone 1 dry air mass flow rate                
+        TEMPERATURE     13 - interzone 2 air dry bulb temperature              
+        HUMIDITY        12 - interzone 2 air humidity ratio                    
+        FLOW            14 - interzone 2 dry air mass flow rate                
+        FLOW            20 - extract dry air mass flow rate                    
+        TEMPERATURE      1 - ambient dry bulb temperature                      
+        HUMIDITY         1 - ambient humidity ratio                            
+        FLOW            32 - leakage air mass flow rate (positive out)         
+        TEMPERATURE     42 - equivalent "sol-air" outdoor temperature for room 
+        TEMPERATURE     48 - equivalent "sol-air" outdoor temperature for plenu
+        CONTROL         84 - fractional occupancy                              
+        CONTROL         90 - fractional lighting heat gain                     
+        CONTROL         96 - fractional equipment heat gain                    
+        POWER           12 - heat gain from supply duct                        
+        POWER           13 - heat gain from extract duct                       
+        TEMPERATURE     12 - room temperature                                  
+        TEMPERATURE     18 - room structure temperature                        
+        TEMPERATURE     24 - plenum temperature                                
+        TEMPERATURE     30 - plenum structure temperature                      
+        HUMIDITY        11 - room humidity ratio                               
+
+ 2     OUTPUTS:
+        TEMPERATURE     12 - room temperature                                  
+        TEMPERATURE     18 - room structure temperature                        
+        TEMPERATURE     24 - plenum temperature                                
+        TEMPERATURE     30 - plenum structure temperature                      
+        HUMIDITY        11 - room humidity ratio                               
+        TEMPERATURE     36 - return temperature                                
+        POWER            0 - sensible heat gains of room                       
+        POWER            0 - sensible heat gains of plenum                     
+        FLOW             0 - water vapour gains of room                        
+
+ 3     PARAMETERS:
+           1.00000     room air capacity multiplier (-)                       
+           6.82000     direct resistance room air node <-> ambient (K/kW)     
+          0.182000     resistance room air node <-> room mass node (K/kW)     
+           5.35000     resistance ambient <-> room mass node (K/kW)           
+          0.100000E+12 direct resistance plenum air node <-> ambient (K/kW)   
+          0.254000     resistance plenum air node <-> plenum mass node (K/kW) 
+           11.4000     resistance ambient <-> plenum mass node (K/kW)         
+           1.33000     resistance room air node <-> plenum air node (K/kW)    
+           214000.     capacitance of room mass node (kJ/K)                   
+           17800.0     capacitance of room air node (unmodified) (kJ/K)       
+           152000.     capacitance of plenum mass node (kJ/K)                 
+           5490.00     capacitance of plenum air node (kJ/K)                  
+           1210.00     volume of room (m3)                                    
+           330.000     volume of plenum (m3)                                  
+           0.00000     number of occupants (-)                                
+           0.00000     lighting heat gain (kW)                                
+           0.00000     fraction of lighting heat gain to extract air (-)      
+           0.00000     equipment heat gain (kW)                               
+           5.00000     zone number (parameter file=zoneN.par, n > 0) (-)      
+
+ UNIT  69      TYPE 403
+ Room with plenum and ducted return and interzone flows                  
+
+ 1     INPUTS:
+        TEMPERATURE      7 - supply air dry bulb temperature                   
+        HUMIDITY         6 - supply air humidity ratio                         
+        FLOW             7 - supply dry air mass flow rate                     
+        TEMPERATURE     12 - interzone 1 air dry bulb temperature              
+        HUMIDITY        11 - interzone 1 air humidity ratio                    
+        FLOW            14 - interzone 1 dry air mass flow rate                
+        TEMPERATURE     14 - interzone 2 air dry bulb temperature              
+        HUMIDITY        13 - interzone 2 air humidity ratio                    
+        FLOW            15 - interzone 2 dry air mass flow rate                
+        FLOW            21 - extract dry air mass flow rate                    
+        TEMPERATURE      1 - ambient dry bulb temperature                      
+        HUMIDITY         1 - ambient humidity ratio                            
+        FLOW            33 - leakage air mass flow rate (positive out)         
+        TEMPERATURE     43 - equivalent "sol-air" outdoor temperature for room 
+        TEMPERATURE     49 - equivalent "sol-air" outdoor temperature for plenu
+        CONTROL         85 - fractional occupancy                              
+        CONTROL         91 - fractional lighting heat gain                     
+        CONTROL         97 - fractional equipment heat gain                    
+        POWER           14 - heat gain from supply duct                        
+        POWER           15 - heat gain from extract duct                       
+        TEMPERATURE     13 - room temperature                                  
+        TEMPERATURE     19 - room structure temperature                        
+        TEMPERATURE     25 - plenum temperature                                
+        TEMPERATURE     31 - plenum structure temperature                      
+        HUMIDITY        12 - room humidity ratio                               
+
+ 2     OUTPUTS:
+        TEMPERATURE     13 - room temperature                                  
+        TEMPERATURE     19 - room structure temperature                        
+        TEMPERATURE     25 - plenum temperature                                
+        TEMPERATURE     31 - plenum structure temperature                      
+        HUMIDITY        12 - room humidity ratio                               
+        TEMPERATURE     37 - return temperature                                
+        POWER            0 - sensible heat gains of room                       
+        POWER            0 - sensible heat gains of plenum                     
+        FLOW             0 - water vapour gains of room                        
+
+ 3     PARAMETERS:
+           1.00000     room air capacity multiplier (-)                       
+           32.7000     direct resistance room air node <-> ambient (K/kW)     
+          0.236000     resistance room air node <-> room mass node (K/kW)     
+           20.9000     resistance ambient <-> room mass node (K/kW)           
+          0.100000E+12 direct resistance plenum air node <-> ambient (K/kW)   
+          0.649000     resistance plenum air node <-> plenum mass node (K/kW) 
+           55.8000     resistance ambient <-> plenum mass node (K/kW)         
+           3.26000     resistance room air node <-> plenum air node (K/kW)    
+           58500.0     capacitance of room mass node (kJ/K)                   
+           9410.00     capacitance of room air node (unmodified) (kJ/K)       
+           48100.0     capacitance of plenum mass node (kJ/K)                 
+           2450.00     capacitance of plenum air node (kJ/K)                  
+           647.000     volume of room (m3)                                    
+           125.000     volume of plenum (m3)                                  
+           0.00000     number of occupants (-)                                
+           0.00000     lighting heat gain (kW)                                
+           0.00000     fraction of lighting heat gain to extract air (-)      
+           0.00000     equipment heat gain (kW)                               
+           1.00000     zone number (parameter file=zoneN.par, n > 0) (-)      
+
+ UNIT  70      TYPE 403
+ Room with plenum and ducted return and interzone flows                  
+
+ 1     INPUTS:
+        TEMPERATURE      8 - supply air dry bulb temperature                   
+        HUMIDITY         7 - supply air humidity ratio                         
+        FLOW             9 - supply dry air mass flow rate                     
+        TEMPERATURE     13 - interzone 1 air dry bulb temperature              
+        HUMIDITY        12 - interzone 1 air humidity ratio                    
+        FLOW            15 - interzone 1 dry air mass flow rate                
+        TEMPERATURE     15 - interzone 2 air dry bulb temperature              
+        HUMIDITY        14 - interzone 2 air humidity ratio                    
+        FLOW            16 - interzone 2 dry air mass flow rate                
+        FLOW            22 - extract dry air mass flow rate                    
+        TEMPERATURE      1 - ambient dry bulb temperature                      
+        HUMIDITY         1 - ambient humidity ratio                            
+        FLOW            34 - leakage air mass flow rate (positive out)         
+        TEMPERATURE     44 - equivalent "sol-air" outdoor temperature for room 
+        TEMPERATURE     50 - equivalent "sol-air" outdoor temperature for plenu
+        CONTROL         86 - fractional occupancy                              
+        CONTROL         92 - fractional lighting heat gain                     
+        CONTROL         98 - fractional equipment heat gain                    
+        POWER           16 - heat gain from supply duct                        
+        POWER           17 - heat gain from extract duct                       
+        TEMPERATURE     14 - room temperature                                  
+        TEMPERATURE     20 - room structure temperature                        
+        TEMPERATURE     26 - plenum temperature                                
+        TEMPERATURE     32 - plenum structure temperature                      
+        HUMIDITY        13 - room humidity ratio                               
+
+ 2     OUTPUTS:
+        TEMPERATURE     14 - room temperature                                  
+        TEMPERATURE     20 - room structure temperature                        
+        TEMPERATURE     26 - plenum temperature                                
+        TEMPERATURE     32 - plenum structure temperature                      
+        HUMIDITY        13 - room humidity ratio                               
+        TEMPERATURE     38 - return temperature                                
+        POWER            0 - sensible heat gains of room                       
+        POWER            0 - sensible heat gains of plenum                     
+        FLOW             0 - water vapour gains of room                        
+
+ 3     PARAMETERS:
+           1.00000     room air capacity multiplier (-)                       
+           17.9000     direct resistance room air node <-> ambient (K/kW)     
+          0.540000     resistance room air node <-> room mass node (K/kW)     
+           8.70000     resistance ambient <-> room mass node (K/kW)           
+          0.100000E+12 direct resistance plenum air node <-> ambient (K/kW)   
+          0.737000     resistance plenum air node <-> plenum mass node (K/kW) 
+           25.3000     resistance ambient <-> plenum mass node (K/kW)         
+           3.81000     resistance room air node <-> plenum air node (K/kW)    
+           76000.0     capacitance of room mass node (kJ/K)                   
+           7240.00     capacitance of room air node (unmodified) (kJ/K)       
+           51800.0     capacitance of plenum mass node (kJ/K)                 
+           2360.00     capacitance of plenum air node (kJ/K)                  
+           385.000     volume of room (m3)                                    
+           107.000     volume of plenum (m3)                                  
+           0.00000     number of occupants (-)                                
+           0.00000     lighting heat gain (kW)                                
+           0.00000     fraction of lighting heat gain to extract air (-)      
+           0.00000     equipment heat gain (kW)                               
+           4.00000     zone number (parameter file=zoneN.par, n > 0) (-)      
+
+ UNIT  71      TYPE 403
+ Room with plenum and ducted return and interzone flows                  
+
+ 1     INPUTS:
+        TEMPERATURE      9 - supply air dry bulb temperature                   
+        HUMIDITY         8 - supply air humidity ratio                         
+        FLOW            11 - supply dry air mass flow rate                     
+        TEMPERATURE     14 - interzone 1 air dry bulb temperature              
+        HUMIDITY        13 - interzone 1 air humidity ratio                    
+        FLOW            16 - interzone 1 dry air mass flow rate                
+        TEMPERATURE     16 - interzone 2 air dry bulb temperature              
+        HUMIDITY        15 - interzone 2 air humidity ratio                    
+        FLOW            17 - interzone 2 dry air mass flow rate                
+        FLOW            23 - extract dry air mass flow rate                    
+        TEMPERATURE      1 - ambient dry bulb temperature                      
+        HUMIDITY         1 - ambient humidity ratio                            
+        FLOW            35 - leakage air mass flow rate (positive out)         
+        TEMPERATURE     45 - equivalent "sol-air" outdoor temperature for room 
+        TEMPERATURE     51 - equivalent "sol-air" outdoor temperature for plenu
+        CONTROL         87 - fractional occupancy                              
+        CONTROL         93 - fractional lighting heat gain                     
+        CONTROL         99 - fractional equipment heat gain                    
+        POWER           18 - heat gain from supply duct                        
+        POWER           19 - heat gain from extract duct                       
+        TEMPERATURE     15 - room temperature                                  
+        TEMPERATURE     21 - room structure temperature                        
+        TEMPERATURE     27 - plenum temperature                                
+        TEMPERATURE     33 - plenum structure temperature                      
+        HUMIDITY        14 - room humidity ratio                               
+
+ 2     OUTPUTS:
+        TEMPERATURE     15 - room temperature                                  
+        TEMPERATURE     21 - room structure temperature                        
+        TEMPERATURE     27 - plenum temperature                                
+        TEMPERATURE     33 - plenum structure temperature                      
+        HUMIDITY        14 - room humidity ratio                               
+        TEMPERATURE     39 - return temperature                                
+        POWER            0 - sensible heat gains of room                       
+        POWER            0 - sensible heat gains of plenum                     
+        FLOW             0 - water vapour gains of room                        
+
+ 3     PARAMETERS:
+           1.00000     room air capacity multiplier (-)                       
+           50.0000     direct resistance room air node <-> ambient (K/kW)     
+           3.89000     resistance room air node <-> room mass node (K/kW)     
+           29.0000     resistance ambient <-> room mass node (K/kW)           
+          0.100000E+12 direct resistance plenum air node <-> ambient (K/kW)   
+           5.58000     resistance plenum air node <-> plenum mass node (K/kW) 
+           81.8000     resistance ambient <-> plenum mass node (K/kW)         
+           30.6000     resistance room air node <-> plenum air node (K/kW)    
+           20800.0     capacitance of room mass node (kJ/K)                   
+           677.000     capacitance of room air node (unmodified) (kJ/K)       
+           10800.0     capacitance of plenum mass node (kJ/K)                 
+           232.000     capacitance of plenum air node (kJ/K)                  
+           48.0000     volume of room (m3)                                    
+           13.0000     volume of plenum (m3)                                  
+           0.00000     number of occupants (-)                                
+           0.00000     lighting heat gain (kW)                                
+           0.00000     fraction of lighting heat gain to extract air (-)      
+           0.00000     equipment heat gain (kW)                               
+           6.00000     zone number (parameter file=zoneN.par, n > 0) (-)      
+
+ UNIT  72      TYPE 403
+ Room with plenum and ducted return and interzone flows                  
+
+ 1     INPUTS:
+        TEMPERATURE     10 - supply air dry bulb temperature                   
+        HUMIDITY         9 - supply air humidity ratio                         
+        FLOW            12 - supply dry air mass flow rate                     
+        TEMPERATURE     15 - interzone 1 air dry bulb temperature              
+        HUMIDITY        14 - interzone 1 air humidity ratio                    
+        FLOW            17 - interzone 1 dry air mass flow rate                
+        TEMPERATURE     11 - interzone 2 air dry bulb temperature              
+        HUMIDITY        10 - interzone 2 air humidity ratio                    
+        FLOW            18 - interzone 2 dry air mass flow rate                
+        FLOW            24 - extract dry air mass flow rate                    
+        TEMPERATURE      1 - ambient dry bulb temperature                      
+        HUMIDITY         1 - ambient humidity ratio                            
+        FLOW            36 - leakage air mass flow rate (positive out)         
+        TEMPERATURE     46 - equivalent "sol-air" outdoor temperature for room 
+        TEMPERATURE     52 - equivalent "sol-air" outdoor temperature for plenu
+        CONTROL         88 - fractional occupancy                              
+        CONTROL         94 - fractional lighting heat gain                     
+        CONTROL        100 - fractional equipment heat gain                    
+        POWER           20 - heat gain from supply duct                        
+        POWER           21 - heat gain from extract duct                       
+        TEMPERATURE     16 - room temperature                                  
+        TEMPERATURE     22 - room structure temperature                        
+        TEMPERATURE     28 - plenum temperature                                
+        TEMPERATURE     34 - plenum structure temperature                      
+        HUMIDITY        15 - room humidity ratio                               
+
+ 2     OUTPUTS:
+        TEMPERATURE     16 - room temperature                                  
+        TEMPERATURE     22 - room structure temperature                        
+        TEMPERATURE     28 - plenum temperature                                
+        TEMPERATURE     34 - plenum structure temperature                      
+        HUMIDITY        15 - room humidity ratio                               
+        TEMPERATURE     40 - return temperature                                
+        POWER            0 - sensible heat gains of room                       
+        POWER            0 - sensible heat gains of plenum                     
+        FLOW             0 - water vapour gains of room                        
+
+ 3     PARAMETERS:
+           1.00000     room air capacity multiplier (-)                       
+           137.000     direct resistance room air node <-> ambient (K/kW)     
+           1.14000     resistance room air node <-> room mass node (K/kW)     
+           70.6000     resistance ambient <-> room mass node (K/kW)           
+          0.100000E+12 direct resistance plenum air node <-> ambient (K/kW)   
+           1.27000     resistance plenum air node <-> plenum mass node (K/kW) 
+           200.000     resistance ambient <-> plenum mass node (K/kW)         
+           9.47000     resistance room air node <-> plenum air node (K/kW)    
+           10700.0     capacitance of room mass node (kJ/K)                   
+           2030.00     capacitance of room air node (unmodified) (kJ/K)       
+           16300.0     capacitance of plenum mass node (kJ/K)                 
+           7030.00     capacitance of plenum air node (kJ/K)                  
+           155.000     volume of room (m3)                                    
+           43.0000     volume of plenum (m3)                                  
+           0.00000     number of occupants (-)                                
+           0.00000     lighting heat gain (kW)                                
+           0.00000     fraction of lighting heat gain to extract air (-)      
+           0.00000     equipment heat gain (kW)                               
+           2.00000     zone number (parameter file=zoneN.par, n > 0) (-)      
+
+ UNIT  73      TYPE 368
+ Mixing of six moist air streams                                         
+
+ 1     INPUTS:
+        TEMPERATURE     35 - Stream 1 dry bulb temperature                     
+        HUMIDITY        10 - Stream 1 humidity ratio                           
+        FLOW            19 - Stream 1 mass flow rate                           
+        TEMPERATURE     36 - Stream 2 dry bulb temperature                     
+        HUMIDITY        11 - Stream 2 humidity ratio                           
+        FLOW            20 - Stream 2 mass flow rate                           
+        TEMPERATURE     37 - Stream 3 dry bulb temperature                     
+        HUMIDITY        12 - Stream 3 humidity ratio                           
+        FLOW            21 - Stream 3 mass flow rate                           
+        TEMPERATURE     38 - Stream 4 dry bulb temperature                     
+        HUMIDITY        13 - Stream 4 humidity ratio                           
+        FLOW            22 - Stream 4 mass flow rate                           
+        TEMPERATURE     39 - Stream 5 dry bulb temperature                     
+        HUMIDITY        14 - Stream 5 humidity ratio                           
+        FLOW            23 - Stream 5 mass flow rate                           
+        TEMPERATURE     40 - Stream 6 dry bulb temperature                     
+        HUMIDITY        15 - Stream 6 humidity ratio                           
+        FLOW            24 - Stream 6 mass flow rate                           
+
+ 2     OUTPUTS:
+        TEMPERATURE     53 - Mixed air dry bulb temperature                    
+        HUMIDITY        16 - Mixed air humidity ratio                          
+        FLOW             0 - Mixed air mass flow rate                          
+
+ 3     PARAMETERS:
+           0.00000     (dummy)                                                
+
+ UNIT  74      TYPE 366
+ Ideal heating of fluid stream                                           
+
+ 1     INPUTS:
+        FLOW            29 - mass flow rate                                    
+        TEMPERATURE     53 - inlet temperature                                 
+        POWER            2 - rate of heat addition                             
+
+ 2     OUTPUTS:
+        TEMPERATURE     54 - outlet temperature                                
+
+ 3     PARAMETERS:
+           1.00000     fluid: 1 = air, any other value + water (-)            
+           30.0000     time constant (s)                                      
+
+ UNIT  75      TYPE  26
+ CONTROL SIGNAL INVERTER                                                 
+
+ 1     INPUTS:
+        CONTROL          1 - INPUT CONTROL SIGNAL                              
+
+ 2     OUTPUTS:
+        CONTROL          0 - OUTPUT CONTROL SIGNAL                             
+
+ 3     PARAMETERS:
+           0.00000     MULTIPLIER [DIMENSIONLESS]                             
+
+ UNIT  76      TYPE  26
+ CONTROL SIGNAL INVERTER                                                 
+
+ 1     INPUTS:
+        CONTROL          1 - INPUT CONTROL SIGNAL                              
+
+ 2     OUTPUTS:
+        CONTROL          0 - OUTPUT CONTROL SIGNAL                             
+
+ 3     PARAMETERS:
+           0.00000     MULTIPLIER [DIMENSIONLESS]                             
+
+ UNIT  77      TYPE 301
+ Temperature sensor                                                      
+
+ 1     INPUTS:
+        TEMPERATURE      1 - temperature                                       
+
+ 2     OUTPUTS:
+        CONTROL         60 - sensor output                                     
+
+ 3     PARAMETERS:
+           0.00000     offset: input for zero output (C)                      
+           1.00000     gain: change in input for 0->1 output (K)              
+           30.0000     time constant (s)                                      
+           40.0000     upper limit of output range (-)                        
+          -10.0000     lower limit of output range (-)                        
+
+ UNIT  78      TYPE 301
+ Temperature sensor                                                      
+
+ 1     INPUTS:
+        TEMPERATURE      4 - temperature                                       
+
+ 2     OUTPUTS:
+        CONTROL         61 - sensor output                                     
+
+ 3     PARAMETERS:
+           0.00000     offset: input for zero output (C)                      
+           1.00000     gain: change in input for 0->1 output (K)              
+           30.0000     time constant (s)                                      
+           40.0000     upper limit of output range (-)                        
+          -10.0000     lower limit of output range (-)                        
+
+ UNIT  79      TYPE 301
+ Temperature sensor                                                      
+
+ 1     INPUTS:
+        TEMPERATURE     54 - temperature                                       
+
+ 2     OUTPUTS:
+        CONTROL         62 - sensor output                                     
+
+ 3     PARAMETERS:
+           0.00000     offset: input for zero output (C)                      
+           1.00000     gain: change in input for 0->1 output (K)              
+           30.0000     time constant (s)                                      
+           40.0000     upper limit of output range (-)                        
+          -10.0000     lower limit of output range (-)                        
+
+ UNIT  80      TYPE 301
+ Temperature sensor                                                      
+
+ 1     INPUTS:
+        TEMPERATURE      2 - temperature                                       
+
+ 2     OUTPUTS:
+        CONTROL         68 - sensor output                                     
+
+ 3     PARAMETERS:
+           0.00000     offset: input for zero output (C)                      
+           1.00000     gain: change in input for 0->1 output (K)              
+           30.0000     time constant (s)                                      
+           40.0000     upper limit of output range (-)                        
+          -10.0000     lower limit of output range (-)                        
+
+ UNIT  81      TYPE 301
+ Temperature sensor                                                      
+
+ 1     INPUTS:
+        TEMPERATURE     11 - temperature                                       
+
+ 2     OUTPUTS:
+        CONTROL         70 - sensor output                                     
+
+ 3     PARAMETERS:
+           0.00000     offset: input for zero output (C)                      
+           1.00000     gain: change in input for 0->1 output (K)              
+           300.000     time constant (s)                                      
+           40.0000     upper limit of output range (-)                        
+          -10.0000     lower limit of output range (-)                        
+
+ UNIT  82      TYPE 301
+ Temperature sensor                                                      
+
+ 1     INPUTS:
+        TEMPERATURE     12 - temperature                                       
+
+ 2     OUTPUTS:
+        CONTROL         71 - sensor output                                     
+
+ 3     PARAMETERS:
+           0.00000     offset: input for zero output (C)                      
+           1.00000     gain: change in input for 0->1 output (K)              
+           300.000     time constant (s)                                      
+           40.0000     upper limit of output range (-)                        
+          -10.0000     lower limit of output range (-)                        
+
+ UNIT  83      TYPE 301
+ Temperature sensor                                                      
+
+ 1     INPUTS:
+        TEMPERATURE     13 - temperature                                       
+
+ 2     OUTPUTS:
+        CONTROL         72 - sensor output                                     
+
+ 3     PARAMETERS:
+           0.00000     offset: input for zero output (C)                      
+           1.00000     gain: change in input for 0->1 output (K)              
+           300.000     time constant (s)                                      
+           40.0000     upper limit of output range (-)                        
+          -10.0000     lower limit of output range (-)                        
+
+ UNIT  84      TYPE 301
+ Temperature sensor                                                      
+
+ 1     INPUTS:
+        TEMPERATURE     14 - temperature                                       
+
+ 2     OUTPUTS:
+        CONTROL         73 - sensor output                                     
+
+ 3     PARAMETERS:
+           0.00000     offset: input for zero output (C)                      
+           1.00000     gain: change in input for 0->1 output (K)              
+           300.000     time constant (s)                                      
+           40.0000     upper limit of output range (-)                        
+          -10.0000     lower limit of output range (-)                        
+
+ UNIT  85      TYPE 301
+ Temperature sensor                                                      
+
+ 1     INPUTS:
+        TEMPERATURE     15 - temperature                                       
+
+ 2     OUTPUTS:
+        CONTROL         74 - sensor output                                     
+
+ 3     PARAMETERS:
+           0.00000     offset: input for zero output (C)                      
+           1.00000     gain: change in input for 0->1 output (K)              
+           300.000     time constant (s)                                      
+           40.0000     upper limit of output range (-)                        
+          -10.0000     lower limit of output range (-)                        
+
+ UNIT  86      TYPE 301
+ Temperature sensor                                                      
+
+ 1     INPUTS:
+        TEMPERATURE     16 - temperature                                       
+
+ 2     OUTPUTS:
+        CONTROL         75 - sensor output                                     
+
+ 3     PARAMETERS:
+           0.00000     offset: input for zero output (C)                      
+           1.00000     gain: change in input for 0->1 output (K)              
+           300.000     time constant (s)                                      
+           40.0000     upper limit of output range (-)                        
+          -10.0000     lower limit of output range (-)                        
+
+ UNIT  87      TYPE 303
+ Flow rate sensor                                                        
+
+ 1     INPUTS:
+        FLOW             2 - mass flow rate                                    
+
+ 2     OUTPUTS:
+        CONTROL         63 - sensor output                                     
+
+ 3     PARAMETERS:
+           2.00000     mass flow=1, vol flow=2, vel=3, vel pres=4 (-)         
+           1.00000     air = 1, water = 2 (-)                                 
+           1.00000     cross-sectional area of duct or pipe (m2)              
+           0.00000     offset: input for zero output (sensed quantity)        
+           1.00000     gain: change in input for 0->1 output (sensed quantity)
+           1.00000     time constant (s)                                      
+           20.0000     upper limit of output range (-)                        
+          -10.0000     lower limit of output range (-)                        
+
+ UNIT  88      TYPE 303
+ Flow rate sensor                                                        
+
+ 1     INPUTS:
+        FLOW            29 - mass flow rate                                    
+
+ 2     OUTPUTS:
+        CONTROL         64 - sensor output                                     
+
+ 3     PARAMETERS:
+           2.00000     mass flow=1, vol flow=2, vel=3, vel pres=4 (-)         
+           1.00000     air = 1, water = 2 (-)                                 
+           1.00000     cross-sectional area of duct or pipe (m2)              
+           0.00000     offset: input for zero output (sensed quantity)        
+           1.00000     gain: change in input for 0->1 output (sensed quantity)
+           1.00000     time constant (s)                                      
+           20.0000     upper limit of output range (-)                        
+          -10.0000     lower limit of output range (-)                        
+
+ UNIT  89      TYPE 305
+ Static pressure sensor                                                  
+
+ 1     INPUTS:
+        PRESSURE         5 - pressure                                          
+        FLOW             2 - mass flow rate                                    
+
+ 2     OUTPUTS:
+        CONTROL         65 - sensor output                                     
+
+ 3     PARAMETERS:
+           1.00000     air = 1, water = 2 (-)                                 
+           1.00000     cross-sectional area of duct or pipe (m2)              
+           0.00000     offset: input for zero output (kPA)                    
+           1.00000     gain: change in input for 0->1 output (kPA)            
+           1.00000     time constant (s)                                      
+           5.00000     upper limit of output range (-)                        
+          -5.00000     lower limit of output range (-)                        
+
+ UNIT  90      TYPE 302
+ Humidity sensor                                                         
+
+ 1     INPUTS:
+        HUMIDITY         1 - humidity ratio                                    
+        TEMPERATURE      1 - temperature                                       
+
+ 2     OUTPUTS:
+        CONTROL         66 - sensor output                                     
+
+ 3     PARAMETERS:
+           1.00000     HR=1, RH=2, DP=3, WB=4, deg sat=5, spec enthalpy=6 (-) 
+           0.00000     offset: input for zero output (sensed quantity)        
+           1.00000     gain: change in input for 0->1 output (sensed quantity)
+           30.0000     time constant (s)                                      
+           1.00000     upper limit of output range (-)                        
+           0.00000     lower limit of output range (-)                        
+
+ UNIT  91      TYPE 302
+ Humidity sensor                                                         
+
+ 1     INPUTS:
+        HUMIDITY        16 - humidity ratio                                    
+        TEMPERATURE     54 - temperature                                       
+
+ 2     OUTPUTS:
+        CONTROL         67 - sensor output                                     
+
+ 3     PARAMETERS:
+           1.00000     HR=1, RH=2, DP=3, WB=4, deg sat=5, spec enthalpy=6 (-) 
+           0.00000     offset: input for zero output (sensed quantity)        
+           1.00000     gain: change in input for 0->1 output (sensed quantity)
+           30.0000     time constant (s)                                      
+           1.00000     upper limit of output range (-)                        
+           0.00000     lower limit of output range (-)                        
+
+ UNIT  92      TYPE  26
+ CONTROL SIGNAL INVERTER                                                 
+
+ 1     INPUTS:
+        CONTROL          1 - INPUT CONTROL SIGNAL                              
+
+ 2     OUTPUTS:
+        CONTROL          0 - OUTPUT CONTROL SIGNAL                             
+
+ 3     PARAMETERS:
+           0.00000     MULTIPLIER [DIMENSIONLESS]                             
+
+ UNIT  93      TYPE  26
+ CONTROL SIGNAL INVERTER                                                 
+
+ 1     INPUTS:
+        CONTROL          1 - INPUT CONTROL SIGNAL                              
+
+ 2     OUTPUTS:
+        CONTROL          0 - OUTPUT CONTROL SIGNAL                             
+
+ 3     PARAMETERS:
+           0.00000     MULTIPLIER [DIMENSIONLESS]                             
+ Initial Variable Values:
+
+ PRESSURE         1 ->     0.00000    (kPa)               
+ PRESSURE         2 ->     0.00000    (kPa)               
+ PRESSURE         3 ->     0.00000    (kPa)               
+ PRESSURE         4 ->     0.00000    (kPa)               
+ PRESSURE         5 ->     0.00000    (kPa)               
+ PRESSURE         6 ->     0.00000    (kPa)               
+ PRESSURE         7 ->     0.00000    (kPa)               
+ PRESSURE         8 ->     0.00000    (kPa)               
+ PRESSURE         9 ->     0.00000    (kPa)               
+ PRESSURE        10 ->     0.00000    (kPa)               
+ PRESSURE        11 ->     0.00000    (kPa)               
+ PRESSURE        12 ->     0.00000    (kPa)               
+ PRESSURE        13 ->     0.00000    (kPa)               
+ PRESSURE        14 ->     0.00000    (kPa)               
+ PRESSURE        15 ->     0.00000    (kPa)               
+ PRESSURE        16 ->     0.00000    (kPa)               
+ PRESSURE        17 ->     0.00000    (kPa)               
+ PRESSURE        18 ->     0.00000    (kPa)               
+ PRESSURE        19 ->     0.00000    (kPa)               
+ PRESSURE        20 ->     0.00000    (kPa)               
+ PRESSURE        21 ->     0.00000    (kPa)               
+ PRESSURE        22 ->     0.00000    (kPa)               
+ PRESSURE        23 ->     0.00000    (kPa)               
+ PRESSURE        24 ->     0.00000    (kPa)               
+ PRESSURE        25 ->     0.00000    (kPa)               
+ PRESSURE        26 ->     0.00000    (kPa)               
+ PRESSURE        27 ->     0.00000    (kPa)               
+ PRESSURE        28 ->     0.00000    (kPa)               
+ PRESSURE        29 ->     0.00000    (kPa)               
+ PRESSURE        30 ->     0.00000    (kPa)               
+ PRESSURE        31 ->     0.00000    (kPa)               
+ PRESSURE        32 ->     39.0300    (kPa)               
+ PRESSURE        33 ->     0.00000    (kPa)               
+ PRESSURE        34 ->     38.1000    (kPa)               
+ PRESSURE        35 ->     0.00000    (kPa)               
+ PRESSURE        36 ->     26.8000    (kPa)               
+ PRESSURE        37 ->     0.00000    (kPa)               
+ PRESSURE        38 ->     57.0000    (kPa)               
+ PRESSURE        39 ->     0.00000    (kPa)               
+ PRESSURE        40 ->     42.5000    (kPa)               
+ PRESSURE        41 ->     0.00000    (kPa)               
+ PRESSURE        42 ->     15.6800    (kPa)               
+ PRESSURE        43 ->     0.00000    (kPa)               
+ PRESSURE        44 ->     3.29000    (kPa)               
+ PRESSURE        45 ->     0.00000    (kPa)               
+ FLOW             1 ->     0.00000    (kg/s)              
+ FLOW             2 ->     0.00000    (kg/s)              
+ FLOW             3 ->     0.00000    (kg/s)              
+ FLOW             4 ->     0.00000    (kg/s)              
+ FLOW             5 ->     0.00000    (kg/s)              
+ FLOW             6 ->     0.00000    (kg/s)              
+ FLOW             7 ->     0.00000    (kg/s)              
+ FLOW             8 ->     0.00000    (kg/s)              
+ FLOW             9 ->     0.00000    (kg/s)              
+ FLOW            10 ->     0.00000    (kg/s)              
+ FLOW            11 ->     0.00000    (kg/s)              
+ FLOW            12 ->     0.00000    (kg/s)              
+ FLOW            13 ->     0.00000    (kg/s)              
+ FLOW            14 ->     0.00000    (kg/s)              
+ FLOW            15 ->     0.00000    (kg/s)              
+ FLOW            16 ->     0.00000    (kg/s)              
+ FLOW            17 ->     0.00000    (kg/s)              
+ FLOW            18 ->     0.00000    (kg/s)              
+ FLOW            19 ->     0.00000    (kg/s)              
+ FLOW            20 ->     0.00000    (kg/s)              
+ FLOW            21 ->     0.00000    (kg/s)              
+ FLOW            22 ->     0.00000    (kg/s)              
+ FLOW            23 ->     0.00000    (kg/s)              
+ FLOW            24 ->     0.00000    (kg/s)              
+ FLOW            25 ->     0.00000    (kg/s)              
+ FLOW            26 ->     0.00000    (kg/s)              
+ FLOW            27 ->     0.00000    (kg/s)              
+ FLOW            28 ->     0.00000    (kg/s)              
+ FLOW            29 ->     0.00000    (kg/s)              
+ FLOW            30 ->     0.00000    (kg/s)              
+ FLOW            31 ->     0.00000    (kg/s)              
+ FLOW            32 ->     0.00000    (kg/s)              
+ FLOW            33 ->     0.00000    (kg/s)              
+ FLOW            34 ->     0.00000    (kg/s)              
+ FLOW            35 ->     0.00000    (kg/s)              
+ FLOW            36 ->     0.00000    (kg/s)              
+ FLOW            37 ->     0.00000    (kg/s)              
+ FLOW            38 ->     0.00000    (kg/s)              
+ FLOW            39 ->     0.00000    (kg/s)              
+ FLOW            40 ->     0.00000    (kg/s)              
+ FLOW            41 ->     0.00000    (kg/s)              
+ FLOW            42 ->     0.00000    (kg/s)              
+ FLOW            43 ->     0.00000    (kg/s)              
+ FLOW            44 ->     0.00000    (kg/s)              
+ FLOW            45 ->     0.00000    (kg/s)              
+ FLOW            46 ->     0.00000    (kg/s)              
+ TEMPERATURE      1 ->     25.0000    (C)                 
+ TEMPERATURE      2 ->     20.0000    (C)                 
+ TEMPERATURE      3 ->     20.0000    (C)                 
+ TEMPERATURE      4 ->     20.0000    (C)                 
+ TEMPERATURE      5 ->     20.0000    (C)                 
+ TEMPERATURE      6 ->     20.0000    (C)                 
+ TEMPERATURE      7 ->     20.0000    (C)                 
+ TEMPERATURE      8 ->     20.0000    (C)                 
+ TEMPERATURE      9 ->     20.0000    (C)                 
+ TEMPERATURE     10 ->     20.0000    (C)                 
+ TEMPERATURE     11 ->     20.0000    (C)                 
+ TEMPERATURE     12 ->     20.0000    (C)                 
+ TEMPERATURE     13 ->     20.0000    (C)                 
+ TEMPERATURE     14 ->     20.0000    (C)                 
+ TEMPERATURE     15 ->     20.0000    (C)                 
+ TEMPERATURE     16 ->     20.0000    (C)                 
+ TEMPERATURE     17 ->     20.0000    (C)                 
+ TEMPERATURE     18 ->     20.0000    (C)                 
+ TEMPERATURE     19 ->     20.0000    (C)                 
+ TEMPERATURE     20 ->     20.0000    (C)                 
+ TEMPERATURE     21 ->     20.0000    (C)                 
+ TEMPERATURE     22 ->     20.0000    (C)                 
+ TEMPERATURE     23 ->     20.0000    (C)                 
+ TEMPERATURE     24 ->     20.0000    (C)                 
+ TEMPERATURE     25 ->     20.0000    (C)                 
+ TEMPERATURE     26 ->     20.0000    (C)                 
+ TEMPERATURE     27 ->     20.0000    (C)                 
+ TEMPERATURE     28 ->     20.0000    (C)                 
+ TEMPERATURE     29 ->     20.0000    (C)                 
+ TEMPERATURE     30 ->     20.0000    (C)                 
+ TEMPERATURE     31 ->     20.0000    (C)                 
+ TEMPERATURE     32 ->     20.0000    (C)                 
+ TEMPERATURE     33 ->     20.0000    (C)                 
+ TEMPERATURE     34 ->     20.0000    (C)                 
+ TEMPERATURE     35 ->     20.0000    (C)                 
+ TEMPERATURE     36 ->     20.0000    (C)                 
+ TEMPERATURE     37 ->     20.0000    (C)                 
+ TEMPERATURE     38 ->     20.0000    (C)                 
+ TEMPERATURE     39 ->     20.0000    (C)                 
+ TEMPERATURE     40 ->     20.0000    (C)                 
+ TEMPERATURE     41 ->     25.0000    (C)                 
+ TEMPERATURE     42 ->     25.0000    (C)                 
+ TEMPERATURE     43 ->     25.0000    (C)                 
+ TEMPERATURE     44 ->     25.0000    (C)                 
+ TEMPERATURE     45 ->     25.0000    (C)                 
+ TEMPERATURE     46 ->     25.0000    (C)                 
+ TEMPERATURE     47 ->     25.0000    (C)                 
+ TEMPERATURE     48 ->     25.0000    (C)                 
+ TEMPERATURE     49 ->     25.0000    (C)                 
+ TEMPERATURE     50 ->     25.0000    (C)                 
+ TEMPERATURE     51 ->     25.0000    (C)                 
+ TEMPERATURE     52 ->     25.0000    (C)                 
+ TEMPERATURE     53 ->     20.0000    (C)                 
+ TEMPERATURE     54 ->     20.0000    (C)                 
+ TEMPERATURE     55 ->     6.00000    (C)                 
+ TEMPERATURE     56 ->     6.00000    (C)                 
+ TEMPERATURE     57 ->     20.0000    (C)                 
+ TEMPERATURE     58 ->     80.0000    (C)                 
+ TEMPERATURE     59 ->     80.0000    (C)                 
+ TEMPERATURE     60 ->     80.0000    (C)                 
+ TEMPERATURE     61 ->     80.0000    (C)                 
+ TEMPERATURE     62 ->     80.0000    (C)                 
+ TEMPERATURE     63 ->     80.0000    (C)                 
+ TEMPERATURE     64 ->     20.0000    (C)                 
+ TEMPERATURE     65 ->     20.0000    (C)                 
+ TEMPERATURE     66 ->     20.0000    (C)                 
+ TEMPERATURE     67 ->     20.0000    (C)                 
+ TEMPERATURE     68 ->     20.0000    (C)                 
+ TEMPERATURE     69 ->     20.0000    (C)                 
+ TEMPERATURE     70 ->     20.0000    (C)                 
+ TEMPERATURE     71 ->     20.0000    (C)                 
+ TEMPERATURE     72 ->     20.0000    (C)                 
+ TEMPERATURE     73 ->     20.0000    (C)                 
+ TEMPERATURE     74 ->     20.0000    (C)                 
+ TEMPERATURE     75 ->     20.0000    (C)                 
+ CONTROL          1 ->     0.00000    (-)                 
+ CONTROL          2 ->     0.00000    (-)                 
+ CONTROL          3 ->    0.312000    (-)                 
+ CONTROL          4 ->     0.00000    (-)                 
+ CONTROL          5 ->     0.00000    (-)                 
+ CONTROL          6 ->     0.00000    (-)                 
+ CONTROL          7 ->     0.00000    (-)                 
+ CONTROL          8 ->     0.00000    (-)                 
+ CONTROL          9 ->     0.00000    (-)                 
+ CONTROL         10 ->     0.00000    (-)                 
+ CONTROL         11 ->     0.00000    (-)                 
+ CONTROL         12 ->     0.00000    (-)                 
+ CONTROL         13 ->     0.00000    (-)                 
+ CONTROL         14 ->     0.00000    (-)                 
+ CONTROL         15 ->     0.00000    (-)                 
+ CONTROL         16 ->     0.00000    (-)                 
+ CONTROL         17 ->    0.472000    (-)                 
+ CONTROL         18 ->     1.00000    (-)                 
+ CONTROL         19 ->     0.00000    (-)                 
+ CONTROL         20 ->     0.00000    (-)                 
+ CONTROL         21 ->     15.5000    (-)                 
+ CONTROL         22 ->     0.00000    (-)                 
+ CONTROL         23 ->     0.00000    (-)                 
+ CONTROL         24 ->     0.00000    (-)                 
+ CONTROL         25 ->     0.00000    (-)                 
+ CONTROL         26 ->     0.00000    (-)                 
+ CONTROL         27 ->     0.00000    (-)                 
+ CONTROL         28 ->     0.00000    (-)                 
+ CONTROL         29 ->     0.00000    (-)                 
+ CONTROL         30 ->     0.00000    (-)                 
+ CONTROL         31 ->     0.00000    (-)                 
+ CONTROL         32 ->     0.00000    (-)                 
+ CONTROL         33 ->     0.00000    (-)                 
+ CONTROL         34 ->     0.00000    (-)                 
+ CONTROL         35 ->     0.00000    (-)                 
+ CONTROL         36 ->     0.00000    (-)                 
+ CONTROL         37 ->     0.00000    (-)                 
+ CONTROL         38 ->     0.00000    (-)                 
+ CONTROL         39 ->     0.00000    (-)                 
+ CONTROL         40 ->     0.00000    (-)                 
+ CONTROL         41 ->     0.00000    (-)                 
+ CONTROL         42 ->     0.00000    (-)                 
+ CONTROL         43 ->     0.00000    (-)                 
+ CONTROL         44 ->     0.00000    (-)                 
+ CONTROL         45 ->     0.00000    (-)                 
+ CONTROL         46 ->     0.00000    (-)                 
+ CONTROL         47 ->     0.00000    (-)                 
+ CONTROL         48 ->     0.00000    (-)                 
+ CONTROL         49 ->     0.00000    (-)                 
+ CONTROL         50 ->     0.00000    (-)                 
+ CONTROL         51 ->     0.00000    (-)                 
+ CONTROL         52 ->     0.00000    (-)                 
+ CONTROL         53 ->     0.00000    (-)                 
+ CONTROL         54 ->     0.00000    (-)                 
+ CONTROL         55 ->     0.00000    (-)                 
+ CONTROL         56 ->     0.00000    (-)                 
+ CONTROL         57 ->     0.00000    (-)                 
+ CONTROL         58 ->     0.00000    (-)                 
+ CONTROL         59 ->     0.00000    (-)                 
+ CONTROL         60 ->     0.00000    (-)                 
+ CONTROL         61 ->     15.5000    (-)                 
+ CONTROL         62 ->     0.00000    (-)                 
+ CONTROL         63 ->     0.00000    (-)                 
+ CONTROL         64 ->     0.00000    (-)                 
+ CONTROL         65 ->     0.00000    (-)                 
+ CONTROL         66 ->     0.00000    (-)                 
+ CONTROL         67 ->     0.00000    (-)                 
+ CONTROL         68 ->     0.00000    (-)                 
+ CONTROL         69 ->     0.00000    (-)                 
+ CONTROL         70 ->     22.2200    (-)                 
+ CONTROL         71 ->     22.2200    (-)                 
+ CONTROL         72 ->     22.2200    (-)                 
+ CONTROL         73 ->     22.2200    (-)                 
+ CONTROL         74 ->     22.2200    (-)                 
+ CONTROL         75 ->     22.2200    (-)                 
+ CONTROL         76 ->     0.00000    (-)                 
+ CONTROL         77 ->     0.00000    (-)                 
+ CONTROL         78 ->     0.00000    (-)                 
+ CONTROL         79 ->     0.00000    (-)                 
+ CONTROL         80 ->     0.00000    (-)                 
+ CONTROL         81 ->     0.00000    (-)                 
+ CONTROL         82 ->     0.00000    (-)                 
+ CONTROL         83 ->     0.00000    (-)                 
+ CONTROL         84 ->     0.00000    (-)                 
+ CONTROL         85 ->     0.00000    (-)                 
+ CONTROL         86 ->     0.00000    (-)                 
+ CONTROL         87 ->     0.00000    (-)                 
+ CONTROL         88 ->     0.00000    (-)                 
+ CONTROL         89 ->     0.00000    (-)                 
+ CONTROL         90 ->     0.00000    (-)                 
+ CONTROL         91 ->     0.00000    (-)                 
+ CONTROL         92 ->     0.00000    (-)                 
+ CONTROL         93 ->     0.00000    (-)                 
+ CONTROL         94 ->     0.00000    (-)                 
+ CONTROL         95 ->     0.00000    (-)                 
+ CONTROL         96 ->     0.00000    (-)                 
+ CONTROL         97 ->     0.00000    (-)                 
+ CONTROL         98 ->     0.00000    (-)                 
+ CONTROL         99 ->     0.00000    (-)                 
+ CONTROL        100 ->     0.00000    (-)                 
+ OTHER            1 ->     0.00000    (-)                 
+ OTHER            2 ->     0.00000    (-)                 
+ POWER            1 ->     0.00000    (kW)                
+ POWER            2 ->     0.00000    (kW)                
+ POWER            3 ->     0.00000    (kW)                
+ POWER            4 ->     0.00000    (kW)                
+ POWER            5 ->     0.00000    (kW)                
+ POWER            6 ->     0.00000    (kW)                
+ POWER            7 ->     0.00000    (kW)                
+ POWER            8 ->     0.00000    (kW)                
+ POWER            9 ->     0.00000    (kW)                
+ POWER           10 ->     0.00000    (kW)                
+ POWER           11 ->     0.00000    (kW)                
+ POWER           12 ->     0.00000    (kW)                
+ POWER           13 ->     0.00000    (kW)                
+ POWER           14 ->     0.00000    (kW)                
+ POWER           15 ->     0.00000    (kW)                
+ POWER           16 ->     0.00000    (kW)                
+ POWER           17 ->     0.00000    (kW)                
+ POWER           18 ->     0.00000    (kW)                
+ POWER           19 ->     0.00000    (kW)                
+ POWER           20 ->     0.00000    (kW)                
+ POWER           21 ->     0.00000    (kW)                
+ HUMIDITY         1 ->    0.400000E-02(kg/kg)             
+ HUMIDITY         2 ->    0.400000E-02(kg/kg)             
+ HUMIDITY         3 ->    0.400000E-02(kg/kg)             
+ HUMIDITY         4 ->    0.400000E-02(kg/kg)             
+ HUMIDITY         5 ->    0.400000E-02(kg/kg)             
+ HUMIDITY         6 ->    0.400000E-02(kg/kg)             
+ HUMIDITY         7 ->    0.400000E-02(kg/kg)             
+ HUMIDITY         8 ->    0.400000E-02(kg/kg)             
+ HUMIDITY         9 ->    0.400000E-02(kg/kg)             
+ HUMIDITY        10 ->    0.400000E-02(kg/kg)             
+ HUMIDITY        11 ->    0.400000E-02(kg/kg)             
+ HUMIDITY        12 ->    0.400000E-02(kg/kg)             
+ HUMIDITY        13 ->    0.400000E-02(kg/kg)             
+ HUMIDITY        14 ->    0.400000E-02(kg/kg)             
+ HUMIDITY        15 ->    0.400000E-02(kg/kg)             
+ HUMIDITY        16 ->     0.00000    (kg/kg)             
+ Simulation Error Tolerances:
+
+ 1      RTOLX=   0.100000E-03      ATOLX=   0.100000E-04
+        XTOL=    0.200000E-03      TTIME=    1.00000    
+
+ SUPERBLOCK 1
+ 2      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK 2
+ 3      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK 3
+ 4      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK 4
+ 5      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK 5
+ 6      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK 6
+ 7      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK 7
+ 8      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK 8
+ 9      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK 9
+10      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK10
+11      FREEZE OPTION 0      SCAN OPTION 0
+ The following are Boundary Variables in the simulation:
+
+
+ SUPERBLOCK 1      REPORTING INTERVAL    300.000    
+ CONTROL          1
+
+ SUPERBLOCK 2      REPORTING INTERVAL    2.50000    
+ CONTROL          1
+ CONTROL          2
+ CONTROL          3
+ CONTROL         17
+ CONTROL         18
+ CONTROL         19
+ CONTROL         20
+ CONTROL         21
+ CONTROL         22
+ CONTROL         23
+ CONTROL         24
+ CONTROL         25
+ CONTROL         26
+ CONTROL         27
+ CONTROL         77
+ CONTROL         78
+ CONTROL         79
+ CONTROL         80
+ CONTROL         81
+ CONTROL         82
+
+ SUPERBLOCK 3      REPORTING INTERVAL    2.50000    
+ OTHER            1
+ OTHER            2
+
+ SUPERBLOCK 4      REPORTING INTERVAL    2.50000    
+ PRESSURE         1
+ PRESSURE         2
+ PRESSURE         3
+ PRESSURE         4
+ PRESSURE         5
+ PRESSURE         6
+ PRESSURE         7
+ PRESSURE         8
+ PRESSURE         9
+ PRESSURE        10
+ PRESSURE        11
+ PRESSURE        12
+ PRESSURE        13
+ PRESSURE        14
+ PRESSURE        15
+ PRESSURE        16
+ PRESSURE        17
+ PRESSURE        18
+ PRESSURE        19
+ PRESSURE        20
+ PRESSURE        21
+ PRESSURE        22
+ PRESSURE        23
+ PRESSURE        24
+ PRESSURE        25
+ PRESSURE        26
+ PRESSURE        27
+ PRESSURE        28
+ PRESSURE        29
+ PRESSURE        30
+
+ SUPERBLOCK 5      REPORTING INTERVAL    2.50000    
+ FLOW             1
+ FLOW             2
+ FLOW             3
+ FLOW             4
+ FLOW             5
+ FLOW             6
+ FLOW             7
+ FLOW             8
+ FLOW             9
+ FLOW            10
+ FLOW            11
+ FLOW            12
+ FLOW            13
+ FLOW            14
+ FLOW            15
+ FLOW            16
+ FLOW            17
+ FLOW            18
+ FLOW            19
+ FLOW            20
+ FLOW            21
+ FLOW            22
+ FLOW            23
+ FLOW            24
+ FLOW            25
+ FLOW            26
+ FLOW            27
+ FLOW            28
+ FLOW            29
+ FLOW            30
+
+ SUPERBLOCK 6      REPORTING INTERVAL    2.50000    
+ TEMPERATURE      1
+ TEMPERATURE      2
+ TEMPERATURE      3
+ TEMPERATURE      4
+ TEMPERATURE      5
+ TEMPERATURE      6
+ TEMPERATURE      7
+ TEMPERATURE      8
+ TEMPERATURE      9
+ TEMPERATURE     10
+ TEMPERATURE     11
+ TEMPERATURE     12
+ TEMPERATURE     13
+ TEMPERATURE     14
+ TEMPERATURE     15
+ TEMPERATURE     16
+ TEMPERATURE     35
+ TEMPERATURE     36
+ TEMPERATURE     37
+ TEMPERATURE     38
+ TEMPERATURE     39
+ TEMPERATURE     40
+ TEMPERATURE     53
+ TEMPERATURE     54
+
+ SUPERBLOCK 7      REPORTING INTERVAL    2.50000    
+ HUMIDITY         1
+ HUMIDITY         2
+ HUMIDITY         3
+ HUMIDITY         4
+ HUMIDITY         5
+ HUMIDITY         6
+ HUMIDITY         7
+ HUMIDITY         8
+ HUMIDITY         9
+ HUMIDITY        10
+ HUMIDITY        11
+ HUMIDITY        12
+ HUMIDITY        13
+ HUMIDITY        14
+ HUMIDITY        15
+ HUMIDITY        16
+
+ SUPERBLOCK 8      REPORTING INTERVAL    2.50000    
+ CONTROL         65
+
+ SUPERBLOCK 9      REPORTING INTERVAL    0.00000    
+
+ SUPERBLOCK10      REPORTING INTERVAL    0.00000    
