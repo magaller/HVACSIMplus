@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{C6AA4B92-F4AF-4EF1-A408-49DAE20B6305}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" MultiProcessorCompilation="true" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug" Interfaces="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" MultiProcessorCompilation="true" GenAlternateCodePaths="codeForSSE42"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<Filter Name="Blas">
+		<File RelativePath="..\..\Blas\daxpy.f"/>
+		<File RelativePath="..\..\Blas\dcopy.f"/>
+		<File RelativePath="..\..\Blas\ddot.f"/>
+		<File RelativePath="..\..\Blas\dnrm2.f"/>
+		<File RelativePath="..\..\Blas\dscal.f"/>
+		<File RelativePath="..\..\Blas\dswap.f"/>
+		<File RelativePath="..\..\Blas\idamax.f"/>
+		<File RelativePath="..\..\Blas\lsame.f"/></Filter>
+		<Filter Name="Lapack">
+		<File RelativePath="..\..\Lapack\dlaic1.f"/>
+		<File RelativePath="..\..\Lapack\dlamch.f"/></Filter>
+		<Filter Name="Nitsol">
+		<File RelativePath="..\..\Nitsol\nitbd.f"/>
+		<File RelativePath="..\..\Nitsol\nitbt.f"/>
+		<File RelativePath="..\..\Nitsol\nitdrv.f"/>
+		<File RelativePath="..\..\Nitsol\nitgm.f"/>
+		<File RelativePath="..\..\Nitsol\nitjv.f"/>
+		<File RelativePath="..\..\Nitsol\nitsol.f"/>
+		<File RelativePath="..\..\Nitsol\nitstb.f"/>
+		<File RelativePath="..\..\Nitsol\nittfq.f"/>
+		<File RelativePath="..\..\Nitsol\user-supplied.f"/></Filter>
+		<Filter Name="nist_solver">
+		<File RelativePath="..\..\nist_solver\NISTinput.f90"/></Filter>
+		<File RelativePath="..\..\model\ahu_wbe.f90"/>
+		<File RelativePath="..\..\model\airpr.f90"/>
+		<File RelativePath="..\..\model\ASH_building.f90"/>
+		<File RelativePath="..\..\model\ASH_composit.f90"/>
+		<File RelativePath="..\..\model\ASH_control.f90"/>
+		<File RelativePath="..\..\model\ASH_element.f90"/>
+		<File RelativePath="..\..\model\ASH_fluid.f90"/>
+		<File RelativePath="..\..\model\ASH_heatmass.f90"/>
+		<File RelativePath="..\..\model\ASH_performance.f90"/>
+		<File RelativePath="..\..\model\ASH_sensor.f90"/>
+		<File RelativePath="..\..\model\blc.f90"/>
+		<File RelativePath="..\..\model\blc_head.f90"/>
+		<File RelativePath="..\..\drive\datetime.f90"/>
+		<File RelativePath="..\..\drive\modbdf.f90"/>
+		<File RelativePath="..\..\drive\modblk.f90"/>
+		<File RelativePath="..\..\drive\modeqt.f90"/>
+		<File RelativePath="..\..\drive\modino.f90"/>
+		<File RelativePath="..\..\drive\modsim.f90"/>
+		<File RelativePath="..\..\drive\modsim_head.f90"/>
+		<File RelativePath="..\..\model\plant.f90"/>
+		<File RelativePath="..\..\drive\rdenv.f90"/>
+		<File RelativePath="..\..\model\refrigpr.f90"/>
+		<File RelativePath="..\..\drive\select.f90"/>
+		<File RelativePath="..\..\drive\snsqa.f90"/>
+		<File RelativePath="..\..\drive\snsqb.f90"/>
+		<File RelativePath="..\..\drive\snsqc.f90"/>
+		<File RelativePath="..\..\model\types.f90"/>
+		<File RelativePath="..\..\model\typesa.f90"/>
+		<File RelativePath="..\..\model\typesb.f90"/>
+		<File RelativePath="..\..\model\utility.f90"/>
+		<File RelativePath="..\..\model\utility_ashrae.f90"/>
+		<File RelativePath="..\..\model\utility_blc.f90"/>
+		<File RelativePath="..\..\model\utility_wbe.f90"/>
+		<File RelativePath="..\..\model\utilityb.f90"/>
+		<File RelativePath="..\..\model\watpr.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

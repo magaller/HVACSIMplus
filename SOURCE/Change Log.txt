@@ -1,0 +1,25 @@
+211108 MAG
+UPDATE to 20.8
+Files were copied from working files version 20.6. Version 20.7 has code from Drexel to implement faults, but it is incomplete.
+Files from 20.6 were modified by adding new Drexel solver code, with the following changes:
+---
+**************************************************************
+NEW Files:
+Blas, Lapack, Nitsol : subroutines for NITSOL solver
+nist_solver : Read inputs for NITSOL
+user-supplied.f : User specified subroutine for preconditioning. The current implementation use an ideal preconditioning method. Required if the fifth input in nitinput.par is set to 1.
+solver.par : Required by subroutine NISTinput, determine which solver to use and the residual tolerance
+nitinput.par :  Required by subroutine NISTinput, inputs required by NITSOL solver
+**************************************************************
+Files Updated:
+modeqt.f90 : Add new solver choice for nitsol
+modsim.f90 : Add a line of code to call subroutine that read necessary inputs for nitsol
+modsim_head.f90 : increase matrix, array sizes to handle more varialbes
+---
+
+
+
+201030 MAG
+Input category was incorrect for several room types. Supply air humidity ratio
+was set to category 3 instead of 8 for types 401, 402, 411, and 412. All copies of
+typar.dat were updated.
