@@ -1,0 +1,112 @@
+ title: simulation title
+ Example 3: Cooling coil control loop w/vaiable flow and constant temperature   
+ nstate,nsblok: # of state variables, # of SBS
+   31    1
+ nsuper(s): # of blocks in each SB
+    1
+ state(i): vector of state variable initial values
+   0.250000E+03   0.227754E+03   0.212307E+03   0.222467E+03   0.210571E+03
+  -0.250000E+03   0.113930E+01   0.149359E+01   0.263289E+01   0.235000E+01
+   0.500000E+01   0.501300E+01   0.168008E+02   0.250000E+02   0.150079E+02
+   0.160806E+02   0.500093E+01   0.101090E+02   0.250000E+02   0.101684E+02
+   0.424409E+00   0.424409E+00   0.150079E+00   0.150000E+00   0.576066E+00
+   0.575589E+00   0.100000E+01   0.562285E+02   0.238925E+02   0.160000E-01
+   0.106262E-01
+ ndent(i): state variable identification vector
+    0    6   10   20   -1   -1   27   29
+ nunits(b): # of units in each block B
+    9
+ njsslv(s): # of simultaneous eqs in each SB
+    0
+ njsolv(b): # of simultaneqou eqs in each block
+   19
+ isuper(s,i): array of block numbers in each SB
+    1
+ iblock(b,i): array of unit numbers in each block
+    1    2    3    4    5    6    7    8    9
+ iunits(u): array of type #s for each unit
+    3    3    2   13    2    7    8   12   26
+ nin(u): number of inputs to unit u
+    5    5    5    7    5    2    4    8    1
+ in(u,i): array of input connections for unit U
+    1    2   11   19   12
+    1    4   11   19   17
+    7    3   13   19   16
+    7    8    5   16   17   21   22
+    9    6   18   19   20
+   15   23
+   23   24   25   26
+    7   12   10   14   30   13   15   31
+   26
+ nout(u): number of outputs from unit U
+    2    2    2    6    2    1    2    6    1
+ iout(u,i): array of output connections for unit U
+   12    7
+   17    8
+   16    2
+   22    9    3    4   18    0
+   20    5
+   23
+   25   26
+   13   15   31   28   29   27
+   21
+ jssolv(s,i): array of variables solved
+  simultaneously within each sb (between blocks)
+    0
+ jsolve(b,i): array of variables solved
+  simultaneously within each block
+   22   23   25   26   13   15   31    2    4    7    3   17    8   16    5   21
+    9   18   12
+ nde(u): # of differential eqs in unit U
+    0    0    0    1    0    1    2    3    0
+ inde(u,i): de index for the ith de in unit U
+    0
+    0
+    0
+    1
+    0
+    2
+    3    4
+    5    6    7
+    0
+ idevar(d): variable index for de #d
+   22   23   25   26   13   15   31
+ isaved(u): index of first saved var. for unit U
+    1   12   23   34   39   50   53   56   68
+ jpar(u): index of first parameter for unit U
+    1    8   15   22   28   35   38   41   59
+ npar,nsaved: # of parameters & saved variables
+   59   67
+ par(i): array of parameters for all units
+   0.297000E+01   0.310000E-02   0.227700E+01   0.251000E-02   0.213600E+02
+  -0.558800E+00   0.200000E+01   0.276000E+00   0.290000E-03   0.211600E+00
+   0.230000E-03   0.148000E+02  -0.558800E+00   0.200000E+01   0.270000E+01
+   0.281000E-02   0.207000E+01   0.227800E-02   0.119000E+02   0.000000E+00
+   0.200000E+01   0.300000E+00   0.150000E+01   0.400000E-02   0.100000E+02
+   0.100000E+00   0.000000E+00   0.380000E+02   0.440000E-01   0.322000E+02
+   0.355000E-01   0.664400E+02   0.000000E+00   0.200000E+01   0.200000E+02
+   0.000000E+00   0.100000E+03   0.900000E+01   0.120000E+00   0.200000E+01
+   0.000000E+00   0.623810E+01   0.101715E+03   0.620000E+01   0.416000E+00
+   0.204000E+00   0.722600E+00   0.551180E+01   0.160000E+02   0.600000E+01
+   0.158800E-01   0.144500E-01   0.150000E-03   0.346690E+02   0.259000E-01
+   0.508000E+00   0.165100E+00   0.386000E+00   0.100000E+01
+ nbound: # of time-dependent boundary variables
+    2
+ ibound(i) state variable indices of boundary variables.
+   14   30
+ nreprt(s): # of reported variables in each SB
+   10
+ treprt(s): reporting interval for each SB
+   0.600000E+02
+ ireprt(i): indices of reported variables
+ ident1: category # of reported variables
+ ident2: position in category of reported variables
+    7   21   22   23   24   25   26   27   31   30
+    2    4    4    4    4    4    4    4    8    8
+    1    1    2    3    4    5    6    7    2    1
+ rtolx,atolx, xtol,ttime: error tolerances
+   0.500000E-02   0.100000E-05   0.500000E-03   0.100000E+02
+ ifzopt(s): sb variable unfreezing option vector
+    0
+ insopt(s): sb input scan option vector
+    0

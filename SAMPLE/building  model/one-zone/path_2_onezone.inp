@@ -1,0 +1,19 @@
+0.1 900. 172800.       ( tmin, tmax, tstop )
+y                      ( building shell use )
+y                      ( initialization file use )
+1                      ( superblock number for shell )
+0.0                    ( beginning time of day )
+n                      ( default file use )
+onezone.dfn                                      
+onezone.bnd                                      
+onezone.ini
+onezone.fin                                      
+onezone.out                                      
+onezone.sum                                      
+ctfdata.dat                                       
+onezone.met                                           
+y                      ( reporting time for output )
+n                      ( disabling freezing variable feature )
+n                      ( diagnostic information )
+n                      ( monitoring on screen )                
+

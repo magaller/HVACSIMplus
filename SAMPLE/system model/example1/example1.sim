@@ -1,0 +1,30 @@
+Example1: Inlet pipe and linear valve                                           
+   1                                             (Superblocks in simulation)
+   0.500000E-02   0.100000E-04   0.100000E-02   0.100000E+02    (Error Tol.)
+   1                                             (Blocks in SB# 1)
+   2                                             (Units in BLK# 1)
+   1   3 ----------------------------------------(Unit #,Type #)----------
+    1    2    1    3    2
+    2    1
+   0.164000E+02   0.170000E+00   0.252000E+02   0.150000E-01   0.135000E+02
+   0.000000E+00   0.200000E+01
+   2   9 ----------------------------------------(Unit #,Type #)----------
+    3    1    1    2
+    2    2    3
+   0.150000E+01   0.500000E+01   0.316000E-02   0.200000E+00
+   0.337500E+02   0.300000E+01   0.000000E+00   0.200000E+01   0.800000E+02
+   0.800000E+02   0.200000E+02   0.100000E+01   0.100000E+01   0.100000E+01
+   2                         (Boundary Variables in simulation)
+    5    8
+   7   0.100000E+02     (Reported Var. & Interval in SB# 1)
+    2    4    5    6    8    9   10
+    1    2    3    3    4    4    4
+    2    1    1    2    1    2    3
+   0
+   0
+**************** SUMMARY OF WORK FILE ***************
+   1   1   2                                     (Superblocks, Blocks, Units)
+   1
+   3   1   3   3   0   0   0   0                 (Variables per category)
+  10                                             (State Variables)
+   7

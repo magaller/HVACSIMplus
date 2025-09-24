@@ -1,0 +1,3274 @@
+
+ SHELL7  --- 9-zone shell model, Reported variables in SB#9    4/25/2002 
+
+ SUPERBLOCK 1
+      BLOCK 1
+          UNIT  5     TYPE 51 - Building surface                             
+          UNIT  6     TYPE 51 - Building surface                             
+          UNIT  7     TYPE 51 - Building surface                             
+          UNIT  8     TYPE 51 - Building surface                             
+          UNIT  9     TYPE 51 - Building surface                             
+          UNIT 10     TYPE 51 - Building surface                             
+          UNIT 11     TYPE 51 - Building surface                             
+          UNIT 12     TYPE 51 - Building surface                             
+          UNIT 89     TYPE 54 - Zone envelope                                
+      BLOCK 2
+          UNIT 13     TYPE 51 - Building surface                             
+          UNIT 14     TYPE 51 - Building surface                             
+          UNIT 15     TYPE 51 - Building surface                             
+          UNIT 16     TYPE 51 - Building surface                             
+          UNIT 17     TYPE 51 - Building surface                             
+          UNIT 18     TYPE 51 - Building surface                             
+          UNIT 19     TYPE 51 - Building surface                             
+          UNIT 20     TYPE 51 - Building surface                             
+          UNIT 90     TYPE 54 - Zone envelope                                
+      BLOCK 3
+          UNIT 21     TYPE 51 - Building surface                             
+          UNIT 22     TYPE 51 - Building surface                             
+          UNIT 23     TYPE 51 - Building surface                             
+          UNIT 24     TYPE 51 - Building surface                             
+          UNIT 25     TYPE 51 - Building surface                             
+          UNIT 26     TYPE 51 - Building surface                             
+          UNIT 27     TYPE 51 - Building surface                             
+          UNIT 28     TYPE 51 - Building surface                             
+          UNIT 29     TYPE 51 - Building surface                             
+          UNIT 30     TYPE 51 - Building surface                             
+          UNIT 31     TYPE 51 - Building surface                             
+          UNIT 32     TYPE 51 - Building surface                             
+          UNIT 91     TYPE 54 - Zone envelope                                
+      BLOCK 4
+          UNIT 33     TYPE 51 - Building surface                             
+          UNIT 34     TYPE 51 - Building surface                             
+          UNIT 35     TYPE 51 - Building surface                             
+          UNIT 36     TYPE 51 - Building surface                             
+          UNIT 37     TYPE 51 - Building surface                             
+          UNIT 38     TYPE 51 - Building surface                             
+          UNIT 39     TYPE 51 - Building surface                             
+          UNIT 40     TYPE 51 - Building surface                             
+          UNIT 92     TYPE 54 - Zone envelope                                
+      BLOCK 5
+          UNIT 41     TYPE 51 - Building surface                             
+          UNIT 42     TYPE 51 - Building surface                             
+          UNIT 43     TYPE 51 - Building surface                             
+          UNIT 44     TYPE 51 - Building surface                             
+          UNIT 45     TYPE 51 - Building surface                             
+          UNIT 46     TYPE 51 - Building surface                             
+          UNIT 47     TYPE 51 - Building surface                             
+          UNIT 48     TYPE 51 - Building surface                             
+          UNIT 93     TYPE 54 - Zone envelope                                
+      BLOCK 6
+          UNIT 49     TYPE 51 - Building surface                             
+          UNIT 50     TYPE 51 - Building surface                             
+          UNIT 51     TYPE 51 - Building surface                             
+          UNIT 52     TYPE 51 - Building surface                             
+          UNIT 53     TYPE 51 - Building surface                             
+          UNIT 54     TYPE 51 - Building surface                             
+          UNIT 55     TYPE 51 - Building surface                             
+          UNIT 56     TYPE 51 - Building surface                             
+          UNIT 57     TYPE 51 - Building surface                             
+          UNIT 58     TYPE 51 - Building surface                             
+          UNIT 59     TYPE 51 - Building surface                             
+          UNIT 60     TYPE 51 - Building surface                             
+          UNIT 94     TYPE 54 - Zone envelope                                
+      BLOCK 7
+          UNIT 61     TYPE 51 - Building surface                             
+          UNIT 62     TYPE 51 - Building surface                             
+          UNIT 63     TYPE 51 - Building surface                             
+          UNIT 64     TYPE 51 - Building surface                             
+          UNIT 65     TYPE 51 - Building surface                             
+          UNIT 66     TYPE 51 - Building surface                             
+          UNIT 67     TYPE 51 - Building surface                             
+          UNIT 68     TYPE 51 - Building surface                             
+          UNIT 95     TYPE 54 - Zone envelope                                
+      BLOCK 8
+          UNIT 69     TYPE 51 - Building surface                             
+          UNIT 70     TYPE 51 - Building surface                             
+          UNIT 71     TYPE 51 - Building surface                             
+          UNIT 72     TYPE 51 - Building surface                             
+          UNIT 73     TYPE 51 - Building surface                             
+          UNIT 74     TYPE 51 - Building surface                             
+          UNIT 75     TYPE 51 - Building surface                             
+          UNIT 76     TYPE 51 - Building surface                             
+          UNIT 96     TYPE 54 - Zone envelope                                
+      BLOCK 9
+          UNIT 77     TYPE 51 - Building surface                             
+          UNIT 78     TYPE 51 - Building surface                             
+          UNIT 79     TYPE 51 - Building surface                             
+          UNIT 80     TYPE 51 - Building surface                             
+          UNIT 81     TYPE 51 - Building surface                             
+          UNIT 82     TYPE 51 - Building surface                             
+          UNIT 83     TYPE 51 - Building surface                             
+          UNIT 84     TYPE 51 - Building surface                             
+          UNIT 85     TYPE 51 - Building surface                             
+          UNIT 86     TYPE 51 - Building surface                             
+          UNIT 87     TYPE 51 - Building surface                             
+          UNIT 88     TYPE 51 - Building surface                             
+          UNIT 97     TYPE 54 - Zone envelope                                
+      BLOCK10
+          UNIT 98     TYPE 53 - Weather input                                
+
+ SUPERBLOCK 2
+      BLOCK11
+          UNIT  1     TYPE 26 - Control signal inverter                      
+
+ SUPERBLOCK 3
+      BLOCK12
+          UNIT  2     TYPE 26 - Control signal inverter                      
+
+ SUPERBLOCK 4
+      BLOCK13
+          UNIT  3     TYPE 26 - Control signal inverter                      
+
+ SUPERBLOCK 5
+      BLOCK14
+          UNIT  4     TYPE 26 - Control signal inverter                      
+
+ SUPERBLOCK 6
+      BLOCK15
+          UNIT 99     TYPE 26 - Control signal inverter                      
+
+ SUPERBLOCK 7
+      BLOCK16
+          UNIT100     TYPE 26 - Control signal inverter                      
+
+ SUPERBLOCK 8
+      BLOCK17
+          UNIT101     TYPE 26 - Control signal inverter                      
+
+ SUPERBLOCK 9
+      BLOCK18
+          UNIT102     TYPE 26 - Control signal inverter                      
+
+ SUPERBLOCK10
+      BLOCK19
+          UNIT103     TYPE 26 - Control signal inverter                      
+
+ UNIT   5      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      1 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     10 - tmr:    mean radiant temperature                  
+        TEMPERATURE     48 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     19 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           1.00000     izn:    identification number of zone                  
+           1.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           2.00000     istr:   identification number of the construct         
+           54.6270     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           0.00000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT   6      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      1 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     10 - tmr:    mean radiant temperature                  
+        TEMPERATURE    105 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     20 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           1.00000     izn:    identification number of zone                  
+           2.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           4.00000     istr:   identification number of the construct         
+           54.6700     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           180.000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT   7      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      1 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     10 - tmr:    mean radiant temperature                  
+        TEMPERATURE     21 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     21 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           1.00000     izn:    identification number of zone                  
+           3.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           22.2040     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT   8      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      1 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     10 - tmr:    mean radiant temperature                  
+        TEMPERATURE     32 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     22 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           1.00000     izn:    identification number of zone                  
+           4.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           18.5340     as:     surface area (m2)                              
+           270.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT   9      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      1 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     10 - tmr:    mean radiant temperature                  
+        TEMPERATURE     37 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     23 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           1.00000     izn:    identification number of zone                  
+           5.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           22.4830     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  10      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      1 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     10 - tmr:    mean radiant temperature                  
+        TEMPERATURE     24 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     24 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           1.00000     izn:    identification number of zone                  
+           6.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           18.5340     as:     surface area (m2)                              
+           90.0000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  11      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      1 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     10 - tmr:    mean radiant temperature                  
+        TEMPERATURE     42 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     25 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           1.00000     izn:    identification number of zone                  
+           7.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           7.00000     istr:   identification number of the construct         
+           2.23000     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  12      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      1 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     10 - tmr:    mean radiant temperature                  
+        TEMPERATURE     26 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     26 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           1.00000     izn:    identification number of zone                  
+           8.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           8.00000     istr:   identification number of the construct         
+           2.50800     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           6.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+           0.00000     absis:  short wave absorptance of inner surface(-)     
+          0.600000     emitis: emissivity of the inner surface (-)            
+          0.200000     transm: transmittance of the glass window (-)          
+          0.850000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  89      TYPE  54
+ Zone envelope                                                           
+
+ 1     INPUTS:
+        TEMPERATURE      1 - tia:    zone air dry-bulb temperature             
+        POWER            1 - qisw:   internal (short wave) radiant gain        
+        POWER           10 - qilw:   internal (long wave) radiant gain         
+        TEMPERATURE     19 - tis(1): inner  surface temperature                
+        TEMPERATURE     20 - tis(2): inner  surface temperature                
+        TEMPERATURE     21 - tis(3): inner  surface temperature                
+        TEMPERATURE     22 - tis(4): inner  surface temperature                
+        TEMPERATURE     23 - tis(5): inner  surface temperature                
+        TEMPERATURE     24 - tis(6): inner  surface temperature                
+        TEMPERATURE     25 - tis(7): inner  surface temperature                
+        TEMPERATURE     26 - tis(8): inner  surface temperature                
+        TEMPERATURE     26 - tis(9): inner  surface temperature                
+        TEMPERATURE     26 - tis(10):inner  surface temperature                
+        TEMPERATURE     26 - tis(11):inner  surface temperature                
+        TEMPERATURE     26 - tis(12):inner  surface temperature                
+
+ 2     OUTPUTS:
+        TEMPERATURE     10 - tmr:    mean radiant temperature                  
+        POWER           19 - qwall:  convective heat gain from  surfaces       
+
+ 3     PARAMETERS:
+           1.00000     izn:    identification number of zone                  
+           8.00000     ns:     number of surfaces of zone                     
+
+ UNIT  13      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      2 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     11 - tmr:    mean radiant temperature                  
+        TEMPERATURE     56 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     27 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           2.00000     izn:    identification number of zone                  
+           1.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           2.00000     istr:   identification number of the construct         
+           111.205     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           0.00000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  14      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      2 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     11 - tmr:    mean radiant temperature                  
+        TEMPERATURE    105 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     28 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           2.00000     izn:    identification number of zone                  
+           2.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           4.00000     istr:   identification number of the construct         
+           111.205     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           180.000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  15      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      2 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     11 - tmr:    mean radiant temperature                  
+        TEMPERATURE     29 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     29 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           2.00000     izn:    identification number of zone                  
+           3.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           45.2900     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  16      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      2 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     11 - tmr:    mean radiant temperature                  
+        TEMPERATURE     30 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     30 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           2.00000     izn:    identification number of zone                  
+           4.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           18.5340     as:     surface area (m2)                              
+           270.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  17      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      2 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     11 - tmr:    mean radiant temperature                  
+        TEMPERATURE     38 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     31 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           2.00000     izn:    identification number of zone                  
+           5.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           48.0770     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  18      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      2 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     11 - tmr:    mean radiant temperature                  
+        TEMPERATURE     22 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     32 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           2.00000     izn:    identification number of zone                  
+           6.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           18.5340     as:     surface area (m2)                              
+           90.0000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  19      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      2 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     11 - tmr:    mean radiant temperature                  
+        TEMPERATURE     43 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     33 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           2.00000     izn:    identification number of zone                  
+           7.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           7.00000     istr:   identification number of the construct         
+           2.23000     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  20      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      2 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     11 - tmr:    mean radiant temperature                  
+        TEMPERATURE     34 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     34 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           2.00000     izn:    identification number of zone                  
+           8.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           8.00000     istr:   identification number of the construct         
+           5.01700     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           6.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+           0.00000     absis:  short wave absorptance of inner surface(-)     
+          0.600000     emitis: emissivity of the inner surface (-)            
+          0.200000     transm: transmittance of the glass window (-)          
+          0.850000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  90      TYPE  54
+ Zone envelope                                                           
+
+ 1     INPUTS:
+        TEMPERATURE      2 - tia:    zone air dry-bulb temperature             
+        POWER            2 - qisw:   internal (short wave) radiant gain        
+        POWER           11 - qilw:   internal (long wave) radiant gain         
+        TEMPERATURE     27 - tis(1): inner  surface temperature                
+        TEMPERATURE     28 - tis(2): inner  surface temperature                
+        TEMPERATURE     29 - tis(3): inner  surface temperature                
+        TEMPERATURE     30 - tis(4): inner  surface temperature                
+        TEMPERATURE     31 - tis(5): inner  surface temperature                
+        TEMPERATURE     32 - tis(6): inner  surface temperature                
+        TEMPERATURE     33 - tis(7): inner  surface temperature                
+        TEMPERATURE     34 - tis(8): inner  surface temperature                
+        TEMPERATURE     34 - tis(9): inner  surface temperature                
+        TEMPERATURE     34 - tis(10):inner  surface temperature                
+        TEMPERATURE     34 - tis(11):inner  surface temperature                
+        TEMPERATURE     34 - tis(12):inner  surface temperature                
+
+ 2     OUTPUTS:
+        TEMPERATURE     11 - tmr:    mean radiant temperature                  
+        POWER           20 - qwall:  convective heat gain from  surfaces       
+
+ 3     PARAMETERS:
+           2.00000     izn:    identification number of zone                  
+           8.00000     ns:     number of surfaces of zone                     
+
+ UNIT  21      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      3 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     12 - tmr:    mean radiant temperature                  
+        TEMPERATURE     64 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     35 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           3.00000     izn:    identification number of zone                  
+           1.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           2.00000     istr:   identification number of the construct         
+           209.032     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           0.00000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  22      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      3 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     12 - tmr:    mean radiant temperature                  
+        TEMPERATURE    105 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     36 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           3.00000     izn:    identification number of zone                  
+           2.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           4.00000     istr:   identification number of the construct         
+           209.032     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           180.000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  23      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      3 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     12 - tmr:    mean radiant temperature                  
+        TEMPERATURE     23 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     37 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           3.00000     izn:    identification number of zone                  
+           3.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           19.9740     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  24      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      3 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     12 - tmr:    mean radiant temperature                  
+        TEMPERATURE     31 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     38 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           3.00000     izn:    identification number of zone                  
+           4.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           50.5860     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  25      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      3 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     12 - tmr:    mean radiant temperature                  
+        TEMPERATURE     39 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     39 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           3.00000     izn:    identification number of zone                  
+           5.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           26.4770     as:     surface area (m2)                              
+           270.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  26      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      3 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     12 - tmr:    mean radiant temperature                  
+        TEMPERATURE     40 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     40 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           3.00000     izn:    identification number of zone                  
+           6.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           65.2640     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  27      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      3 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     12 - tmr:    mean radiant temperature                  
+        TEMPERATURE     41 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     41 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           3.00000     izn:    identification number of zone                  
+           7.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           24.2480     as:     surface area (m2)                              
+           90.0000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  28      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      3 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     12 - tmr:    mean radiant temperature                  
+        TEMPERATURE     25 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     42 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           3.00000     izn:    identification number of zone                  
+           8.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           7.00000     istr:   identification number of the construct         
+           2.23000     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  29      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      3 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     12 - tmr:    mean radiant temperature                  
+        TEMPERATURE     33 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     43 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           3.00000     izn:    identification number of zone                  
+           9.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           7.00000     istr:   identification number of the construct         
+           2.23000     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  30      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      3 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     12 - tmr:    mean radiant temperature                  
+        TEMPERATURE     44 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     44 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           3.00000     izn:    identification number of zone                  
+           10.0000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           7.00000     istr:   identification number of the construct         
+           2.23000     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           6.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  31      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      3 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     12 - tmr:    mean radiant temperature                  
+        TEMPERATURE     45 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     45 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           3.00000     izn:    identification number of zone                  
+           11.0000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           7.00000     istr:   identification number of the construct         
+           2.23000     as:     surface area (m2)                              
+           90.0000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           6.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  32      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      3 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     12 - tmr:    mean radiant temperature                  
+        TEMPERATURE     46 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     46 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           3.00000     izn:    identification number of zone                  
+           12.0000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           8.00000     istr:   identification number of the construct         
+           7.52500     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           6.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+           0.00000     absis:  short wave absorptance of inner surface(-)     
+          0.600000     emitis: emissivity of the inner surface (-)            
+          0.200000     transm: transmittance of the glass window (-)          
+          0.850000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  91      TYPE  54
+ Zone envelope                                                           
+
+ 1     INPUTS:
+        TEMPERATURE      3 - tia:    zone air dry-bulb temperature             
+        POWER            3 - qisw:   internal (short wave) radiant gain        
+        POWER           12 - qilw:   internal (long wave) radiant gain         
+        TEMPERATURE     35 - tis(1): inner  surface temperature                
+        TEMPERATURE     36 - tis(2): inner  surface temperature                
+        TEMPERATURE     37 - tis(3): inner  surface temperature                
+        TEMPERATURE     38 - tis(4): inner  surface temperature                
+        TEMPERATURE     39 - tis(5): inner  surface temperature                
+        TEMPERATURE     40 - tis(6): inner  surface temperature                
+        TEMPERATURE     41 - tis(7): inner  surface temperature                
+        TEMPERATURE     42 - tis(8): inner  surface temperature                
+        TEMPERATURE     43 - tis(9): inner  surface temperature                
+        TEMPERATURE     44 - tis(10):inner  surface temperature                
+        TEMPERATURE     45 - tis(11):inner  surface temperature                
+        TEMPERATURE     46 - tis(12):inner  surface temperature                
+
+ 2     OUTPUTS:
+        TEMPERATURE     12 - tmr:    mean radiant temperature                  
+        POWER           21 - qwall:  convective heat gain from  surfaces       
+
+ 3     PARAMETERS:
+           3.00000     izn:    identification number of zone                  
+           12.0000     ns:     number of surfaces of zone                     
+
+ UNIT  33      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      4 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     13 - tmr:    mean radiant temperature                  
+        TEMPERATURE     76 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     47 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           4.00000     izn:    identification number of zone                  
+           1.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           2.00000     istr:   identification number of the construct         
+           54.6270     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           0.00000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  34      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      4 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     13 - tmr:    mean radiant temperature                  
+        TEMPERATURE     19 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     48 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           4.00000     izn:    identification number of zone                  
+           2.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           3.00000     istr:   identification number of the construct         
+           54.6700     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           180.000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  35      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      4 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     13 - tmr:    mean radiant temperature                  
+        TEMPERATURE     49 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     49 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           4.00000     izn:    identification number of zone                  
+           3.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           22.2040     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  36      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      4 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     13 - tmr:    mean radiant temperature                  
+        TEMPERATURE     60 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     50 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           4.00000     izn:    identification number of zone                  
+           4.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           18.5340     as:     surface area (m2)                              
+           270.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  37      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      4 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     13 - tmr:    mean radiant temperature                  
+        TEMPERATURE     65 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     51 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           4.00000     izn:    identification number of zone                  
+           5.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           22.4830     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  38      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      4 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     13 - tmr:    mean radiant temperature                  
+        TEMPERATURE     52 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     52 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           4.00000     izn:    identification number of zone                  
+           6.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           18.5340     as:     surface area (m2)                              
+           90.0000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  39      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      4 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     13 - tmr:    mean radiant temperature                  
+        TEMPERATURE     70 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     53 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           4.00000     izn:    identification number of zone                  
+           7.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           7.00000     istr:   identification number of the construct         
+           2.23000     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  40      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      4 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     13 - tmr:    mean radiant temperature                  
+        TEMPERATURE     54 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     54 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           4.00000     izn:    identification number of zone                  
+           8.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           8.00000     istr:   identification number of the construct         
+           2.50800     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           6.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+           0.00000     absis:  short wave absorptance of inner surface(-)     
+          0.600000     emitis: emissivity of the inner surface (-)            
+          0.200000     transm: transmittance of the glass window (-)          
+          0.850000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  92      TYPE  54
+ Zone envelope                                                           
+
+ 1     INPUTS:
+        TEMPERATURE      4 - tia:    zone air dry-bulb temperature             
+        POWER            4 - qisw:   internal (short wave) radiant gain        
+        POWER           13 - qilw:   internal (long wave) radiant gain         
+        TEMPERATURE     47 - tis(1): inner  surface temperature                
+        TEMPERATURE     48 - tis(2): inner  surface temperature                
+        TEMPERATURE     49 - tis(3): inner  surface temperature                
+        TEMPERATURE     50 - tis(4): inner  surface temperature                
+        TEMPERATURE     51 - tis(5): inner  surface temperature                
+        TEMPERATURE     52 - tis(6): inner  surface temperature                
+        TEMPERATURE     53 - tis(7): inner  surface temperature                
+        TEMPERATURE     54 - tis(8): inner  surface temperature                
+        TEMPERATURE     54 - tis(9): inner  surface temperature                
+        TEMPERATURE     54 - tis(10):inner  surface temperature                
+        TEMPERATURE     54 - tis(11):inner  surface temperature                
+        TEMPERATURE     54 - tis(12):inner  surface temperature                
+
+ 2     OUTPUTS:
+        TEMPERATURE     13 - tmr:    mean radiant temperature                  
+        POWER           22 - qwall:  convective heat gain from  surfaces       
+
+ 3     PARAMETERS:
+           4.00000     izn:    identification number of zone                  
+           8.00000     ns:     number of surfaces of zone                     
+
+ UNIT  41      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      5 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     14 - tmr:    mean radiant temperature                  
+        TEMPERATURE     84 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     55 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           5.00000     izn:    identification number of zone                  
+           1.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           2.00000     istr:   identification number of the construct         
+           111.205     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           0.00000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  42      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      5 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     14 - tmr:    mean radiant temperature                  
+        TEMPERATURE     27 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     56 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           5.00000     izn:    identification number of zone                  
+           2.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           3.00000     istr:   identification number of the construct         
+           111.205     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           180.000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  43      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      5 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     14 - tmr:    mean radiant temperature                  
+        TEMPERATURE     57 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     57 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           5.00000     izn:    identification number of zone                  
+           3.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           45.2900     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  44      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      5 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     14 - tmr:    mean radiant temperature                  
+        TEMPERATURE     58 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     58 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           5.00000     izn:    identification number of zone                  
+           4.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           18.5340     as:     surface area (m2)                              
+           270.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  45      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      5 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     14 - tmr:    mean radiant temperature                  
+        TEMPERATURE     66 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     59 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           5.00000     izn:    identification number of zone                  
+           5.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           48.0770     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  46      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      5 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     14 - tmr:    mean radiant temperature                  
+        TEMPERATURE     50 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     60 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           5.00000     izn:    identification number of zone                  
+           6.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           18.5340     as:     surface area (m2)                              
+           90.0000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  47      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      5 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     14 - tmr:    mean radiant temperature                  
+        TEMPERATURE     71 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     61 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           5.00000     izn:    identification number of zone                  
+           7.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           7.00000     istr:   identification number of the construct         
+           2.23000     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  48      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      5 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     14 - tmr:    mean radiant temperature                  
+        TEMPERATURE     62 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     62 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           5.00000     izn:    identification number of zone                  
+           8.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           8.00000     istr:   identification number of the construct         
+           5.01700     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           6.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+           0.00000     absis:  short wave absorptance of inner surface(-)     
+          0.600000     emitis: emissivity of the inner surface (-)            
+          0.200000     transm: transmittance of the glass window (-)          
+          0.850000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  93      TYPE  54
+ Zone envelope                                                           
+
+ 1     INPUTS:
+        TEMPERATURE      5 - tia:    zone air dry-bulb temperature             
+        POWER            5 - qisw:   internal (short wave) radiant gain        
+        POWER           14 - qilw:   internal (long wave) radiant gain         
+        TEMPERATURE     55 - tis(1): inner  surface temperature                
+        TEMPERATURE     56 - tis(2): inner  surface temperature                
+        TEMPERATURE     57 - tis(3): inner  surface temperature                
+        TEMPERATURE     58 - tis(4): inner  surface temperature                
+        TEMPERATURE     59 - tis(5): inner  surface temperature                
+        TEMPERATURE     60 - tis(6): inner  surface temperature                
+        TEMPERATURE     61 - tis(7): inner  surface temperature                
+        TEMPERATURE     62 - tis(8): inner  surface temperature                
+        TEMPERATURE     62 - tis(9): inner  surface temperature                
+        TEMPERATURE     62 - tis(10):inner  surface temperature                
+        TEMPERATURE     62 - tis(11):inner  surface temperature                
+        TEMPERATURE     62 - tis(12):inner  surface temperature                
+
+ 2     OUTPUTS:
+        TEMPERATURE     14 - tmr:    mean radiant temperature                  
+        POWER           23 - qwall:  convective heat gain from  surfaces       
+
+ 3     PARAMETERS:
+           5.00000     izn:    identification number of zone                  
+           8.00000     ns:     number of surfaces of zone                     
+
+ UNIT  49      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      6 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     15 - tmr:    mean radiant temperature                  
+        TEMPERATURE     92 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     63 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           6.00000     izn:    identification number of zone                  
+           1.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           2.00000     istr:   identification number of the construct         
+           209.032     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           0.00000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  50      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      6 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     15 - tmr:    mean radiant temperature                  
+        TEMPERATURE     35 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     64 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           6.00000     izn:    identification number of zone                  
+           2.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           3.00000     istr:   identification number of the construct         
+           209.032     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           180.000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  51      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      6 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     15 - tmr:    mean radiant temperature                  
+        TEMPERATURE     51 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     65 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           6.00000     izn:    identification number of zone                  
+           3.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           19.9740     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  52      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      6 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     15 - tmr:    mean radiant temperature                  
+        TEMPERATURE     59 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     66 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           6.00000     izn:    identification number of zone                  
+           4.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           50.5860     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  53      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      6 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     15 - tmr:    mean radiant temperature                  
+        TEMPERATURE     67 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     67 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           6.00000     izn:    identification number of zone                  
+           5.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           26.4770     as:     surface area (m2)                              
+           270.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  54      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      6 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     15 - tmr:    mean radiant temperature                  
+        TEMPERATURE     68 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     68 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           6.00000     izn:    identification number of zone                  
+           6.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           65.2640     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  55      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      6 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     15 - tmr:    mean radiant temperature                  
+        TEMPERATURE     69 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     69 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           6.00000     izn:    identification number of zone                  
+           7.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           24.2480     as:     surface area (m2)                              
+           90.0000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  56      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      6 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     15 - tmr:    mean radiant temperature                  
+        TEMPERATURE     53 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     70 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           6.00000     izn:    identification number of zone                  
+           8.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           7.00000     istr:   identification number of the construct         
+           2.23000     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  57      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      6 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     15 - tmr:    mean radiant temperature                  
+        TEMPERATURE     61 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     71 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           6.00000     izn:    identification number of zone                  
+           9.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           7.00000     istr:   identification number of the construct         
+           2.23000     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  58      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      6 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     15 - tmr:    mean radiant temperature                  
+        TEMPERATURE     72 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     72 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           6.00000     izn:    identification number of zone                  
+           10.0000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           8.00000     istr:   identification number of the construct         
+           2.50800     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           6.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+           0.00000     absis:  short wave absorptance of inner surface(-)     
+          0.600000     emitis: emissivity of the inner surface (-)            
+          0.200000     transm: transmittance of the glass window (-)          
+          0.850000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  59      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      6 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     15 - tmr:    mean radiant temperature                  
+        TEMPERATURE     73 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     73 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           6.00000     izn:    identification number of zone                  
+           11.0000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           8.00000     istr:   identification number of the construct         
+           2.50800     as:     surface area (m2)                              
+           90.0000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           6.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+           0.00000     absis:  short wave absorptance of inner surface(-)     
+          0.600000     emitis: emissivity of the inner surface (-)            
+          0.200000     transm: transmittance of the glass window (-)          
+          0.850000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  60      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      6 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     15 - tmr:    mean radiant temperature                  
+        TEMPERATURE     74 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     74 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           6.00000     izn:    identification number of zone                  
+           12.0000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           8.00000     istr:   identification number of the construct         
+           7.52500     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           6.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+           0.00000     absis:  short wave absorptance of inner surface(-)     
+          0.600000     emitis: emissivity of the inner surface (-)            
+          0.200000     transm: transmittance of the glass window (-)          
+          0.850000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  94      TYPE  54
+ Zone envelope                                                           
+
+ 1     INPUTS:
+        TEMPERATURE      6 - tia:    zone air dry-bulb temperature             
+        POWER            6 - qisw:   internal (short wave) radiant gain        
+        POWER           15 - qilw:   internal (long wave) radiant gain         
+        TEMPERATURE     63 - tis(1): inner  surface temperature                
+        TEMPERATURE     64 - tis(2): inner  surface temperature                
+        TEMPERATURE     65 - tis(3): inner  surface temperature                
+        TEMPERATURE     66 - tis(4): inner  surface temperature                
+        TEMPERATURE     67 - tis(5): inner  surface temperature                
+        TEMPERATURE     68 - tis(6): inner  surface temperature                
+        TEMPERATURE     69 - tis(7): inner  surface temperature                
+        TEMPERATURE     70 - tis(8): inner  surface temperature                
+        TEMPERATURE     71 - tis(9): inner  surface temperature                
+        TEMPERATURE     72 - tis(10):inner  surface temperature                
+        TEMPERATURE     73 - tis(11):inner  surface temperature                
+        TEMPERATURE     74 - tis(12):inner  surface temperature                
+
+ 2     OUTPUTS:
+        TEMPERATURE     15 - tmr:    mean radiant temperature                  
+        POWER           24 - qwall:  convective heat gain from  surfaces       
+
+ 3     PARAMETERS:
+           6.00000     izn:    identification number of zone                  
+           12.0000     ns:     number of surfaces of zone                     
+
+ UNIT  61      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      7 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     16 - tmr:    mean radiant temperature                  
+        TEMPERATURE     75 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     75 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           7.00000     izn:    identification number of zone                  
+           1.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           1.00000     istr:   identification number of the construct         
+           54.6270     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           0.00000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  62      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      7 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     16 - tmr:    mean radiant temperature                  
+        TEMPERATURE     47 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     76 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           7.00000     izn:    identification number of zone                  
+           2.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           3.00000     istr:   identification number of the construct         
+           54.6700     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           180.000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  63      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      7 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     16 - tmr:    mean radiant temperature                  
+        TEMPERATURE     77 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     77 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           7.00000     izn:    identification number of zone                  
+           3.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           22.2040     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  64      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      7 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     16 - tmr:    mean radiant temperature                  
+        TEMPERATURE     88 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     78 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           7.00000     izn:    identification number of zone                  
+           4.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           18.5340     as:     surface area (m2)                              
+           270.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  65      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      7 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     16 - tmr:    mean radiant temperature                  
+        TEMPERATURE     93 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     79 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           7.00000     izn:    identification number of zone                  
+           5.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           22.4830     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  66      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      7 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     16 - tmr:    mean radiant temperature                  
+        TEMPERATURE     80 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     80 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           7.00000     izn:    identification number of zone                  
+           6.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           18.5340     as:     surface area (m2)                              
+           90.0000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  67      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      7 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     16 - tmr:    mean radiant temperature                  
+        TEMPERATURE     98 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     81 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           7.00000     izn:    identification number of zone                  
+           7.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           7.00000     istr:   identification number of the construct         
+           2.23000     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  68      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      7 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     16 - tmr:    mean radiant temperature                  
+        TEMPERATURE     82 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     82 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           7.00000     izn:    identification number of zone                  
+           8.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           8.00000     istr:   identification number of the construct         
+           2.50800     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           6.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+           0.00000     absis:  short wave absorptance of inner surface(-)     
+          0.600000     emitis: emissivity of the inner surface (-)            
+          0.200000     transm: transmittance of the glass window (-)          
+          0.850000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  95      TYPE  54
+ Zone envelope                                                           
+
+ 1     INPUTS:
+        TEMPERATURE      7 - tia:    zone air dry-bulb temperature             
+        POWER            7 - qisw:   internal (short wave) radiant gain        
+        POWER           16 - qilw:   internal (long wave) radiant gain         
+        TEMPERATURE     75 - tis(1): inner  surface temperature                
+        TEMPERATURE     76 - tis(2): inner  surface temperature                
+        TEMPERATURE     77 - tis(3): inner  surface temperature                
+        TEMPERATURE     78 - tis(4): inner  surface temperature                
+        TEMPERATURE     79 - tis(5): inner  surface temperature                
+        TEMPERATURE     80 - tis(6): inner  surface temperature                
+        TEMPERATURE     81 - tis(7): inner  surface temperature                
+        TEMPERATURE     82 - tis(8): inner  surface temperature                
+        TEMPERATURE     82 - tis(9): inner  surface temperature                
+        TEMPERATURE     82 - tis(10):inner  surface temperature                
+        TEMPERATURE     82 - tis(11):inner  surface temperature                
+        TEMPERATURE     82 - tis(12):inner  surface temperature                
+
+ 2     OUTPUTS:
+        TEMPERATURE     16 - tmr:    mean radiant temperature                  
+        POWER           25 - qwall:  convective heat gain from  surfaces       
+
+ 3     PARAMETERS:
+           7.00000     izn:    identification number of zone                  
+           8.00000     ns:     number of surfaces of zone                     
+
+ UNIT  69      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      8 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     17 - tmr:    mean radiant temperature                  
+        TEMPERATURE     83 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     83 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           8.00000     izn:    identification number of zone                  
+           1.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           1.00000     istr:   identification number of the construct         
+           111.205     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           0.00000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  70      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      8 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     17 - tmr:    mean radiant temperature                  
+        TEMPERATURE     55 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     84 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           8.00000     izn:    identification number of zone                  
+           2.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           3.00000     istr:   identification number of the construct         
+           111.205     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           180.000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  71      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      8 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     17 - tmr:    mean radiant temperature                  
+        TEMPERATURE     85 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     85 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           8.00000     izn:    identification number of zone                  
+           3.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           45.2900     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  72      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      8 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     17 - tmr:    mean radiant temperature                  
+        TEMPERATURE     86 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     86 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           8.00000     izn:    identification number of zone                  
+           4.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           18.5340     as:     surface area (m2)                              
+           270.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  73      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      8 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     17 - tmr:    mean radiant temperature                  
+        TEMPERATURE     94 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     87 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           8.00000     izn:    identification number of zone                  
+           5.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           48.0770     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  74      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      8 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     17 - tmr:    mean radiant temperature                  
+        TEMPERATURE     78 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     88 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           8.00000     izn:    identification number of zone                  
+           6.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           18.5340     as:     surface area (m2)                              
+           90.0000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  75      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      8 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     17 - tmr:    mean radiant temperature                  
+        TEMPERATURE     99 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     89 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           8.00000     izn:    identification number of zone                  
+           7.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           7.00000     istr:   identification number of the construct         
+           2.23000     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  76      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      8 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     17 - tmr:    mean radiant temperature                  
+        TEMPERATURE     90 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     90 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           8.00000     izn:    identification number of zone                  
+           8.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           8.00000     istr:   identification number of the construct         
+           5.01700     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           6.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+           0.00000     absis:  short wave absorptance of inner surface(-)     
+          0.600000     emitis: emissivity of the inner surface (-)            
+          0.200000     transm: transmittance of the glass window (-)          
+          0.850000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  96      TYPE  54
+ Zone envelope                                                           
+
+ 1     INPUTS:
+        TEMPERATURE      8 - tia:    zone air dry-bulb temperature             
+        POWER            8 - qisw:   internal (short wave) radiant gain        
+        POWER           17 - qilw:   internal (long wave) radiant gain         
+        TEMPERATURE     83 - tis(1): inner  surface temperature                
+        TEMPERATURE     84 - tis(2): inner  surface temperature                
+        TEMPERATURE     85 - tis(3): inner  surface temperature                
+        TEMPERATURE     86 - tis(4): inner  surface temperature                
+        TEMPERATURE     87 - tis(5): inner  surface temperature                
+        TEMPERATURE     88 - tis(6): inner  surface temperature                
+        TEMPERATURE     89 - tis(7): inner  surface temperature                
+        TEMPERATURE     90 - tis(8): inner  surface temperature                
+        TEMPERATURE     90 - tis(9): inner  surface temperature                
+        TEMPERATURE     90 - tis(10):inner  surface temperature                
+        TEMPERATURE     90 - tis(11):inner  surface temperature                
+        TEMPERATURE     90 - tis(12):inner  surface temperature                
+
+ 2     OUTPUTS:
+        TEMPERATURE     17 - tmr:    mean radiant temperature                  
+        POWER           26 - qwall:  convective heat gain from  surfaces       
+
+ 3     PARAMETERS:
+           8.00000     izn:    identification number of zone                  
+           8.00000     ns:     number of surfaces of zone                     
+
+ UNIT  77      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      9 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     18 - tmr:    mean radiant temperature                  
+        TEMPERATURE     91 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     91 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           9.00000     izn:    identification number of zone                  
+           1.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           1.00000     istr:   identification number of the construct         
+           209.032     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           0.00000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  78      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      9 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     18 - tmr:    mean radiant temperature                  
+        TEMPERATURE     63 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     92 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           9.00000     izn:    identification number of zone                  
+           2.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           3.00000     istr:   identification number of the construct         
+           209.032     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           180.000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  79      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      9 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     18 - tmr:    mean radiant temperature                  
+        TEMPERATURE     79 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     93 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           9.00000     izn:    identification number of zone                  
+           3.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           19.9740     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  80      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      9 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     18 - tmr:    mean radiant temperature                  
+        TEMPERATURE     87 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     94 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           9.00000     izn:    identification number of zone                  
+           4.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           6.00000     istr:   identification number of the construct         
+           50.5860     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  81      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      9 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     18 - tmr:    mean radiant temperature                  
+        TEMPERATURE     95 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     95 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           9.00000     izn:    identification number of zone                  
+           5.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           26.4770     as:     surface area (m2)                              
+           270.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  82      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      9 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     18 - tmr:    mean radiant temperature                  
+        TEMPERATURE     96 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     96 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           9.00000     izn:    identification number of zone                  
+           6.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           65.2640     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  83      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      9 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     18 - tmr:    mean radiant temperature                  
+        TEMPERATURE     97 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     97 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           9.00000     izn:    identification number of zone                  
+           7.00000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           5.00000     istr:   identification number of the construct         
+           24.2480     as:     surface area (m2)                              
+           90.0000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           3.00000     irofs:  outer surface roughness index: 1=stucco,...    
+          0.600000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  84      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      9 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     18 - tmr:    mean radiant temperature                  
+        TEMPERATURE     81 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     98 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           9.00000     izn:    identification number of zone                  
+           8.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           7.00000     istr:   identification number of the construct         
+           2.23000     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  85      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      9 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     18 - tmr:    mean radiant temperature                  
+        TEMPERATURE     89 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE     99 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           9.00000     izn:    identification number of zone                  
+           9.00000     id:     identification number of surface               
+           1.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           7.00000     istr:   identification number of the construct         
+           2.23000     as:     surface area (m2)                              
+           180.000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+           0.00000     grf:    ground reflectivity (-)                        
+           0.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+          0.600000     absis:  short wave absorptance of inner surface(-)     
+          0.900000     emitis: emissivity of the inner surface (-)            
+           0.00000     transm: transmittance of the glass window (-)          
+           0.00000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  86      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      9 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     18 - tmr:    mean radiant temperature                  
+        TEMPERATURE    100 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE    100 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           9.00000     izn:    identification number of zone                  
+           10.0000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           8.00000     istr:   identification number of the construct         
+           2.50800     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           6.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+           0.00000     absis:  short wave absorptance of inner surface(-)     
+          0.600000     emitis: emissivity of the inner surface (-)            
+          0.200000     transm: transmittance of the glass window (-)          
+          0.850000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  87      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      9 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     18 - tmr:    mean radiant temperature                  
+        TEMPERATURE    101 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE    101 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           9.00000     izn:    identification number of zone                  
+           11.0000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           8.00000     istr:   identification number of the construct         
+           2.50800     as:     surface area (m2)                              
+           90.0000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           6.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+           0.00000     absis:  short wave absorptance of inner surface(-)     
+          0.600000     emitis: emissivity of the inner surface (-)            
+          0.200000     transm: transmittance of the glass window (-)          
+          0.850000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  88      TYPE  51
+ Building surface                                                        
+
+ 1     INPUTS:
+        TEMPERATURE      9 - tia:    indoor air dry-bulb temperature           
+        TEMPERATURE     18 - tmr:    mean radiant temperature                  
+        TEMPERATURE    102 - tosinf: outer surface temp. of unexposed wall     
+        CONTROL          1 - fshadw: shaded fraction of exposed surface        
+
+ 2     OUTPUTS:
+        TEMPERATURE    102 - tis:    inner surface temperature                 
+        POWER            0 - solint: integrated solar influx  on surface       
+
+ 3     PARAMETERS:
+           9.00000     izn:    identification number of zone                  
+           12.0000     id:     identification number of surface               
+           2.00000     iexpos: 0=w/in zone, 1=betw.zones, 2=exposed to sun    
+           8.00000     istr:   identification number of the construct         
+           7.52500     as:     surface area (m2)                              
+           0.00000     orient: azimuth angle of normal to surface & south     
+           90.0000     tilt:   tilt angle: flat roof=0, floor=180 (degree)    
+          0.200000     grf:    ground reflectivity (-)                        
+           6.00000     irofs:  outer surface roughness index: 1=stucco,...    
+           0.00000     absos:  solar absorptance of outer surface (-)         
+           0.00000     absis:  short wave absorptance of inner surface(-)     
+          0.600000     emitis: emissivity of the inner surface (-)            
+          0.200000     transm: transmittance of the glass window (-)          
+          0.850000     sc:     shading coeff. of the glass window (-)         
+
+ UNIT  97      TYPE  54
+ Zone envelope                                                           
+
+ 1     INPUTS:
+        TEMPERATURE      9 - tia:    zone air dry-bulb temperature             
+        POWER            9 - qisw:   internal (short wave) radiant gain        
+        POWER           18 - qilw:   internal (long wave) radiant gain         
+        TEMPERATURE     91 - tis(1): inner  surface temperature                
+        TEMPERATURE     92 - tis(2): inner  surface temperature                
+        TEMPERATURE     93 - tis(3): inner  surface temperature                
+        TEMPERATURE     94 - tis(4): inner  surface temperature                
+        TEMPERATURE     95 - tis(5): inner  surface temperature                
+        TEMPERATURE     96 - tis(6): inner  surface temperature                
+        TEMPERATURE     97 - tis(7): inner  surface temperature                
+        TEMPERATURE     98 - tis(8): inner  surface temperature                
+        TEMPERATURE     99 - tis(9): inner  surface temperature                
+        TEMPERATURE    100 - tis(10):inner  surface temperature                
+        TEMPERATURE    101 - tis(11):inner  surface temperature                
+        TEMPERATURE    102 - tis(12):inner  surface temperature                
+
+ 2     OUTPUTS:
+        TEMPERATURE     18 - tmr:    mean radiant temperature                  
+        POWER           27 - qwall:  convective heat gain from  surfaces       
+
+ 3     PARAMETERS:
+           9.00000     izn:    identification number of zone                  
+           12.0000     ns:     number of surfaces of zone                     
+
+ UNIT  98      TYPE  53
+ Weather input                                                           
+
+ 1     INPUTS:
+        TEMPERATURE    103 - tamb:   ambient (outdoor) air temperature (C)     
+        HUMIDITY         1 - humrat: outdoor air humidity ratio (-)            
+        PRESSURE         1 - pbar:   barometric pressure (kPa)                 
+        POWER           28 - idn:    direct normal solar radiation (W/m2)      
+        POWER           29 - isky:   diffuse (sky) solar radiation (W/m2)      
+        POWER           30 - ihor:   total horizontal solar radiation (W/m2)   
+
+ 2     OUTPUTS:
+
+ 3     PARAMETERS:
+           103.000     index for ambient temperature (e.g. 5 if tamb=t5)      
+           1.00000     index for outdoor air humidity ratio                   
+           1.00000     index for barometric pressure                          
+           28.0000     index for direct normal solar radiation                
+           29.0000     index for diffuse (sky) solar radiation                
+           30.0000     index for total horizontal solar radiation             
+
+ UNIT   1      TYPE  26
+ Control signal inverter                                                 
+
+ 1     INPUTS:
+        CONTROL          1 - input control signal                              
+
+ 2     OUTPUTS:
+        CONTROL          0 - output control signal                             
+
+ 3     PARAMETERS:
+           1.00000     multiplier [dimensionless]                             
+
+ UNIT   2      TYPE  26
+ Control signal inverter                                                 
+
+ 1     INPUTS:
+        CONTROL          1 - input control signal                              
+
+ 2     OUTPUTS:
+        CONTROL          0 - output control signal                             
+
+ 3     PARAMETERS:
+           1.00000     multiplier [dimensionless]                             
+
+ UNIT   3      TYPE  26
+ Control signal inverter                                                 
+
+ 1     INPUTS:
+        CONTROL          1 - input control signal                              
+
+ 2     OUTPUTS:
+        CONTROL          0 - output control signal                             
+
+ 3     PARAMETERS:
+           1.00000     multiplier [dimensionless]                             
+
+ UNIT   4      TYPE  26
+ Control signal inverter                                                 
+
+ 1     INPUTS:
+        CONTROL          1 - input control signal                              
+
+ 2     OUTPUTS:
+        CONTROL          0 - output control signal                             
+
+ 3     PARAMETERS:
+           1.00000     multiplier [dimensionless]                             
+
+ UNIT  99      TYPE  26
+ Control signal inverter                                                 
+
+ 1     INPUTS:
+        CONTROL          1 - input control signal                              
+
+ 2     OUTPUTS:
+        CONTROL          0 - output control signal                             
+
+ 3     PARAMETERS:
+           1.00000     multiplier [dimensionless]                             
+
+ UNIT 100      TYPE  26
+ Control signal inverter                                                 
+
+ 1     INPUTS:
+        CONTROL          1 - input control signal                              
+
+ 2     OUTPUTS:
+        CONTROL          0 - output control signal                             
+
+ 3     PARAMETERS:
+           1.00000     multiplier [dimensionless]                             
+
+ UNIT 101      TYPE  26
+ Control signal inverter                                                 
+
+ 1     INPUTS:
+        CONTROL          1 - input control signal                              
+
+ 2     OUTPUTS:
+        CONTROL          0 - output control signal                             
+
+ 3     PARAMETERS:
+           1.00000     multiplier [dimensionless]                             
+
+ UNIT 102      TYPE  26
+ Control signal inverter                                                 
+
+ 1     INPUTS:
+        CONTROL          1 - input control signal                              
+
+ 2     OUTPUTS:
+        CONTROL          0 - output control signal                             
+
+ 3     PARAMETERS:
+           1.00000     multiplier [dimensionless]                             
+
+ UNIT 103      TYPE  26
+ Control signal inverter                                                 
+
+ 1     INPUTS:
+        CONTROL          1 - input control signal                              
+
+ 2     OUTPUTS:
+        CONTROL          0 - output control signal                             
+
+ 3     PARAMETERS:
+           1.00000     multiplier [dimensionless]                             
+ Initial Variable Values:
+
+ PRESSURE         1 ->     0.00000                 (kPa)  
+ TEMPERATURE      1 ->     20.0000                 (C)    
+ TEMPERATURE      2 ->     20.0000                 (C)    
+ TEMPERATURE      3 ->     20.0000                 (C)    
+ TEMPERATURE      4 ->     20.0000                 (C)    
+ TEMPERATURE      5 ->     20.0000                 (C)    
+ TEMPERATURE      6 ->     20.0000                 (C)    
+ TEMPERATURE      7 ->     20.0000                 (C)    
+ TEMPERATURE      8 ->     20.0000                 (C)    
+ TEMPERATURE      9 ->     20.0000                 (C)    
+ TEMPERATURE     10 ->     20.0000                 (C)    
+ TEMPERATURE     11 ->     20.0000                 (C)    
+ TEMPERATURE     12 ->     20.0000                 (C)    
+ TEMPERATURE     13 ->     20.0000                 (C)    
+ TEMPERATURE     14 ->     20.0000                 (C)    
+ TEMPERATURE     15 ->     20.0000                 (C)    
+ TEMPERATURE     16 ->     20.0000                 (C)    
+ TEMPERATURE     17 ->     20.0000                 (C)    
+ TEMPERATURE     18 ->     20.0000                 (C)    
+ TEMPERATURE     19 ->     20.0000                 (C)    
+ TEMPERATURE     20 ->     20.0000                 (C)    
+ TEMPERATURE     21 ->     20.0000                 (C)    
+ TEMPERATURE     22 ->     20.0000                 (C)    
+ TEMPERATURE     23 ->     20.0000                 (C)    
+ TEMPERATURE     24 ->     20.0000                 (C)    
+ TEMPERATURE     25 ->     20.0000                 (C)    
+ TEMPERATURE     26 ->     20.0000                 (C)    
+ TEMPERATURE     27 ->     20.0000                 (C)    
+ TEMPERATURE     28 ->     20.0000                 (C)    
+ TEMPERATURE     29 ->     20.0000                 (C)    
+ TEMPERATURE     30 ->     20.0000                 (C)    
+ TEMPERATURE     31 ->     20.0000                 (C)    
+ TEMPERATURE     32 ->     20.0000                 (C)    
+ TEMPERATURE     33 ->     20.0000                 (C)    
+ TEMPERATURE     34 ->     20.0000                 (C)    
+ TEMPERATURE     35 ->     20.0000                 (C)    
+ TEMPERATURE     36 ->     20.0000                 (C)    
+ TEMPERATURE     37 ->     20.0000                 (C)    
+ TEMPERATURE     38 ->     20.0000                 (C)    
+ TEMPERATURE     39 ->     20.0000                 (C)    
+ TEMPERATURE     40 ->     20.0000                 (C)    
+ TEMPERATURE     41 ->     20.0000                 (C)    
+ TEMPERATURE     42 ->     20.0000                 (C)    
+ TEMPERATURE     43 ->     20.0000                 (C)    
+ TEMPERATURE     44 ->     20.0000                 (C)    
+ TEMPERATURE     45 ->     20.0000                 (C)    
+ TEMPERATURE     46 ->     20.0000                 (C)    
+ TEMPERATURE     47 ->     20.0000                 (C)    
+ TEMPERATURE     48 ->     20.0000                 (C)    
+ TEMPERATURE     49 ->     20.0000                 (C)    
+ TEMPERATURE     50 ->     20.0000                 (C)    
+ TEMPERATURE     51 ->     20.0000                 (C)    
+ TEMPERATURE     52 ->     20.0000                 (C)    
+ TEMPERATURE     53 ->     20.0000                 (C)    
+ TEMPERATURE     54 ->     20.0000                 (C)    
+ TEMPERATURE     55 ->     20.0000                 (C)    
+ TEMPERATURE     56 ->     20.0000                 (C)    
+ TEMPERATURE     57 ->     20.0000                 (C)    
+ TEMPERATURE     58 ->     20.0000                 (C)    
+ TEMPERATURE     59 ->     20.0000                 (C)    
+ TEMPERATURE     60 ->     20.0000                 (C)    
+ TEMPERATURE     61 ->     20.0000                 (C)    
+ TEMPERATURE     62 ->     20.0000                 (C)    
+ TEMPERATURE     63 ->     20.0000                 (C)    
+ TEMPERATURE     64 ->     20.0000                 (C)    
+ TEMPERATURE     65 ->     20.0000                 (C)    
+ TEMPERATURE     66 ->     20.0000                 (C)    
+ TEMPERATURE     67 ->     20.0000                 (C)    
+ TEMPERATURE     68 ->     20.0000                 (C)    
+ TEMPERATURE     69 ->     20.0000                 (C)    
+ TEMPERATURE     70 ->     20.0000                 (C)    
+ TEMPERATURE     71 ->     20.0000                 (C)    
+ TEMPERATURE     72 ->     20.0000                 (C)    
+ TEMPERATURE     73 ->     20.0000                 (C)    
+ TEMPERATURE     74 ->     20.0000                 (C)    
+ TEMPERATURE     75 ->     20.0000                 (C)    
+ TEMPERATURE     76 ->     20.0000                 (C)    
+ TEMPERATURE     77 ->     20.0000                 (C)    
+ TEMPERATURE     78 ->     20.0000                 (C)    
+ TEMPERATURE     79 ->     20.0000                 (C)    
+ TEMPERATURE     80 ->     20.0000                 (C)    
+ TEMPERATURE     81 ->     20.0000                 (C)    
+ TEMPERATURE     82 ->     20.0000                 (C)    
+ TEMPERATURE     83 ->     20.0000                 (C)    
+ TEMPERATURE     84 ->     20.0000                 (C)    
+ TEMPERATURE     85 ->     20.0000                 (C)    
+ TEMPERATURE     86 ->     20.0000                 (C)    
+ TEMPERATURE     87 ->     20.0000                 (C)    
+ TEMPERATURE     88 ->     20.0000                 (C)    
+ TEMPERATURE     89 ->     20.0000                 (C)    
+ TEMPERATURE     90 ->     20.0000                 (C)    
+ TEMPERATURE     91 ->     20.0000                 (C)    
+ TEMPERATURE     92 ->     20.0000                 (C)    
+ TEMPERATURE     93 ->     20.0000                 (C)    
+ TEMPERATURE     94 ->     20.0000                 (C)    
+ TEMPERATURE     95 ->     20.0000                 (C)    
+ TEMPERATURE     96 ->     20.0000                 (C)    
+ TEMPERATURE     97 ->     20.0000                 (C)    
+ TEMPERATURE     98 ->     20.0000                 (C)    
+ TEMPERATURE     99 ->     20.0000                 (C)    
+ TEMPERATURE    100 ->     20.0000                 (C)    
+ TEMPERATURE    101 ->     20.0000                 (C)    
+ TEMPERATURE    102 ->     20.0000                 (C)    
+ TEMPERATURE    103 ->     20.0000                 (C)    
+ TEMPERATURE    104 ->     20.0000                 (C)    
+ TEMPERATURE    105 ->     20.0000                 (C)    
+ CONTROL          1 ->     0.00000                 (-)    
+ POWER            1 ->     0.00000                 (kW)   
+ POWER            2 ->     0.00000                 (kW)   
+ POWER            3 ->     0.00000                 (kW)   
+ POWER            4 ->     0.00000                 (kW)   
+ POWER            5 ->     0.00000                 (kW)   
+ POWER            6 ->     0.00000                 (kW)   
+ POWER            7 ->     0.00000                 (kW)   
+ POWER            8 ->     0.00000                 (kW)   
+ POWER            9 ->     0.00000                 (kW)   
+ POWER           10 ->     0.00000                 (kW)   
+ POWER           11 ->     0.00000                 (kW)   
+ POWER           12 ->     0.00000                 (kW)   
+ POWER           13 ->     0.00000                 (kW)   
+ POWER           14 ->     0.00000                 (kW)   
+ POWER           15 ->     0.00000                 (kW)   
+ POWER           16 ->     0.00000                 (kW)   
+ POWER           17 ->     0.00000                 (kW)   
+ POWER           18 ->     0.00000                 (kW)   
+ POWER           19 ->     0.00000                 (kW)   
+ POWER           20 ->     0.00000                 (kW)   
+ POWER           21 ->     0.00000                 (kW)   
+ POWER           22 ->     0.00000                 (kW)   
+ POWER           23 ->     0.00000                 (kW)   
+ POWER           24 ->     0.00000                 (kW)   
+ POWER           25 ->     0.00000                 (kW)   
+ POWER           26 ->     0.00000                 (kW)   
+ POWER           27 ->     0.00000                 (kW)   
+ POWER           28 ->     0.00000                 (kW)   
+ POWER           29 ->     0.00000                 (kW)   
+ POWER           30 ->     0.00000                 (kW)   
+ HUMIDITY         1 ->     0.00000                 (kg/kg)
+ Simulation Error Tolerances:
+
+ 1      RTOLX=   0.500000E-02      ATOLX=   0.100000E-05
+        XTOL=    0.500000E-03      TTIME=    10.0000    
+
+ SUPERBLOCK 1
+ 2      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK 2
+ 3      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK 3
+ 4      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK 4
+ 5      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK 5
+ 6      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK 6
+ 7      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK 7
+ 8      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK 8
+ 9      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK 9
+10      FREEZE OPTION 0      SCAN OPTION 0
+
+ SUPERBLOCK10
+11      FREEZE OPTION 0      SCAN OPTION 0
+ The following are Boundary Variables in the simulation:
+
+
+ SUPERBLOCK 1      REPORTING INTERVAL    900.000    
+ TEMPERATURE      1
+ TEMPERATURE      2
+ TEMPERATURE      3
+ TEMPERATURE      4
+ TEMPERATURE      5
+ TEMPERATURE      6
+ TEMPERATURE      7
+ TEMPERATURE      8
+ TEMPERATURE      9
+ TEMPERATURE     10
+ TEMPERATURE     11
+ TEMPERATURE     12
+ TEMPERATURE     13
+ TEMPERATURE     14
+ TEMPERATURE     15
+ TEMPERATURE     16
+ TEMPERATURE     17
+ TEMPERATURE     18
+
+ SUPERBLOCK 2      REPORTING INTERVAL    900.000    
+ POWER           19
+ POWER           20
+ POWER           21
+ POWER           22
+ POWER           23
+ POWER           24
+ POWER           25
+ POWER           26
+ POWER           27
+
+ SUPERBLOCK 3      REPORTING INTERVAL    900.000    
+ TEMPERATURE     19
+ TEMPERATURE     20
+ TEMPERATURE     21
+ TEMPERATURE     22
+ TEMPERATURE     23
+ TEMPERATURE     24
+ TEMPERATURE     25
+ TEMPERATURE     26
+ TEMPERATURE     27
+ TEMPERATURE     28
+ TEMPERATURE     29
+ TEMPERATURE     30
+ TEMPERATURE     31
+ TEMPERATURE     32
+ TEMPERATURE     33
+ TEMPERATURE     34
+
+ SUPERBLOCK 4      REPORTING INTERVAL    900.000    
+ TEMPERATURE     35
+ TEMPERATURE     36
+ TEMPERATURE     37
+ TEMPERATURE     38
+ TEMPERATURE     39
+ TEMPERATURE     40
+ TEMPERATURE     41
+ TEMPERATURE     42
+ TEMPERATURE     43
+ TEMPERATURE     44
+ TEMPERATURE     45
+ TEMPERATURE     46
+
+ SUPERBLOCK 5      REPORTING INTERVAL    900.000    
+ TEMPERATURE     47
+ TEMPERATURE     48
+ TEMPERATURE     49
+ TEMPERATURE     50
+ TEMPERATURE     51
+ TEMPERATURE     52
+ TEMPERATURE     53
+ TEMPERATURE     54
+ TEMPERATURE     55
+ TEMPERATURE     56
+ TEMPERATURE     57
+ TEMPERATURE     58
+ TEMPERATURE     59
+ TEMPERATURE     60
+ TEMPERATURE     61
+ TEMPERATURE     62
+
+ SUPERBLOCK 6      REPORTING INTERVAL    900.000    
+ TEMPERATURE     63
+ TEMPERATURE     64
+ TEMPERATURE     65
+ TEMPERATURE     66
+ TEMPERATURE     67
+ TEMPERATURE     68
+ TEMPERATURE     69
+ TEMPERATURE     70
+ TEMPERATURE     71
+ TEMPERATURE     72
+ TEMPERATURE     73
+ TEMPERATURE     74
+
+ SUPERBLOCK 7      REPORTING INTERVAL    900.000    
+ TEMPERATURE     75
+ TEMPERATURE     76
+ TEMPERATURE     77
+ TEMPERATURE     78
+ TEMPERATURE     79
+ TEMPERATURE     80
+ TEMPERATURE     81
+ TEMPERATURE     82
+ TEMPERATURE     83
+ TEMPERATURE     84
+ TEMPERATURE     85
+ TEMPERATURE     86
+ TEMPERATURE     87
+ TEMPERATURE     88
+ TEMPERATURE     89
+ TEMPERATURE     90
+
+ SUPERBLOCK 8      REPORTING INTERVAL    900.000    
+ TEMPERATURE     91
+ TEMPERATURE     92
+ TEMPERATURE     93
+ TEMPERATURE     94
+ TEMPERATURE     95
+ TEMPERATURE     96
+ TEMPERATURE     97
+ TEMPERATURE     98
+ TEMPERATURE     99
+ TEMPERATURE    100
+ TEMPERATURE    101
+ TEMPERATURE    102
+
+ SUPERBLOCK 9      REPORTING INTERVAL    900.000    
+ PRESSURE         1
+ TEMPERATURE    103
+ POWER           28
+ POWER           29
+ POWER           30
+ HUMIDITY         1
+
+ SUPERBLOCK10      REPORTING INTERVAL    900.000    

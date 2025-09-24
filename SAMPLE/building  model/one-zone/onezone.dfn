@@ -1,0 +1,135 @@
+ title: simulation title
+ ONE ZONE MODEL                                                                 
+ nstate,nsblok: # of state variables, # of SBS
+   32    2
+ nsuper(s): # of blocks in each SB
+    2    1
+ state(i): vector of state variable initial values
+   0.000000E+00   0.000000E+00   0.101300E+03   0.000000E+00   0.200000E+02
+   0.200000E+02   0.200000E+02   0.200000E+02   0.200000E+02   0.200000E+02
+   0.200000E+02   0.200000E+02   0.200000E+02   0.200000E+02   0.200000E+02
+   0.200000E+02   0.100000E+01   0.100000E+01   0.100000E+01   0.000000E+00
+   0.100000E+01   0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00
+   0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00   0.740000E-02
+   0.740000E-02   0.740000E-02
+ ndent(i): state variable identification vector
+    0    3    4   16   -1   -1   21   29
+ nunits(b): # of units in each block B
+    8    1    1
+ njsslv(s): # of simultaneous eqs in each SB
+    0    0
+ njsolv(b): # of simultaneqou eqs in each block
+    8    0    2
+ isuper(s,i): array of block numbers in each SB
+    1    2
+    3
+ iblock(b,i): array of unit numbers in each block
+    1    2    3    4    5    6    7    8
+    9
+   10
+ iunits(u): array of type #s for each unit
+   50   51   51   51   51   51   51   51   53   52
+ nin(u): number of inputs to unit u
+   13    4    4    4    4    4    4    4    6   11
+ in(u,i): array of input connections for unit U
+    5   22   23    6    7    8    9   10   11   12   12   12   12
+    5   14   13   21
+    5   14   13   21
+    5   14   13   21
+    5   14   13   21
+    5   14   13   21
+    5   14   10   20
+    5   14   12   20
+   16   32    3   27   28   29
+    1    5   30    2    4   15   31   24   17   18   19
+ nout(u): number of outputs from unit U
+    2    2    2    2    2    2    2    2    0    4
+ iout(u,i): array of output connections for unit U
+   14   24
+    8    0
+    7    0
+    6    0
+    9    0
+   11    0
+   10   26
+   12   25
+
+    5   30   22   23
+ jssolv(s,i): array of variables solved
+  simultaneously within each sb (between blocks)
+    0
+    0
+ jsolve(b,i): array of variables solved
+  simultaneously within each block
+    8    7    6    9   11   10   12   14
+    0
+    5   30
+ nde(u): # of differential eqs in unit U
+    0    0    0    0    0    0    0    0    0    2
+ inde(u,i): de index for the ith de in unit U
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    0
+    1    2
+ idevar(d): variable index for de #d
+    5   30
+ isaved(u): index of first saved var. for unit U
+    1    1   58  115  172  229  286  343  400  400
+ jpar(u): index of first parameter for unit U
+    1    3   17   31   45   59   73   87  101  107
+ npar,nsaved: # of parameters & saved variables
+  118  399
+ par(i): array of parameters for all units
+   0.100000E+01   0.700000E+01   0.100000E+01   0.100000E+01   0.100000E+01
+   0.100000E+01   0.372100E+02   0.000000E+00   0.000000E+00   0.000000E+00
+   0.000000E+00   0.000000E+00   0.600000E+00   0.900000E+00   0.000000E+00
+   0.000000E+00   0.100000E+01   0.200000E+01   0.100000E+01   0.200000E+01
+   0.372100E+02   0.000000E+00   0.180000E+03   0.000000E+00   0.000000E+00
+   0.000000E+00   0.600000E+00   0.900000E+00   0.000000E+00   0.000000E+00
+   0.100000E+01   0.300000E+01   0.100000E+01   0.300000E+01   0.244000E+02
+   0.900000E+02   0.900000E+02   0.000000E+00   0.000000E+00   0.000000E+00
+   0.600000E+00   0.900000E+00   0.000000E+00   0.000000E+00   0.100000E+01
+   0.400000E+01   0.100000E+01   0.300000E+01   0.244000E+02   0.270000E+03
+   0.900000E+02   0.000000E+00   0.000000E+00   0.000000E+00   0.600000E+00
+   0.900000E+00   0.000000E+00   0.000000E+00   0.100000E+01   0.500000E+01
+   0.100000E+01   0.300000E+01   0.244000E+02   0.180000E+03   0.900000E+02
+   0.000000E+00   0.000000E+00   0.000000E+00   0.600000E+00   0.900000E+00
+   0.000000E+00   0.000000E+00   0.100000E+01   0.600000E+01   0.200000E+01
+   0.400000E+01   0.184000E+02   0.000000E+00   0.900000E+02   0.200000E+00
+   0.200000E+01   0.600000E+00   0.600000E+00   0.900000E+00   0.000000E+00
+   0.000000E+00   0.100000E+01   0.700000E+01   0.200000E+01   0.500000E+01
+   0.600000E+01   0.000000E+00   0.900000E+02   0.200000E+00   0.600000E+01
+   0.000000E+00   0.000000E+00   0.000000E+00   0.950000E+00   0.850000E+00
+   0.120000E+02   0.300000E+01   0.300000E+01   0.600000E+01   0.700000E+01
+   0.800000E+01   0.100000E+01   0.200000E+03   0.400000E+01   0.148840E+03
+   0.100000E+01   0.717600E-01   0.454000E-01   0.200000E+00   0.100000E+01
+   0.150000E+00   0.200000E-01   0.300000E+00
+ nbound: # of time-dependent boundary variables
+    0
+ ibound(i) state variable indices of boundary variables.
+
+ nreprt(s): # of reported variables in each SB
+   13    2
+ treprt(s): reporting interval for each SB
+   0.900000E+03   0.900000E+03
+ ireprt(i): indices of reported variables
+ ident1: category # of reported variables
+ ident2: position in category of reported variables
+    6    7    8    9   10   11   12   14   16   24   27   28   29
+    3    3    3    3    3    3    3    3    3    7    7    7    7
+    2    3    4    5    6    7    8   10   12    3    6    7    8
+    5   30
+    3    8
+    1    1
+ rtolx,atolx, xtol,ttime: error tolerances
+   0.100000E-03   0.100000E-04   0.200000E-03   0.100000E+01
+ ifzopt(s): sb variable unfreezing option vector
+    0    0
+ insopt(s): sb input scan option vector
+    0    0

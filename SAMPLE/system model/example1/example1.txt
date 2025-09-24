@@ -1,0 +1,82 @@
+                                                                                
+ Example1: Inlet pipe and (nominally) linear valve                              
+                                                                                
+ SUPERBLOCK 1                                                                   
+      BLOCK 1                                                                   
+          UNIT  1     TYPE  3 - Inlet conduit (duct or pipe)                    
+          UNIT  2     TYPE  9 - Linear valve with pneumatic actuator            
+                                                                                
+ UNIT   1      TYPE   3 ----- Water inlet pipe                                  
+ Inlet conduit (duct or pipe)                                                   
+                                                                                
+ 1     INPUTS:                                                                  
+        PRESSURE         1 - inlet fluid pressure                               
+        PRESSURE         2 - outlet fluid pressure                              
+        TEMPERATURE      1 - inlet fluid temperature                            
+        TEMPERATURE      3 - ambient air temperature                            
+        TEMPERATURE      2 - outlet fluid temperature (same as first output)    
+                                                                                
+ 2     OUTPUTS:                                                                 
+        TEMPERATURE      2 - outlet fluid temperature (same as fifth input)     
+        FLOW             1 - fluid mass flow rate                               
+                                                                                
+ 3     PARAMETERS:                                                              
+           16.4000     inside heat transfer coefficient x area (kW/C)           
+          0.170000     outside heat transfer coefficient x area (kW/C)          
+           25.2000     thermal capacitance of conduit material (kJ/C)           
+          0.150000E-01 volume (m3)                                              
+           13.5000     flow resistance [1000/(kg m)]                            
+           0.00000     height of outlet above inlet (m)                         
+           2.00000     mode: 2=water, 1=air, neg.=detailed, pos.=simple dynami  
+                                                                                
+ UNIT   2      TYPE   9 ----- Water valve                                       
+ Linear valve with pneumatic actuator                                           
+                                                                                
+ 1     INPUTS:                                                                  
+        PRESSURE         3 - outlet water pressure                              
+        FLOW             1 - water mass flow rate                               
+        CONTROL          1 - control variable from controller                   
+        CONTROL          2 - actuator relative position (same as first output)  
+                                                                                
+ 2     OUTPUTS:                                                                 
+        CONTROL          2 - actuator relative position                         
+        PRESSURE         2 - inlet water pressure                               
+        CONTROL          3 - valve stem relative position                       
+                                                                                
+ 3     PARAMETERS:                                                              
+           1.50000     flow resistance [1000/(kg m)]                            
+           5.00000     actuator time constant (sec)                             
+          0.316000E-02 leakage parameter (dimensionless)                        
+          0.200000     hysteresis parameter (dimensionless)                     
+ Initial Variable Values:                                                       
+                                                                                
+ PRESSURE         1 ->     33.7500                 (kPa)                        
+ PRESSURE         2 ->     3.00000                 (kPa)                        
+ PRESSURE         3 ->     0.00000                 (kPa)                        
+ FLOW             1 ->     2.00000                 (kg/s)                       
+ TEMPERATURE      1 ->     80.0000                 (C)                          
+ TEMPERATURE      2 ->     80.0000                 (C)                          
+ TEMPERATURE      3 ->     20.0000                 (C)                          
+ CONTROL          1 ->     1.00000                 (-)                          
+ CONTROL          2 ->     1.00000                 (-)                          
+ CONTROL          3 ->     1.00000                 (-)                          
+ Simulation Error Tolerances:                                                   
+                                                                                
+ 1      RTOLX=   0.500000E-02      ATOLX=   0.100000E-04                        
+        XTOL=    0.100000E-02      TTIME=    10.0000                            
+                                                                                
+ SUPERBLOCK 1                                                                   
+ 2      FREEZE OPTION 0      SCAN OPTION 0                                      
+ The following are Boundary Variables in the simulation:                        
+                                                                                
+ TEMPERATURE     1                                                              
+ CONTROL         1                                                              
+                                                                                
+ SUPERBLOCK 1      REPORTING INTERVAL    10.0000                                
+ PRESSURE         2                                                             
+ FLOW             1                                                             
+ TEMPERATURE      1                                                             
+ TEMPERATURE      2                                                             
+ CONTROL          1                                                             
+ CONTROL          2                                                             
+ CONTROL          3                                                             

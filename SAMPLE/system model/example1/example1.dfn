@@ -1,0 +1,76 @@
+ title: simulation title
+ Example1: Inlet pipe and linear valve                                          
+ nstate,nsblok: # of state variables, # of SBS
+   10    1
+ nsuper(s): # of blocks in each SB
+    1
+ state(i): vector of state variable initial values
+   0.337500E+02   0.300000E+01   0.000000E+00   0.200000E+01   0.800000E+02
+   0.800000E+02   0.200000E+02   0.100000E+01   0.100000E+01   0.100000E+01
+ ndent(i): state variable identification vector
+    0    3    4    7   -1   -1   -1   -1
+ nunits(b): # of units in each block B
+    2
+ njsslv(s): # of simultaneous eqs in each SB
+    0
+ njsolv(b): # of simultaneqou eqs in each block
+    3
+ isuper(s,i): array of block numbers in each SB
+    1
+ iblock(b,i): array of unit numbers in each block
+    1    2
+ iunits(u): array of type #s for each unit
+    3    9
+ nin(u): number of inputs to unit u
+    5    4
+ in(u,i): array of input connections for unit U
+    1    2    5    7    6
+    3    4    8    9
+ nout(u): number of outputs from unit U
+    2    3
+ iout(u,i): array of output connections for unit U
+    6    4
+    9    2   10
+ jssolv(s,i): array of variables solved
+  simultaneously within each sb (between blocks)
+    0
+ jsolve(b,i): array of variables solved
+  simultaneously within each block
+    9    2    4
+ nde(u): # of differential eqs in unit U
+    0    1
+ inde(u,i): de index for the ith de in unit U
+    0
+    1
+ idevar(d): variable index for de #d
+    9
+ isaved(u): index of first saved var. for unit U
+    1   12
+ jpar(u): index of first parameter for unit U
+    1    8
+ npar,nsaved: # of parameters & saved variables
+   11   16
+ par(i): array of parameters for all units
+   0.164000E+02   0.170000E+00   0.252000E+02   0.150000E-01   0.135000E+02
+   0.000000E+00   0.200000E+01   0.150000E+01   0.500000E+01   0.316000E-02
+   0.200000E+00
+ nbound: # of time-dependent boundary variables
+    2
+ ibound(i) state variable indices of boundary variables.
+    5    8
+ nreprt(s): # of reported variables in each SB
+    7
+ treprt(s): reporting interval for each SB
+   0.100000E+02
+ ireprt(i): indices of reported variables
+ ident1: category # of reported variables
+ ident2: position in category of reported variables
+    2    4    5    6    8    9   10
+    1    2    3    3    4    4    4
+    2    1    1    2    1    2    3
+ rtolx,atolx, xtol,ttime: error tolerances
+   0.500000E-02   0.100000E-04   0.100000E-02   0.100000E+02
+ ifzopt(s): sb variable unfreezing option vector
+    0
+ insopt(s): sb input scan option vector
+    0

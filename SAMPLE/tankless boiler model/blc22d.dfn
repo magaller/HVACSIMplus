@@ -1,0 +1,87 @@
+ title: simulation title
+ BLC22D - Reduced number of reported variables to BLC22C    880628              
+ nstate,nsblok: # of state variables, # of SBS
+   22    1
+ nsuper(s): # of blocks in each SB
+    1
+ state(i): vector of state variable initial values
+   0.000000E+00   0.000000E+00   0.000000E+00   0.315000E+03   0.265000E+02
+   0.170000E+02   0.300000E+02   0.573800E+02   0.300000E+02   0.140000E+02
+   0.280000E+02   0.250000E+02   0.800000E+02   0.100000E+01   0.000000E+00
+   0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00
+   0.000000E+00   0.000000E+00
+ ndent(i): state variable identification vector
+    0    1    3   13   -1   -1   15   -1
+ nunits(b): # of units in each block B
+    3
+ njsslv(s): # of simultaneous eqs in each SB
+    0
+ njsolv(b): # of simultaneqou eqs in each block
+    5
+ isuper(s,i): array of block numbers in each SB
+    1
+ iblock(b,i): array of unit numbers in each block
+    1    2    3
+ iunits(u): array of type #s for each unit
+   62   63   64
+ nin(u): number of inputs to unit u
+    9    3    5
+ in(u,i): array of input connections for unit U
+    4    5    6    7    1    2    8   16   14
+    7    3   10
+   13    7   12   15    3
+ nout(u): number of outputs from unit U
+    9    2    2
+ iout(u,i): array of output connections for unit U
+    4    7    9   17   18   19   20   21   22
+   11   16
+   14    2
+ jssolv(s,i): array of variables solved
+  simultaneously within each sb (between blocks)
+    0
+ jsolve(b,i): array of variables solved
+  simultaneously within each block
+    4    7   16   14    2
+ nde(u): # of differential eqs in unit U
+    2    0    0
+ inde(u,i): de index for the ith de in unit U
+    1    2
+    0
+    0
+ idevar(d): variable index for de #d
+    4    7
+ isaved(u): index of first saved var. for unit U
+    1    6    8
+ jpar(u): index of first parameter for unit U
+    1   29   31
+ npar,nsaved: # of parameters & saved variables
+   36    8
+ par(i): array of parameters for all units
+   0.736000E-01   0.175500E+00   0.000000E+00   0.381000E+00   0.800000E+00
+   0.776000E-01   0.260000E+01   0.169290E-02   0.100000E+01   0.184400E+01
+   0.000000E+00   0.000000E+00   0.300000E-02   0.453270E+05   0.839000E+00
+   0.126600E-02   0.265000E+02   0.200000E+00   0.790000E+00   0.950000E+02
+   0.320000E+03   0.925000E+00   0.314000E+01   0.138000E+01   0.300000E+01
+   0.231250E+00   0.462500E+00   0.300000E+02   0.193000E-01   0.420600E+01
+   0.850000E+02   0.989000E+02   0.700000E+02   0.800000E+02   0.286100E+00
+   0.100000E-03
+ nbound: # of time-dependent boundary variables
+    4
+ ibound(i) state variable indices of boundary var.
+    3   12   13   15
+ nreprt(s): # of reported variables in each SB
+    7
+ treprt(s): reporting interval for each SB
+   0.120000E+03
+ ireprt(i): indices of reported variables
+ ident1: category # of reported variables
+ ident2: position in category of reported var
+    4    7   11   14   16   17   19
+    3    3    3    4    7    7    7
+    1    4    8    1    1    2    4
+ rtolx,atolx, xtol,ttime: error tolerances
+   0.100000E-03   0.100000E-04   0.200000E-03   0.100000E+01
+ ifzopt(s): sb variable unfreezing option vector
+    0
+ insopt(s): sb input scan option vector
+    0

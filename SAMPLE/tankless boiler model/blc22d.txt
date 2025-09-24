@@ -1,0 +1,147 @@
+
+ BLC22D - Reduced number of reported variables to BLC22C    880628       
+
+ SUPERBLOCK 1
+      BLOCK 1
+          UNIT  1     TYPE 62 - Boiler model with a tankless coil            
+          UNIT  2     TYPE 63 -  Domestic hot water coil                     
+          UNIT  3     TYPE 64 -  Boiler burner and water pump control        
+
+ UNIT   1      TYPE  62
+ Boiler model with a tankless coil                                       
+
+ 1     INPUTS:
+        TEMPERATURE      1 - tstk   : stack gas temperature                    
+        TEMPERATURE      2 - tra    : room air temperture                      
+        TEMPERATURE      3 - toa    : outdoor air temperature                  
+        TEMPERATURE      4 - tblw   : boiler water temperature                 
+        PRESSURE         1 - psw    : supply water pressure                    
+        FLOW             1 - wsw    : supply water flowrate                    
+        TEMPERATURE      5 - trw    : return water temperature                 
+        POWER            1 - qcw    : heat flowrate to domestic hot water coil 
+        CONTROL          1 - swch   : control switch for on/off                
+
+ 2     OUTPUTS:
+        TEMPERATURE      1 - tstk   : stack gas temperature                    
+        TEMPERATURE      4 - tblw   : boiler water temperature                 
+        TEMPERATURE      6 - tsw    : supply water temperature                 
+        POWER            2 - qhwt   : heat gain of water                       
+        POWER            3 - qstk   : heat loss from stack                     
+        POWER            4 - qinput : heat input rate                          
+        POWER            5 - qltnt  : latent heat loss                         
+        POWER            6 - qjakt  : heat loss thru boiler jacket             
+        POWER            7 - qdiff  : error of input and output                
+
+ 3     PARAMETERS:
+          0.736000E-01 vgf    : volume of gas in the boiler fire-box (m3)     
+          0.175500     asf    : boiler fire-box effective radiation heat trans
+           0.00000     arf    : boiler fire-box refractory surface area (m2)  
+          0.381000     lgpf   : gas-path length in the boiler fire-box (m)    
+          0.800000     emisf  : fire-box surface emissivity value in fraction 
+          0.776000E-01 vwb    : volume of water in the boiler (m3)            
+           2.60000     ajakt  : boiler jacket surface area (m2)               
+          0.169290E-02 ujakt  : boiler jacket u-factor (kW/m2-C)              
+           1.00000     carb   : atomic ratio of carbon in fuel                
+           1.84400     hydr   : atomic ratio of hydrogen in fuel              
+           0.00000     oxyg   : atomic ratio of oxygen in fuel                
+           0.00000     xntr   : atomic ratio of nitrogen in fuel              
+          0.300000E-02 sulf   : atomic ratio of sulfur in fuel                
+           45327.0     hfuel  : fuel higher heating value (kJ/kg)             
+          0.839000     cpfuel : fuel specific heat value (kJ/kg-C)            
+          0.126600E-02 wfuel  : fuel supply rate (kg/s)                       
+           26.5000     tfuel  : fuel temperature (C)                          
+          0.200000     xair   : execess combustion air (-)                    
+          0.790000     effyss : boiler full load efficiency (-)               
+           95.0000     tblws  : boiler water temp. at steady state (C)        
+           320.000     tsgs   : stack gas temperature at full load (C)        
+          0.925000     icfgon : integration control for on-period stack gas te
+           3.14000     icfgof : integration control for off-period stack gas t
+           1.38000     icfw   : integration control for boiler water temperatu
+           3.00000     dtfg   : short start period for burner on/off cycle (s)
+          0.231250     icfgns : integration control for short start on-period 
+          0.462500     icfgfs : integration control for short start off-period
+           30.0000     dtbw   : time interval for updating qss (s)            
+
+ UNIT   2      TYPE  63
+  Domestic hot water coil                                                
+
+ 1     INPUTS:
+        TEMPERATURE      4 - tblw   : boiler water temperature                 
+        FLOW             2 - wcw    : water flowrate thru the coil             
+        TEMPERATURE      7 - ticw   : coil inlet water temperature             
+
+ 2     OUTPUTS:
+        TEMPERATURE      8 - tocw   : coil outlet water temperature            
+        POWER            1 - qcw    : heat flowrate to the coil water          
+
+ 3     PARAMETERS:
+          0.193000E-01 dcoil  : diameter of the coil (m)                      
+           4.20600     lcoil  : length of the coil (m)                        
+
+ UNIT   3      TYPE  64
+  Boiler burner and water pump control                                   
+
+ 1     INPUTS:
+        TEMPERATURE     10 - tburn  : burner control temperature               
+        TEMPERATURE      4 - tblw   : boiler water temperature                 
+        TEMPERATURE      9 - tload  : load temperature                         
+        CONTROL          2 - ctherm : thermostat control indicator 1/0 for auto
+        FLOW             2 - wcw    : water flowrate thru the coil             
+
+ 2     OUTPUTS:
+        CONTROL          1 - swch   : burner control on/off signal             
+        FLOW             1 - wsw    : boiler circulating water flowrate        
+
+ 3     PARAMETERS:
+           85.0000     tburon : boiler burner-on temperature (C)              
+           98.9000     tburof : boiler burner-off temperature (C)             
+           70.0000     tpmpon : boiler water pump-on temperature (C)          
+           80.0000     tpmpof : boiler water pump-off temperature (C)         
+          0.286100     wpump  : circulating water flowrate (kg/s)             
+          0.100000E-03 rateof : minimum water flow rate ratio when pump off (-
+ Initial Variable Values:
+
+ PRESSURE         1 ->     0.00000                 (kPa)  
+ FLOW             1 ->     0.00000                 (kg/s) 
+ FLOW             2 ->     0.00000                 (kg/s) 
+ TEMPERATURE      1 ->     315.000                 (C)    
+ TEMPERATURE      2 ->     26.5000                 (C)    
+ TEMPERATURE      3 ->     17.0000                 (C)    
+ TEMPERATURE      4 ->     30.0000                 (C)    
+ TEMPERATURE      5 ->     57.3800                 (C)    
+ TEMPERATURE      6 ->     30.0000                 (C)    
+ TEMPERATURE      7 ->     14.0000                 (C)    
+ TEMPERATURE      8 ->     28.0000                 (C)    
+ TEMPERATURE      9 ->     25.0000                 (C)    
+ TEMPERATURE     10 ->     80.0000                 (C)    
+ CONTROL          1 ->     1.00000                 (-)    
+ CONTROL          2 ->     0.00000                 (-)    
+ POWER            1 ->     0.00000                 (kW)   
+ POWER            2 ->     0.00000                 (kW)   
+ POWER            3 ->     0.00000                 (kW)   
+ POWER            4 ->     0.00000                 (kW)   
+ POWER            5 ->     0.00000                 (kW)   
+ POWER            6 ->     0.00000                 (kW)   
+ POWER            7 ->     0.00000                 (kW)   
+ Simulation Error Tolerances:
+
+ 1      RTOLX=   0.100000E-03      ATOLX=   0.100000E-04
+        XTOL=    0.200000E-03      TTIME=    1.00000    
+
+ SUPERBLOCK 1
+ 2      FREEZE OPTION 0      SCAN OPTION 0
+ The following are Boundary Variables in the simulation:
+
+ FLOW            2
+ TEMPERATURE     9
+ TEMPERATURE    10
+ CONTROL         2
+
+ SUPERBLOCK 1      REPORTING INTERVAL    120.000    
+ TEMPERATURE      1
+ TEMPERATURE      4
+ TEMPERATURE      8
+ CONTROL          1
+ POWER            1
+ POWER            2
+ POWER            4
